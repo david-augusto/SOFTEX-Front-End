@@ -1,0 +1,72 @@
+{
+Após uma prova de vestibular, uma escola quer identificar quantos dos seus alunos foram aprovados em cada turma de formandos. Ela quer saber qual aluno teve a maior nota e de qual turma ele é. Nessa escola, há quatro turmas (A, B, C e D) com vinte e cinco alunos cada.
+
+Elabore um algoritmo que solicite o nome e a nota do vestibular aos alunos. Depois, informe quantos deles foram aprovados, de que turma são, qual a maior nota em cada turma e qual aluno teve a maior nota de todas.
+
+Para que o aluno seja aprovado no vestibular, ele deverá obter nota maior ou igual a 7.
+
+ATENÇÃO: As notas por turma não podem se repetir.
+
+}
+
+
+Algoritmo "Notas Salas"
+
+Var
+ Nomes: vetor [1..4, 1..2] de caractere
+ Notas: vetor [1..4, 1..2] de real
+ MaiorNota: vetor [1..4] de real
+ QuantAprovado: vetor [1..4] de inteiro
+i : inteiro
+j : inteiro
+ContadorA : inteiro
+ContadorB : inteiro
+NotaMaior: real
+
+Letra : caracter
+
+Inicio
+
+      para i de 1 ate 4 faca
+    //   MaiorNota[i] <- 0
+      // QuantAprovado[i] <- 0
+      escolha <i>
+      caso 1
+       Letra <- "A"
+       caso 2
+       Letra <- "B"
+       caso 3
+       Letra <- "C"
+       caso 4
+       Letra <- "D"
+       fimescolha
+       
+      escreval("NOTAS DA TURMA: ", Letra)
+                      para j de 1 ate 2 faca
+                      escreva("Informe o nome do aluno: ")
+                      leia(Nomes[i,j])
+                      escreva("Informe a nota do aluno: ")
+                      leia(Notas[i,j])
+
+                      se (Notas[i,j] >= 7) entao
+                      escreval("ALUNO APROVADO")
+                            QuantAprovado[i] <- QuantAprovado[i] + 1
+                      senao
+                       escreval("ALUNO REPROVADO")
+                      fimse
+
+                      se (MaiorNota[i] <= Notas[i,j]) entao
+                      MaiorNota[i] <- Notas[i,j]
+                      NotaMaior <- Notas[i,j]
+                      ContadorA <- i
+                      ContadorB <- j
+                      
+                      fimse
+
+                      fimpara
+      escreval(" A TURMA ", Letra, " TEVE: ", QuantAprovado[i], "APROVADOS")
+      escreval("MAIOR NOTA DA TURMA ", Letra, " é: ", MaiorNota[i])
+      fimpara
+      escreval("O aluno com maior nota é ", Nomes[ContadorA,ContadorB])
+      escreval("Maior Nota ", MaiorNota[ContadorA])
+Fimalgoritmo
