@@ -1,0 +1,30 @@
+#Faça uma função calculadora de dois números com três #parâmetros: os dois primeiros serão os números da operação e o #terceiro será a entrada que definirá a operação a ser #executada. Considera a seguinte definição:
+#1. Soma
+#2. Subtração
+#3. Multiplicação
+#4. Divisão
+
+#Caso seja inserido um número de operação que não exista, o #resultado deverá ser 0.
+
+
+
+def calculadora(primeiro, segundo, operador):
+    if(operador == 1):
+        return primeiro + segundo
+    elif(operador == 2):
+        return primeiro - segundo
+    elif(operador == 3):
+        return primeiro * segundo
+    elif(operador == 4 and segundo != 0):
+        return primeiro / segundo
+    else:
+        return 0
+        
+pri = int(input("Digite o numero: "))
+sec = int(input("Digite um outro numero: "))
+print("1 - Soma ")
+print("2 - Subtracao ")
+print("3 - Mltiplicacao ")
+print("4 - Divisao ")
+ope = int(input("Digite o numero referente ao operador: "))
+print("Resposta: ", calculadora(pri, sec,ope))
