@@ -1,0 +1,65 @@
+Coleções de objetos
+
+O que são coleções?
+
+As collections, ou coleções, surgem pela necessidade de organização e manuseio de objetos em sistemas complexos.
+
+ 
+
+O Smalltalk-80 foi a primeira linguagem de programação que implementou uma biblioteca de classes extremamente interessante e poderosa, que possuía uma hierarquia para a manipulação de coleções.
+
+Collection x array
+
+Diferente de um array, as collections têm tamanho variável. Elas podem crescer no desenvolver do programa e não precisam informar o seu tamanho no início dele.
+
+ 
+
+Além disso, existem collections com informações de tipos diferentes, ou seja, elas podem conter dados inteiros, caracteres e booleanos.
+Porém, não se recomenda trabalhar com vários tipos de dados para manter uma organização.
+
+Tipos de coleções
+
+Na linguagem Java, existem alguns tipos de coleções principais. Essas armazenam informações dentro de uma estrutura, cujo formato dependerá de qual tipo de coleção será utilizada na construção do código. Segue exemplos.
+
+ 
+
+Set é um tipo de conjunto de elementos e suas principais características são:
+
+não possui ordem de inserção, mas ela pode ser definida;
+
+não aceita a adição de dois elementos iguais.
+
+Tipos de coleções
+
+List é um tipo de lista. Suas principais características são:
+
+seus elementos são indexados, sendo possível acessá-los a partir de uma ordem que é dada através da adição dos elementos à lista;
+
+aceita a adição de dois ou mais elementos iguais dentro de um set.
+
+Map é uma estrutura chave/valor. Por exemplo: CPF/Nome e ID/Produto. Suas características principais são:
+
+as chaves não aceitam a repetição de elementos;
+
+os valores aceitam a repetição de elementos.
+
+Queue é uma estrutura que implementa uma fila com a lógica FIFO (First in / First out). Isso significa que o primeiro elemento a entrar será o primeiro a sair.
+
+ 
+
+Por exemplo, em uma fila para entrar em um estabelecimento, a primeira pessoa que entrou na fila será a primeira a sair dela.
+
+Stack é uma estrutura que implementa uma pilha com a lógica LIFO (Last in / First out). Isso significa que o último elemento a entrar, será o primeiro a sair.
+
+ 
+
+Por exemplo, uma pilha de livros está em cima de uma mesa, o último livro que foi colocado em cima da pilha será o primeiro livro retirado dela.
+
+Conclusão
+
+Existem outras estruturas de coleções, porém, essas são as principais e suficientes para o manuseio dos elementos.
+
+ 
+
+Para realizar esse manuseio dentro de cada coleção, será necessário a utilização de algumas funções para adicionar, obter informações e remover, por exemplo.
+
