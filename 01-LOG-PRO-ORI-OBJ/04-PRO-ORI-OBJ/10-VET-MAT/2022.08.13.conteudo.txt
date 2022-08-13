@@ -1,0 +1,175 @@
+Programação Orientada à Objetos
+
+Arrays e Matrizes
+
+O que é um array?
+
+Um array unidimensional, ou vetor, é considerado como a evolução de uma variável.
+
+ 
+
+Uma variável guarda apenas uma informação, já o array guarda várias. Ele também é compreendido como uma linha em uma tabela e a sua quantidade de valores que será armazenada precisa ser informada no momento de sua criação.
+
+Características de um array
+
+O array tem algumas características marcantes. É fundamental conhecê-las para entender como funciona e como implementá-lo no código.
+
+ 
+
+Estático: ele tem um tamanho fixo, que não pode ser alterado depois de definido. A única forma de realizar essa ação será atribuindo outro array a mesma variável.
+
+Características de um array
+
+Exemplo:
+
+ 
+
+Um array de tamanho dez é atribuído a uma variável “a”, mas depois surge a necessidade de aumentar o seu tamanho.
+
+ 
+
+Será necessário criar um novo array com um tamanho superior e atribuir, novamente, à variável “a”.
+
+ 
+
+Isso é possível porque uma variável, diferente de uma constante, permite a realização de alterações conforme necessário.
+
+Características de um array
+Homogêneo: um array só pode receber informações do mesmo tipo, como: inteiro, real, caractere, booleano etc.
+Um array homogêneo só recebe informações do mesmo tipo.
+
+Definindo um array
+
+Utilizando a programação algorítmica, é possível definir arrays, manusear seus dados etc.
+
+ 
+
+Exemplo:
+
+//Definindo a variável e o tamanho do vetor
+
+numeros :vetor [1..3] de real
+
+ 
+
+//Definindo os valores do vetor
+
+numeros [1] = 5.38
+
+numeros [2] = 10.11
+
+numeros [3] = 15.54
+
+ 
+
+Para utilizar esses valores, não é necessário inserir sempre o número do vetor. Isso  é possível através de outras variáveis.
+
+Construindo um array
+
+x :inteiro
+
+para x de 1 ate 3 faca
+
+escreval(numeros[x])
+
+fimpara
+
+Fimalgoritmo
+
+ 
+
+Esse código retornará, por ordem crescente, cada número que foi definido.
+
+ 
+
+Exemplo:
+
+5.38
+
+10.11
+
+15.54
+
+ 
+
+Também é possível solicitar informações.
+
+O que é uma matriz?
+
+Um array multidimensional, ou matriz, é considerado como a evolução de um vetor. Pois, as variáveis são armazenadas em um vetor, já dentro de uma matriz, há vetores.
+
+ 
+
+O vetor corresponde às linhas de uma tabela e as matrizes são as linhas e colunas, possuindo mais de uma dimensão.
+
+Definindo uma matriz
+
+As matrizes também podem ser representadas na programação algorítmica.
+
+ 
+
+Exemplo:
+
+//Definindo a variável e o tamanho do vetor
+
+matriz :vetor [1..2,1..2] de inteiro
+
+x, y :inteiro
+
+ 
+
+//Definindo os valores do vetor
+
+matriz [1,1]  = 0
+
+matriz [1,2]  = 1
+
+ 
+
+matriz [2,1]  = 2
+
+matriz [2,2]  = 3
+
+Definindo uma matriz
+
+Nesse código, temos uma matriz 2x2 onde o “x” possui o número de linhas e o “y” o de colunas que serão preenchidas com os dados inseridos.
+
+ 
+
+para x de 1 ate 2  faca
+
+    para y de 1 ate 2 faca
+
+        escreva (matriz[x,y], “   “)
+
+    fimpara
+
+    escreval ()
+
+  fimpara
+
+fimalgoritmo
+
+Interpretando o código
+
+As matrizes são utilizadas, na maioria das vezes, em funções matemáticas.
+
+ 
+
+No código anterior, será feito um loop até que o “para y” seja concluído, após, é executado o “escreval ()” que tem a função de pular uma linha e iniciar uma nova. Esse processo fica em loop até a conclusão do “para x”.  
+
+Conclusão
+
+Resultado:
+
+ 
+
+0   1
+
+2   3
+
+ 
+
+Assim, é possível analisar o comportamento de uma matriz, na qual existe uma junção de vetores que podem gerar produtos multidimensionais. Nesse caso, o “x” são as linhas e o “y” as colunas.
+
+
