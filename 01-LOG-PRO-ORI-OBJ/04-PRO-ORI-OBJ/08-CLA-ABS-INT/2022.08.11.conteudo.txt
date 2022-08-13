@@ -1,0 +1,12 @@
+Classe abstrata e interface
+
+semelhante a classe padrão mas o método não é feito
+
+
+inetrface
+
+Apenas assinaturas dos metodos
+
+Todas os metodos começam com I
+
+Icliente

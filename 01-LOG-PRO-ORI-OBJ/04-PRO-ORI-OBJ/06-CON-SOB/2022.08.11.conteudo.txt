@@ -1,0 +1,16 @@
+Métodos especiais e sobrecarga
+
+Proteger dados
+public - qualquer pessoa
+
+private - ninguém consegue ler
+
+métodos epsciais
+
+método acessor - get - ler ou coletar
+método modificador - set - modificar o atributo
+construct - há necessidade de padronização
+
+Sobrecarga
+
+Acontece quando declaramos métodos com o mesmo nome com paramentros diferentes

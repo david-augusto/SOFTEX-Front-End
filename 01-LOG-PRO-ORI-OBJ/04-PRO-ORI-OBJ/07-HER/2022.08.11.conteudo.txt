@@ -1,0 +1,243 @@
+Reutilização de classes (Herança)
+
+O que é herança?
+
+Herança, um dos pilares da POO, tem a ideia geral de reutilização de classes para tornar um programa mais eficiente e prático, tomando menos tempo para a sua criação geral.
+
+ 
+
+A herança permite que novas classes sejam geradas a partir de classes já existentes, ou seja, que novas classes herdem outras existentes. Semelhante a uma relação de família, na qual o filho herda características da mãe.
+
+Fundamentos para criar uma herança
+
+A classe principal é chamada de superclasse (classe mãe) e as que herdam são chamadas de subclasse (classe filha).
+Ao utilizar heranças em um código, é necessário analisar quais atributos e métodos da classe poderão ser herdados com base nos modificadores de visibilidade. 
+
+ 
+
+É fundamental compreender que esses atributos e métodos herdados não serão identificados no código-fonte como classes filhas. Entretanto, elas estarão presentes e poderão ser acessadas normalmente a partir de métodos assessores, modificadores ou construtores.
+
+Exemplo prático
+
+Por exemplo, para uma empresa registrar os dados de todas as transações, deve ser construído um software interno, que contém dados de clientes, funcionários e fornecedores. Diante disso, vamos analisar os atributos e métodos para cada classe.
+
+
+Classe Cliente;
+
+Atributos: nome, idade, documento, codigo e pagamento;
+
+Métodos: atualizarDoc(), realizarCompra();
+
+Classe Funcionario;
+
+Atributos: nome, idade, documento, cargo e salario;
+
+Métodos: atualizarDoc(), evoluirCargo();
+
+Classe Fornecedor;
+
+Atributos: nome, idade, documento, qtdmaterial e entregue;
+
+Métodos: atualizarDoc(), enviarMaterial().
+
+Análise do exemplo prático
+
+Após a construção de três classes básicas para a montagem do software, pode-se analisar que algumas características são compartilhadas. Nesse exemplo, deve-se aplicar a herança considerando a eficiência do código.
+
+
+Por isso, é criada uma classe que engloba as características em comum das outras.
+
+Classe mãe
+Percebe-se que o que há em comum entre as três classes é que são três pessoas. Logo, a classe Pessoa será a classe mãe. Analise como fica.
+
+ 
+
+Classe Pessoa
+
+Atributos: nome, idade, documento.
+
+Métodos: atualizarDoc().
+
+ 
+
+Pensando no algoritmo, como ficaria a estrutura de um código baseada nesse exemplo?
+
+Definindo a classe Pessoa
+classe Pessoa
+
+//Atributos
+
+privado nome: Caractere    
+
+privado idade: Inteiro
+
+privado documento: Caractere
+
+//Métodos
+
+publico metodo atualizarDoc()
+
+fimMetodo
+
+//Métodos especiais
+
+Publico metodo getNome()
+
+fimMetodo
+
+Publico metodo setNome()
+
+fimMetodo
+
+Definindo a classe Pessoa
+Publico metodo getIdade()
+
+fimMetodo
+
+Publico metodo setIdade()
+
+fimMetodo
+
+Publico metodo getDocumento()
+
+fimMetodo
+
+Publico metodo setDocumento()
+
+fimMetodo
+
+FimClasse
+
+ 
+
+Depois da classe Pessoa (superclasse) ser desenvolvida, é preciso criar as classes herdeiras, ou seja, as subclasses.
+
+Definindo a classe Cliente
+
+classe Cliente estende Pessoa
+
+privado codigo: Caractere    
+
+privado pagamento: Caractere
+
+publico metodo realizarCompra()
+
+fimMetodo
+
+Publico metodo getCodigo()
+
+fimMetodo
+
+Publico metodo setCodigo()
+
+fimMetodo
+
+Publico metodo getPagamento()
+
+fimMetodo
+
+Publico metodo setPagamento()
+
+fimMetodo
+
+Definindo a classe Funcionário
+
+classe Funcionario estende Pessoa
+
+privado cargo: Caractere    
+
+privado salario: Real
+
+publico metodo evoluirCargo()
+
+fimMetodo
+
+Publico metodo getCargo()
+
+fimMetodo
+
+Publico metodo setCargo()
+
+fimMetodo
+
+Publico metodo getSalario()
+
+fimMetodo
+
+Publico metodo setSalário()
+
+fimMetodo
+
+Definindo a classe Fornecedor
+
+classe Fornecedor estende Pessoa
+
+privado qtdmaterial: Inteiro    
+
+privado entregue: Booleano
+
+publico metodo enviarMaterial()
+
+fimMetodo
+
+Publico metodo getQtdMaterial()
+
+fimMetodo
+
+Publico metodo setQtdMaterial()
+
+fimMetodo
+
+Publico metodo getEntregue()
+
+fimMetodo
+
+Publico metodo setEntregue()
+
+fimMetodo
+
+Planejamento programa principal
+
+Na definição das subclasses, é necessário mencionar a classe que está sendo herdada, utilizando a palavra estende.
+
+ 
+
+Agora, com as classes definidas, é possível realizar um programa principal, criando objetos e os definindo de acordo com atributos e métodos.
+
+
+Execução programa principal
+
+
+p1 = new Pessoa()
+
+p2 = new Cliente()
+
+p3 = new Funcionario()
+
+p4 = new Fornecedor()
+
+ 
+
+p1.setNome(“João”)
+
+p2.setNome(“Carlos”)
+
+p3.setNome(“Ana”)
+
+p4.setNome(“Gabriela”)
+
+ 
+
+p2.setCodigo(“03129932”)
+
+p3.setCargo(“Técnico de Redes”)
+
+p4.setEntregue(falso)
+
+Conclusão herança
+
+Após a construção do programa e a criação de objetos, é possível utilizar os métodos especiais para ler e atribuir valores para as variáveis.
+
+ 
+
+Mesmo que os objetos p2, p3 e p4 não tenham o atributo Nome configurado em suas classes, é possível utilizá-los por serem herdeiros de Pessoa.

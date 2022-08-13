@@ -1,0 +1,128 @@
+Estrutura de controle e decisão.
+
+O que são estruturas de controle e decisão?
+Em geral, as etapas de um código são realizadas de forma sequencial, assim como na POO. Podemos criar objetos e, na medida que for necessário, chamar os seus métodos.
+
+ 
+
+As estruturas de controle servem para tomadas de decisão, podendo modificar essa forma de execução. Isso faz com que uma parte do código seja ignorada em algumas situações e outras partes possam ser repetidas sem que haja necessidade de refazer o código.
+
+Operadores relacionais
+
+Ao executar qualquer teste lógico, só é possível retornar dois valores: verdadeiro ou falso.
+
+ 
+
+Os operadores relacionais são utilizados para relacionar valores ou variáveis. No final da expressão, um valor lógico (booleano) é devolvido. Alguns deles são:
+
+==     “Igual a”
+
+>    “Maior que”
+
+<    “Menor que”
+
+>=    “Maior ou igual a”
+
+<=    “Menor ou igual a”
+
+!=    “Diferente de”
+
+Desvio condicional simples
+
+Um desvio condicional simples consiste em uma decisão que pode ser composta por uma ou mais decisões. Porém, apenas o resultado verdadeiro é executado, o resultado falso é ignorado.
+
+ 
+
+Exemplo:
+
+mediaaluno: real = 7.5
+
+se (mediaaluno >= 7.0) entao
+
+    escreva(“Aluno Aprovado”)
+
+Fimse
+
+Fimalgoritmo
+
+Desvio condicional composto
+
+Um desvio condicional composto consiste em uma decisão que contém mais de uma decisão. Nesse desvio, os resultados verdadeiro e falso são executados de acordo com o que é abordado no código.
+
+ 
+
+Exemplo:
+
+mediaaluno: real = 7.5
+
+se (mediaaluno >= 7.0) entao
+
+    escreva(“Aluno Aprovado”)
+
+senão
+
+    escreva(“Aluno Reprovado”)
+
+Fimse
+
+Fimalgoritmo
+
+Operador lógico “E”
+
+Os operadores lógicos são utilizados em decisões que necessitam de mais de uma condição. Existem três tipos de operadores lógicos, são eles:
+
+&& “E” : esse operador só é dado como verdadeiro quando todas as condições são atendidas. Veja o exemplo:
+
+ 
+
+mediaaluno: real = 6.0
+
+se (mediaaluno <= 7.0 && mediaaluno >= 4.0) entao
+
+    escreva(“Aluno em Recuperação”)
+
+Fimse
+
+Fimalgoritmo
+
+Operador lógico “OU”
+
+|| “OU” : esse operador é dado como verdadeiro quando ao menos uma das condições for atendida, caso contrário, será falso. Observe o exemplo dado como verdadeiro:
+
+ 
+
+mediaaluno: real = 12.5
+
+se (mediaaluno < 0.0 || mediaaluno > 10) entao
+
+    escreva(“Média incorreta!”)
+
+Fimse
+
+Fimalgoritmo
+
+Operador lógico “NÃO”
+
+! “NÃO” : esse operador tem a função de inverter o estado lógico booleano de uma condição. Por exemplo, quando o valor final de uma condição for verdadeiro, ele será transformado para falso.
+
+ 
+
+No próximo exemplo, a condição será verdadeira, mas, com o uso do operador “!”, ela será transformada para falsa:
+
+mediaaluno: real = 3
+
+se (mediaaluno > 0.0 && mediaaluno < 4.0) entao
+
+    escreva(“Aluno Reprovado”)
+
+senao
+
+    escreva(“Aluno Aprovado”)
+
+Fimse
+
+Fimalgoritmo
+
+ 
+
+Observe que o código terá como resultado “Aluno Aprovado” mesmo que a situação esteja incorreta. Esse é um exemplo do funcionamento do operador lógico “!”.

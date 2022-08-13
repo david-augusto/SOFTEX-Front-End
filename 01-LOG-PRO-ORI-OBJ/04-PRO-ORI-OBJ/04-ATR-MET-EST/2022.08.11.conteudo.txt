@@ -1,0 +1,7 @@
+variáveis estatica
+
+static
+
+pertence a classe e não ao objeto
+
+métodos estaticos só acessam atributos estaticos

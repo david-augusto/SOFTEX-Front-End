@@ -1,0 +1,131 @@
+Pacotes de classes
+
+Função dos pacotes
+
+Existem pacotes que são de origem Application Programming Interface (API), linguagem de POO que é utilizada para criação de sistemas.
+
+ 
+
+Eles também têm a função de promover a reutilização de códigos na realização de atividades repetitivas. Além disso, é possível utilizar classes criadas por terceiros sem causar conflito no código.
+
+Função dos pacotes
+
+Existem pacotes que são de origem Application Programming Interface (API), linguagem de POO que é utilizada para criação de sistemas.
+
+ 
+
+Eles também têm a função de promover a reutilização de códigos na realização de atividades repetitivas. Além disso, é possível utilizar classes criadas por terceiros sem causar conflito no código.
+
+
+Pacotes API da plataforma Java
+
+A própria plataforma Java possui diversos pacotes estruturados para simplificar soluções. Alguns deles são:
+
+ 
+
+java.awt: contém todas as classes para criar aplicações de interfaces gráficas com o usuário;
+
+ 
+
+java.net: fornece as classes para implementar aplicações de rede;
+
+ 
+
+java.util: utilizado para trabalhar com coleções, entrada de dados (scanner) e componentes de data e hora.
+
+Pacotes em Java
+
+Para a linguagem de programação Java, os pacotes possuem algumas particularidades.
+
+ 
+
+O primeiro passo para utilizar um pacote em Java é inseri-lo no código. Caso isso não seja feito, mesmo com a criação do pacote, a classe não será incluída nele.
+
+ 
+
+Exemplo:
+
+ 
+
+package banco;
+
+public class Conta {
+
+      //declarações de atributos e métodos
+
+}
+
+Pacotes em Java
+
+Para organizar melhor as classes em um código, é utilizada a hierarquia de organização dos diretórios de um computador.
+
+ 
+
+Exemplo:
+
+ 
+
+package cxa.banco;
+
+public class Conta {
+
+      //declarações de atributos e métodos
+
+}
+
+Com esse processo, existirá uma pasta “cxa” e nela será inserida a pasta “banco”.
+
+Padrões de pacotes em Java
+
+Em pequenos projetos, a hierarquia não é necessária, mas é fundamental para grandes projetos.
+
+ 
+
+A Java tem um padrão de nomenclatura dos pacotes que consiste no nome da empresa que o está criando, padronizado no estilo de uma URL invertida.
+
+ 
+
+Exemplo:
+
+ 
+
+package br.cxa.banco;
+
+package br.gov.empresa;
+
+package br.gov.empresa.sis.pacote;
+
+Em pequenos projetos, a hierarquia não é necessária, mas é fundamental para grandes projetos.
+
+ 
+
+A Java tem um padrão de nomenclatura dos pacotes que consiste no nome da empresa que o está criando, padronizado no estilo de uma URL invertida.
+
+ 
+
+Exemplo:
+
+ 
+
+package br.cxa.banco;
+
+package br.gov.empresa;
+
+package br.gov.empresa.sis.pacote;
+
+Import Java
+
+Muitas vezes é necessário utilizar uma classe que está fora do pacote modificado. Para realizar esse procedimento, é utilizada a importação (import), que só pode acessar as classes públicas.
+
+Exemplo:
+
+ 
+
+Um banco está precisando adicionar a classe “conta”, que está no pacote “br.cxa.banco”, para a classe “app” que está em outro pacote.
+
+
+Para realizar esse procedimento, será necessário importar a classe “conta” do pacote “br.cxa.banco” para dentro do pacote da classe “app”.
+
+
+Após isso, a classe “conta” já poderá ser utilizada dentro do pacote de destino.
+

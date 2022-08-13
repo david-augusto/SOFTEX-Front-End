@@ -1,0 +1,8 @@
+Classe - representação ou um molde do objeto
+
+Classe tem nome, com atribtos e metodos
+
+metodos - o que elafaz
+atributos - o que possui
+
+Instanciação - gerar o objeto
