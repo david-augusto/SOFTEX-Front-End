@@ -1,0 +1,36 @@
+open("lista.txt, r) - Abrir arquivos, r - leitura
+
+write() - escrever arquivos e recebe String
+arquivo = open("lista.txt", "a") a insere novos dados no fianl
+arquivo.write("Bom dia")
+
+
+Recebe lista
+arquivo = open("lista.txt", "a")
+mensagem = list()
+mensagem.append(Tomate \n")
+mensagem.append(Cenoura \n")
+mensagem.append(Alface \n")
+mensagem.append(Cebola \n")
+
+arquivo.writeline(mensagem) 
+
+Leitura
+
+Ler uma quantidade especifica de caracteres passada como parâmetro
+readline()
+
+arquivo = open("lista.txt", "r") r é leitura
+print(arquivo.readline(3)) Vai ler as três primeiras letras da palavra, Exemplo: TOM (tomate)
+
+
+------------
+Retorna todasas linhas do arquivo
+readlines()
+arquivo = open("lista.txt", "r")
+
+print(arquivo.readlines())
+
+
+______________________________________________
+

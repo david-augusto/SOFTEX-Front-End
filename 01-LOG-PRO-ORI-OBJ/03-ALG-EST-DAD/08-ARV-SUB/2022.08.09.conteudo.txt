@@ -1,0 +1,27 @@
+Estruturas lineares
+
+lista que apresenta fator limitante (Sequencia)
+
+Arvores de busca
+
+Conjunto finito de elementes (nó)
+
+grafo hierarquiados
+
+subarvores nó que tem filhos
+
+arvore binária de busca
+
+<= k <=
+
+              25
+       10           30
+ 2                         40
+    3
+
+remoção:
+Se o nó não tiver filho = remove o nó
+Se tiver um filho = substitui pelo filho
+Se tiver 2 mais filho = Filho direito fica no lugar.
+
+

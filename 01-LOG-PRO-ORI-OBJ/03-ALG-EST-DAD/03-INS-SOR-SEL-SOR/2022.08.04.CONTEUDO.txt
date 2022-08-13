@@ -1,0 +1,105 @@
+INSERTION SORT
+
+COMPARAR O ELEMENTO COM SEU ANTERIOR
+
+SELECTION SORT
+
+SELECIONA O PRIMEIRO DA LISTA E COLOCA NA PRIMEIRA POSIÇÃO
+
+Insertion sort
+
+O insertion sort é um algoritmo de ordenação que constrói uma matriz final com um elemento de cada vez, ou seja, uma inserção por vez, caso receba uma estrutura como array ou list.
+
+Insertions
+
+Imagine a situação de organizar um baralho de cartas enquanto jogamos. Você está com as cartas na mão e as organizou na ordem: 2,4,6,8.
+
+ 
+
+Agora, você recebeu uma nova carta com o número 3 e deve colocá-la na posição correta na sua mão de forma que as cartas obedeçam a ordenação e fiquem organizadas.
+
+ 
+
+Cada nova carta adicionada pode ser menor ou maior que as outras que você já tem. Assim, você compara as novas com as antigas para encontrar a sua posição correta, colocando-as em ordem.
+
+Comparando com outros métodos
+
+O insertion sort é o mais eficiente quando comparado a outros métodos de ordenação, como o bubble sort e o selection sort.
+
+ 
+
+Contudo, em comparação aos métodos de divisão e conquista, como o merge sort e quicksort, ele é menos eficiente.
+
+Vantagens e desvantagens do insertion sort
+
+Existem vantagens e desvantagens na utilização do insertion sort.
+
+ 
+
+Vantagens: consome pouca memória no disco, é muito estável e é o ideal para ordenar poucos números;
+
+Desvantagem: devido ao seu método de comparação, leva muito tempo para ordenar uma grande quantidade de números.
+
+Exemplo de implementação em Python
+
+Observe o código como um exemplo de implementação do insertion sort.
+
+Imagem
+
+Selection sort
+
+O objetivo do selection sort é ordenar a lista a partir da seleção dos menores itens possíveis de cada iteração e os organizando da esquerda para a direita. 
+
+ 
+
+Para que cada item da lista a percorra, são necessários dois loops: 
+
+um para cada elemento;
+
+outro para cada um desses percorrer toda a lista, da mesma forma que acontece com o bubble sort.
+
+A partir da primeira posição, é escolhido um número, que é comparado com os da sua direita. Quando é encontrado um número menor que ele, eles trocam de posições entre si, ou seja, o escolhido assume a posição do menor e vice-versa.
+
+Entendendo o selection sort
+
+O número encontrado será o próximo escolhido, mas, caso nenhum valor menor seja detectado, ele é colocado na posição do primeiro número escolhido e o próximo à sua direita será o mais novo selecionado para fazer as comparações.
+
+ 
+
+Esse processo é repetido até que a lista esteja totalmente organizada.
+
+Vantagens e desvantagens do selection sort
+
+Existem vantagens e desvantagens na utilização do selection sort.
+
+ 
+
+Vantagens: é de fácil implementação e ocupa menos memória que o quick sort e o merge sort, os quais utilizam a estratégia de “dividir e conquistar”;
+
+Desvantagem: tem maior tempo de execução, assim, não é recomendado para listas grandes.
+
+
+Exemplo de implementação em Python
+
+Observe o código como um exemplo de implementação do selection sort.
+
+Praticando
+
+Problema: Construa um algoritmo de ordenação utilizando o método insertion sort estudado e ordene o seguinte vetor de forma crescente: [12,11,13,5,6].
+
+Solução:
+
+Comparando os dois primeiros números [12,11,13,5,6] temos: 12 > 11 = Verdadeiro. Neste caso, é feita uma busca entre todos os números à esquerda do 12 para verificar se o 11 é maior que os demais elementos. Porém, como o único elemento é o 12, a disposição dos pares é trocada para que fiquem em ordem crescente.
+
+Seguindo, o próximo par do vetor [11,12,13,5,6] é: 12 > 13 = Falso. 12 é menor que 13, portanto, como se pede em ordem crescente, a disposição dos números permanece a mesma  [11,12,13,5,6].
+
+Assim, o próximo par de  [11,12,13,5,6] é: 13 > 5 = Verdadeiro. Neste caso, é feita uma busca entre todos os números à esquerda do 13 para verificar se o 5 é maior que os demais elementos. Como os outros elementos à esquerda do 13 são maiores que o 5, ele é inserido no início do vetor.
+
+O próximo par de  [5,11,12,13,6] é: 13 > 6 = Verdadeiro. Neste caso, novamente, é feita uma busca entre todos os números à esquerda do 13 para verificar se o número 6 é maior que os outros elementos. O único elemento à esquerda do 13, que não é maior que 6, é o 5 , logo, o valor 6 é inserido após o 5.
+
+​
+
+Assim, temos [5,6,11,12,13], ou seja, finalizamos com os números organizados em ordem crescente.
+
+
+

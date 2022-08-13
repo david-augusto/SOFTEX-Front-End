@@ -1,0 +1,174 @@
+Introdução a Programação
+
+Tipos de dados constantes e variáveis
+
+Para dar continuidade ao assunto, vamos analisar um exemplo mais técnico do mesmo 
+código utilizado na aula de tipos de representação de algoritmos.
+
+Início
+
+Pegar primeira nota do aluno;
+
+Pegar segunda nota do aluno;
+
+Somar as duas notas;
+
+Dividir a nota por dois;
+
+Se o resultado for maior que sete então;
+
+O aluno foi aprovado;
+
+Se não;
+
+O aluno foi reprovado;
+
+Fim.
+
+Após a leitura do pseudocódigo, é possível perceber que o resultado citado na quinta 
+ação se refere ao resultado da média das duas notas. Como o computador não consegue 
+entender esse comando,  é necessário informar passo a passo. Isso também acontece 
+com o resultado da soma das duas notas.
+
+Além disso, as notas dos alunos devem estar armazenadas em variáveis para que seja 
+possível acessá-las durante o código.
+
+
+A seguir, as variáveis e os tipos para identificação serão inseridos no exemplo.
+
+Início
+
+float nota1 = valor da primeira nota do aluno;
+
+float nota2 = valor da segunda nota do aluno;
+
+float res_soma = nota1 + nota2;
+
+float res_media = res_soma / 2;
+
+Se res_media for maior que sete então:
+
+O aluno foi aprovado;
+
+Se não:
+
+O aluno foi reprovado;
+
+Fim
+
+É possível perceber que o pseudocódigo passa a ser mais complexo, parecendo com um 
+código de programação. 
+
+O tipo float foi utilizado no exemplo, pois os valores das notas, das somas das 
+notas e da média podem ser compostos por um número decimal.
+
+Linguagem Python
+
+Na maioria das linguagens, é preciso declarar o tipo do valor que será inserido na 
+variável, porém, isso não acontece na linguagem Python, pois ela tem um nível de 
+adaptabilidade maior. Então, a variável assumirá o tipo correspondente ao valor 
+inserido nela.
+
+Esse recurso torna essa linguagem mais simples, o que não prejudica o estudo e 
+a compreensão das variáveis, pois você só consegue desenvolver o código se 
+entender esses conceitos. Exemplo:
+
+JavaScript -> var numero = 5
+
+Python -> numero = 5
+
+Exemplo com código em Python
+
+Para compreender melhor os tipos de variáveis, você deve praticar alguns 
+comandos em Python. No seu espaço de codificação desejado, escreva o 
+código a seguir.
+
+numero_inteiro = 5
+
+numero_float = 5.7
+
+texto = “este é um texto”
+
+booleano = False
+
+ 
+
+print(“Este é um tipo”)
+
+print(type(numero_inteiro))
+
+print(“Este é um tipo”)
+
+print(type(numero_float))
+
+print(“Este é um tipo”)
+
+print(type(texto))
+
+print(“Este é um tipo”)
+
+print(type(booleano))
+
+A função type() em Python informa o tipo da variável que está sendo 
+inserida. Então, esse código mostra na tela, através do comando 
+print(), os tipos das variáveis criadas, sendo apresentados em 
+sequência int, float, string e boolean.
+
+É possível alterar os tipos das variáveis, pois eles não são 
+definidos na Python. Por exemplo:
+
+variavel = 5
+
+print(“primeiro tipo”)
+
+print(type(variavel))
+
+variavel = “texto”
+
+print(“segundo tipo”)
+
+print(type(variavel))
+
+ 
+
+Nesse código, é possível observar que a mesma variável, inicialmente 
+do tipo int, se tornou do tipo string. Isso ocorre devido à tipagem 
+automática da Python.
+
+Teste
+
+Utilize o código a seguir para praticar alguns testes com valores 
+das variáveis. Se você trocar o valor da variável que fica acima do 
+código, automaticamente, todas as vezes em que ela aparecer, estará 
+com esse valor que você definiu. Assim, o código fica mais organizado.
+
+ 
+
+Caso uma variável não fosse utilizada, seria necessário alterar 
+seu valor em todos os lugares.
+
+var = 6
+
+print("Esta é a primeira aparição da variável")
+
+print(var)
+
+print("Esta é a segunda aparição da variável")
+
+print(var)
+
+print("Esta é a terceira aparição da variável")
+
+print(var)
+
+print("Esta é a quarta aparição da variável")
+
+print(var)
+
+print("E você só definiu o valor uma única vez")
+
+Apesar de ser apenas para mostrar na tela, é comum o mesmo valor ser 
+acessado diversas vezes. Além disso, as variáveis permitem a 
+utilização de valores mais genéricos em estruturas maiores.
+
+

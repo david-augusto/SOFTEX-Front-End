@@ -1,0 +1,142 @@
+Introdução a Programação
+
+Estruturas e comandos
+
+lógicos de decisão
+
+Estrutura de decisão
+
+Utilizando o exemplo básico da receita de cobertura de bolo, essas estruturas 
+de condição seriam:
+
+Coloque 100 g de granulado;
+
+SE não houver granulado ENTÃO;
+
+coloque 200 g de chocolate ralado.
+ 
+
+Por mais simples que possa parecer, essa simples adição já torna a receita mais 
+genérica. Pois, é possível utilizar dois ingredientes diferentes para a 
+finalização da cobertura.
+
+Os operadores, principalmente os relacionais e os lógicos, são muito utilizados 
+na construção dessas condições. Por exemplo, no código da média do aluno:
+
+media = (nota1 + nota2) / 2
+
+se (media >= 7) então
+
+a. Aprovado
+se (media < 7) então
+
+a. Reprovado
+​
+
+Após obter a média do aluno, o programa analisa se (condição) a média dele foi 
+maior que ou igual a sete. Caso essa operação seja verdadeira, o aluno é 
+aprovado, caso seja falsa, ele é reprovado.
+
+“Senão”
+No exemplo anterior, foram aplicadas duas condições e só uma será executada, 
+são elas: a média maior ou igual a sete; e a média menor que sete.
+
+Ou seja, se a média do aluno for maior ou igual a sete, ele está aprovado, 
+senão, está reprovado. O termo senão é utilizado na programação para 
+facilitar a compreensão dos comandos.
+
+Exemplo:
+
+media = (nota1 + nota2) / 2
+
+se (media >= 7) então
+
+a. Aprovado
+Senão
+
+a. Reprovado
+
+“Senão se”
+E se a ação possuir mais de duas possibilidades? Nem sempre será possível 
+simplesmente aplicar vários “se”, pois isso pode acarretar alguns problemas.
+
+O próximo exemplo apresenta um pseudocódigo que recebe a média do aluno como 
+entrada e armazena a categoria de nota como letras.
+Exemplo:
+
+media = 8
+
+se (media == 10) então
+
+a. mediaLetra = “A”
+se (media >= 9) então
+
+a. mediaLetra = “B”
+se (media >= 8) então
+
+a. mediaLetra = “C”
+se (media >= 7) então
+
+a. mediaLetra = “D”
+Senão
+
+a. mediaLetra = “F”
+
+
+Como mostra o próximo exemplo, quando o “senão se” é utilizado no lugar de cada 
+“se”, se mantém o primeiro “se” e quando uma condição “senão se” for a correta, 
+as outras não serão mais testadas.
+
+media = 8
+
+se (media == 10) então
+
+a. mediaLetra = “A”
+senão se (media >= 9) então
+
+a. mediaLetra = “B”
+senão se (media >= 8) então
+
+a. mediaLetra = “C”
+senão se (media >= 7) então
+
+a. mediaLetra = “D”
+senão
+
+a. mediaLetra = “F”
+
+Condições maiores
+Os operadores lógicos também podem ser utilizados nas estruturas condicionais. 
+Com eles, as condições ficam mais estruturadas e trabalham em situações complexas.
+
+Por exemplo, uma outra forma de executar o pseudocódigo anterior seria adicionando 
+outra condição nos “se”, definindo o limite superior da nota. Dessa forma, temos:
+
+Assim, o problema comentado anteriormente não ocorreria, mesmo se não fossem 
+utilizados os “senão se”.
+
+As condições que serão colocadas e como elas serão estruturadas dependerá do 
+problema que está sendo solucionado.
+
+Na linguagem Python
+
+Todos os comandos que foram utilizados em pseudocódigo existem na linguagem Python. 
+Se converter o pseudocódigo para Python, fica:
+
+Se CONDIÇÃO então -> if CONDIÇÃO :
+Senão se CONDIÇÃO então -> Elif CONDIÇÃO :
+Senão -> Else :
+ 
+
+Os dois pontos significam o “então” e precisam ser inseridos. Todos os comandos 
+dentro do “if” precisam ser indentados, pois a Python é uma linguagem indentada.
+
+Praticando
+
+Problema: Crie um programa que calcule o status de aprovação do aluno a partir da nota dele. O código deve seguir as instruções:
+
+nota menor que 4: ele está reprovado;
+
+nota menor que 7: ele está em recuperação;
+
+nota maior que 7: ele está aprovado.

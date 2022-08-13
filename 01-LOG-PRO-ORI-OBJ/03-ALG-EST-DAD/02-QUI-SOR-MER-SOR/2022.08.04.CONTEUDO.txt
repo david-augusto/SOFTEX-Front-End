@@ -1,0 +1,103 @@
+Quick sort - pior caso quando o pivô tá nos extremos
+marge sort - pior caso quando está decrecente
+
+Quicksort
+
+O quicksort baseia-se em uma rotina fundamental de particionamento. “Particionar” significa escolher um número qualquer, chamado de pivô, presente no array e colocá-lo em uma posição onde todos os elementos à sua esquerda são menores ou iguais a ele e todos os elementos à sua direita são maiores.
+
+ 
+
+O quicksort funciona localmente e seu tempo de execução não é bom.
+
+def quickSort(alist):
+   quickSortHelper(alist,0,len(alist)-1)
+def quickSortHelper(alist,first,last):
+   if first<last:
+   	splitpoint = partition(alist,first,last)
+   	quickSortHelper(alist,first,splitpoint-1)
+   	quickSortHelper(alist,splitpoint+1,last)
+def partition(alist,first,last):
+   pivotvalue = alist[first]
+   leftmark = first+1
+   rightmark = last
+   done = False
+   while not done:
+   	while leftmark <= rightmark and alist[leftmark] <= pivotvalue:
+       		leftmark = leftmark + 1
+   	while alist[rightmark] >= pivotvalue and rightmark >= leftmark:
+       		rightmark = rightmark -1
+   	if rightmark < leftmark:
+       		done = True
+   	else:
+       	temp = alist[leftmark]
+       	alist[leftmark] = alist[rightmark]
+       	alist[rightmark] = temp
+   temp = alist[first]
+   alist[first] = alist[rightmark]
+   alist[rightmark] = temp
+   return rightmark
+alist = [54,26,93,17,77,31,44,55,20]
+quickSort(alist)
+print(alist)
+
+
+Mergesort
+
+Assim como o quicksort, o mergesort  também utiliza o paradigma “dividir e conquistar''. Apesar de parecer que a lista é dividida, não é isso que ocorre. O que acontece é uma quebra da lista até que reste apenas um elemento.
+
+ 
+
+Os índices (left, middle e right) auxiliam o algoritmo na análise, delimitando a lista e mostrando onde ele vai agir.  O left e o right ficam na posição inicial e final, respectivamente. Já o middle fica no meio onde as quebras na lista serão feitas.
+
+Exemplo:
+
+ 
+
+[7, 12, 10, 8, 19, 5, 3, 90]
+
+[7, 12, 10, 8] [19, 5, 3, 90]
+
+[7, 12] [10, 8] [19, 5] [3, 90]
+
+[7] [12] [10] [8] [19] [5] [3] [90]
+
+ 
+
+[7, 12] [8,10] [5,19] [3, 90]
+
+[7, 8, 10, 12] [3, 5, 19, 90]
+
+[3, 5, 7, 8, 10, 12, 19, 90]
+
+ef mergeSort(alist):
+	print("Splitting ",alist)
+	if len(alist)>1:
+    	mid = len(alist)//2
+    	lefthalf = alist[:mid]
+    	righthalf = alist[mid:]
+    	mergeSort(lefthalf)
+    	mergeSort(righthalf)
+    	i=0
+    	j=0
+    	k=0
+    	while i < len(lefthalf) and j < len(righthalf):
+        	if lefthalf[i] < righthalf[j]:
+            	alist[k]=lefthalf[i]
+            	i=i+1
+        	else:
+            	alist[k]=righthalf[j]
+            	j=j+1
+        	k=k+1
+    	while i < len(lefthalf):
+        	alist[k]=lefthalf[i]
+        	i=i+1
+        	k=k+1
+    	while j < len(righthalf):
+        	alist[k]=righthalf[j]
+        	j=j+1
+        	k=k+1
+	print("Merging ",alist)
+alist = [54,26,93,17,77,31,44,55,20]
+mergeSort(alist)
+print(alist)
+

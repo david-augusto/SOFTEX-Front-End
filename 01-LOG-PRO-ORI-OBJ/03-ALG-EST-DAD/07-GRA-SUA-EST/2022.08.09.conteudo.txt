@@ -1,0 +1,43 @@
+Grafos e suas aplicações
+
+Grafos
+Grafos são estruturas que permitem codificar relacionamentos entre pares de objetos, os quais são os vértices do grafo e os relacionamentos, suas arestas.
+
+Na imagem, as linhas são as arestas e unem os vértices, que são os círculos. Não é preciso que todos os vértices estejam conectados com todas as arestas e nem vice-versa.
+
+grafos01
+
+Cada bola é um vértice e as linhas são arestas.
+
+Os grafos têm várias aplicações no cotidiano, como nas redes sociais digitais com a conexão entre os usuários. Eles também estão, por exemplo, nas rotas de metrô, onde as estações são os vértices e as linhas são as arestas.
+
+grafos 02
+
+Alguns tipos de grafos
+
+Os grafos são denominados direcionados quando algumas arestas têm setas apontando um sentido definido, ou seja, um vértice específico. Assim, se segue um caminho orientado de vértices conectados, mas essa relação não existe no caminho contrário.
+
+grafosdirecionados
+
+Grafos não direcionados
+
+Esse tipo de grafo não tem seta indicando um sentido definido. Assim, é possível relacionar dois vértices sem ter uma direção, então, a aresta pode ir em vários sentidos.
+
+Isso também implica que não são pares ordenados de vértice
+
+
+Grau de vértice 
+
+O grau de vértice é definido pela quantidade de arestas que incidem nele. No caso de um grafo direcionado, deve-se perceber quantas arestas saem dele e somar com a quantidade das que chegam nele.
+
+
+Por exemplo, se há duas arestas direcionadas saindo de um vértice e só uma voltando, então ele é grau três.
+
+
+Em programação
+
+Em programação, o conceito de grafos é muito utilizado em matriz, auxiliando a visualizar como fazer um caminho mais rápido para chegar do vértice 1 ao 5, por exemplo.
+
+ 
+
+Os aplicativos de mapas utilizam o conceito de grafos e são um dos mais usados no nosso cotidiano.

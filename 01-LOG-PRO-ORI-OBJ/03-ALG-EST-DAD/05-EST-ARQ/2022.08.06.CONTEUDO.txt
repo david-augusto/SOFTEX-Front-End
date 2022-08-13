@@ -1,0 +1,21 @@
+Gerência de arquivos
+Buscar, classificar, alterar, adicionar, excluir, copiar e realizar a alocação e desalocação de arquivos são as funções do gerenciamento de arquivos.
+
+O seu objetivo é organizar por meio de ações diretas, evitando a busca de dados desnecessários. O grande obstáculo é a otimização do tempo para o acesso para a organização dos dados.
+
+Estrutura de arquivos
+
+A estrutura dos arquivos visa diminuir o número de acessos ao disco, ganhar tempo, processar o que for necessário e ampliar a quantidade de informações em apenas um acesso.
+
+Indexação
+
+Para identificar um arquivo, o campo chave é utilizado. Ele fica no índice, ou index, o qual mantém os endereços dos arquivos. Existem os índices primário e secundário.
+
+Índice primário: considera o campo mais importante e organiza o arquivo a partir dele;
+
+Índice secundário: organiza o arquivo referenciando o campo ou combinando os campos.
+
+Arquivos sequenciais
+A leitura do arquivo acontece de forma sequencial, ou seja, um após o outro. A ordenação é realizada pela chave primária, que organiza o arquivo pelo campo da chave.
+
+A vantagem disso é a rapidez em acessar um arquivo ordenado. No entanto, excluir ou adicionar um arquivo fica mais trabalhoso.

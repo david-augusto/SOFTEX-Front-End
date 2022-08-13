@@ -1,0 +1,87 @@
+Leitura de bases de dados
+
+No vídeo dessa aula, foi desenvolvido um exemplo básico de como ler um dataframe pela pandas através da função pd.read_csv().
+
+ 
+
+Porém, outra função muito comum de leitura é a pd.read_excel(). Ela lê arquivos .xlsx, uma extensão geralmente usada para arquivos gerados pelo Excel.
+
+ 
+
+A biblioteca pandas possui vários tipos de funções de leituras. Aqui vamos falar sobre os mais comuns.
+
+Acesso aos valores da base
+
+Como um dataframe é uma planilha, é possível acessar os valores pelas suas colunas. Se estiver lendo um dataframe que possui a coluna “id”, basta acessar df[“id”] para observar todos os seus ids. Também é possível determinar a linha desejada colocando mais um par de colchetes, como na imagem.
+
+ 
+
+Essa estrutura, onde o dataframe é armazenado, é basicamente um array. Esse assunto não será aprofundado neste curso, mas o básico para entender os dataframes será apresentado.
+
+Operações
+
+As operações matemáticas são mais fáceis de serem executadas usando a pandas. Por exemplo, há uma coluna “valor” no dataframe, na qual valores serão divididos por dez e seus resultados serão inseridos em uma nova coluna “novo_valor”.
+
+ 
+
+Com a pandas, essa operação é muito simples de ser executada. Para criar uma nova coluna, basta colocar o nome dela no dataframe para receber o valor. Só é necessário fazer isso em uma linha.
+
+Funções matemáticas
+
+Na pandas, é possível realizar algumas funções matemáticas interessantes e simples de entender. Algumas dessas são:
+
+.sum() é usada para somar todos os valores da coluna;
+
+.median() é usada para tirar a média dos valores da coluna;
+
+.max() e .min() são usadas para indicar os valores máximos e mínimos, respectivamente.
+
+Seleção de valores
+
+Até o momento, só é possível criar e atualizar valores em todas as linhas do dataframe. No entanto, caso queira atualizar apenas linhas específicas, de acordo com alguma condição, deve-se utilizar a função .loc[], cuja estrutura é dataframe.loc[CONDICAO, COLUNA].
+
+ 
+
+No exemplo, o valor “ADULTO” deve ser inserido apenas nas linhas da coluna “situacao” que possuem o valor “idade” maior ou igual a dezoito anos. Nos outros casos, o valor “CRIANCA” é preenchido.
+
+Salvar
+
+Após as avaliações serem feitas e os valores desejados serem adicionados, é preciso salvar o dataframe. O salvamento é feito com a função .to_csv() no formato .csv. Depois, basta inserir o caminho onde deseja que o arquivo seja salvo como parâmetro.
+
+ 
+
+Outro parâmetro da função .to csv() é o “index” , ele cria uma nova coluna com o index das linhas. Uma prática comum é atribuir False para esse parâmetro já que a adição de uma coluna de index não seja necessária na tabela. Esses parâmetros também se aplicam à função to_excel().
+
+Praticando
+
+Instalado
+
+pip install pandas
+pip install numpy
+pip install openpyxl
+
+Problema: Uma escola precisa de um programa que leia as tabelas de notas dos alunos, como a da imagem. Ajude essa escola e crie um código que calcule a média do aluno e informe sua situação acadêmica. Os critérios de aprovação são:
+
+média maior ou igual a 7: “Aprovado”;
+
+média menor que 7: “Reprovado”.
+
+Praticando
+
+Solução:
+
+import pandas as pd
+
+ 
+
+df = pd.read_csv("notas_alunos.csv")
+
+media = (df["nota_1"] + df["nota_2"]) / 2
+
+if(media >= 7):
+
+   print("Aprovado")
+
+elif(media < 7):
+
+   print("Reprovado")

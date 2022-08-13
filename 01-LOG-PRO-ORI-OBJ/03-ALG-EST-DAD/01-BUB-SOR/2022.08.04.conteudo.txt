@@ -1,0 +1,82 @@
+Bubble Sort
+
+Algoritmo de ordenação
+O algoritmo de ordenação reorganiza conjuntos de informações em ordem crescente ou decrescente, visando facilitar a visualização da lista. Na computação, as ordens mais usadas são a numérica e a lexicográfica
+
+Métodos de ordenação
+O método funciona no registro de um arquivo. Assim, cada registro tem sua própria chave para que seja possível controlar a ordenação. Caso a ordem das chaves não se altere durante a ordenação, o método é considerado estável.
+
+Métodos de ordenação
+Esses métodos são classificados em dois tipos de ordenação:
+
+Interna: os registros ficam na memória principal e podem ser acessados a qualquer momento;
+
+Externa: os registros não ficam na memória principal e devem ser acessados por blocos
+
+Métodos de ordenação
+
+Os métodos consistem em comparar chaves. Existem os mais simples, que são indicados para listas menores, e os mais eficientes, que são recomendados para listas maiores, pois fazem uma comparação mais detalhista.
+
+O método bubble sort é o mais simples dos algoritmos de ordenação. Nele, as primeiras chaves são comparadas entre si.
+
+ 
+
+Caso a primeira chave "a" seja maior que a chave da posição "b", ela toma a posição "b" e "b" vai para a posição "a". Como podemos ver na imagem.
+
+Praticando
+
+Problema: Construa um algoritmo de ordenação utilizando o método bubble sort estudado e ordene o seguinte vetor: [24,26,21,27,22].
+
+Solução: [24,26,21,27,22]
+
+Comparando os dois primeiros [24,26,21,27,22]: 24 > 26 = Falso. 24 é menor que 26, portanto, como se pede em ordem crescente, a disposição dos números permanece a mesma.
+
+O próximo par do vetor [24,26,21,27,22]: 26 > 21 = Verdadeiro. Neste caso, os pares devem ser trocados para ordenar de forma crescente.
+
+O próximo par do vetor [24,21,26,27,22]: 26 > 27 = Falso, portanto, seguindo a mesma lógica das análises anteriores, a ordem permanece.
+
+O próximo par do vetor [24,21,26,27,22]: 27 > 22 = Verdadeiro. Dessa forma, os pares são trocados.
+
+​
+
+Ao final, se os números ainda não estão ordenados, se retorna para o início e realiza o método novamente até que fique completamente ordenado.
+
+Comparando os dois primeiros números [24,21,26,22,27]: 24 > 21 = Verdadeiro. Os pares são trocados.
+
+Próximo par [21,24,26,22,27]: 24 > 26 = Falso, ordem permanece.
+
+Próximo par [21,24,26,22,27]: 26 > 22 = Verdadeiro. Os pares são trocados.  Próximo par [21,24,22,26,27]: 26 > 27 = Falso, ordem permanece.
+
+omo os números ainda não estão ordenados, se retorna para o início e realiza o método novamente até que fique completamente ordenado.
+
+ 
+
+Comparando os dois primeiros [21,24,22,26,27]: 21 > 24 = Falso, ordem permanece.  
+
+Próximo par [21,24,22,26,27]: 24 > 22 = Verdadeiro. Os pares são trocados.
+
+Próximo par [21,22,24,26,27]: 24 > 26 = Falso, ordem permanece.
+
+Próximo par [21,22,24,26,27]: 26 > 27 = Falso, ordem permanece.
+
+ 
+
+Assim, chegamos ao final e obtemos os números organizados em ordem crescente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
