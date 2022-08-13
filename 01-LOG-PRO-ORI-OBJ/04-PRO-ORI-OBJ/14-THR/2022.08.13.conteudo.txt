@@ -1,0 +1,15 @@
+Threads - JAVA
+
+Fio de conexão
+
+executar em paralelo
+
+Processos sincrono != Thread
+
+para usar threads necessário criar uma classe que herde de thread ou implementar uma interface do tipo runnable
+
+o herdeiro herdarar todos os metodos
+
+já com a interface só tem um método obrigatório que é o run
+
+exemplo foto
