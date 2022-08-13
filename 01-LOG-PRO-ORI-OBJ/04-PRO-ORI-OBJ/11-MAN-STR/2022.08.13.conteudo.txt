@@ -1,0 +1,28 @@
+String ou caracter -  texto
+
+Conversão de maiusculo e minusculo
+ 
+
+compr()
+
+retorna o inteiro com a quantidade de caracter da String
+
+maiusc()
+
+String convertidas em maiusculo
+
+minusc()
+
+String convertidas em minusculo
+
+pos()
+retorna um numero inteiro informando a posição que se encontra o caracter solicitado dentro da váriável
+
+caracpnum()
+
+Realiza convesão de um caracter para inteiro ou real
+
+numpcarac()
+
+Realiza a conversão de real ou inteiro para caracter
+
