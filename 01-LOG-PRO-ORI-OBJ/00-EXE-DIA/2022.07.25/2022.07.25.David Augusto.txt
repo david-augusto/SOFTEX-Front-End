@@ -1,0 +1,119 @@
+Aluno: David Augusto Maciel Matias  E-mail:davidmaciel178@gmail.com
+
+Sequencial
+____________________________________________________________________
+1. Faça um Programa que peça dois números e imprima a soma
+--------------------------------------------------------------------
+PrimeiroNumero = int(input("Digite um numero: "))
+SegundoNumero = int(input("Digite um numero: "))
+print("Soma: ", PrimeiroNumero+SegundoNumero)
+____________________________________________________________________
+2. Tendo como dados de entrada a altura de uma pessoa, construa 
+um algoritmo que calcule seu peso ideal, usando a seguinte 
+fórmula: (72.7*altura) – 58
+--------------------------------------------------------------------
+Altura = float(input("Digite sua altura: "))
+PesoIdeal = 72.7 * Altura - 58
+print("Seu peso ideal é: ",  PesoIdeal)
+____________________________________________________________________
+3. Tendo como dado de entrada a altura (h) de uma pessoa, 
+construa um algoritmo que calcule seu peso ideal, utilizando as 
+seguintes fórmulas:
+a. Para homens: (72.7*h) - 58
+b. Para mulheres: (62.1*h) - 44.7
+--------------------------------------------------------------------
+Altura = float(input("Digite sua altura: "))
+PesoIdealHomem = 72.7 * Altura - 58
+PesoIdealMulher = 62.1* Altura - 44.7
+print("Seu peso ideal para homem: ",  PesoIdealHomem)
+print("Seu peso ideal para mulher: ",  PesoIdealMulher)
+____________________________________________________________________
+4. Faça um Programa que peça a temperatura em graus Fahrenheit, 
+transforme e mostre a temperatura em graus Celsius.
+a. C = 5 * ((F-32) / 9)
+--------------------------------------------------------------------
+Fahrenheit = float(input("Digite a temperatura em Fahrenheit: "))
+
+print("Temperatura em Celsius: ",  5 * ((Fahrenheit-32) / 9))
+____________________________________________________________________
+Condicionais
+1. Faça um Programa que peça dois números e imprima o maior deles
+--------------------------------------------------------------------
+PrimeiroNumero = int(input("Digite um numero: "))
+SegundoNumero = int(input("Digite um numero: "))
+
+if(PrimeiroNumero>SegundoNumero):
+    print("O Maior Numero é: : ", PrimeiroNumero)
+else:
+    print("O Maior Numero é: : ", SegundoNumero)
+____________________________________________________________________
+2. Faça um Programa que pergunte em que turno você estuda. Peça 
+para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima 
+a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor 
+Inválido!", conforme o caso
+--------------------------------------------------------------------
+print("Digite M-matutino ou V-Vespertino ou N- Noturno")
+valor = (input("Qual turno você estuda?: "))
+
+if(valor == "M"):
+    print("Bom dia!")
+else:
+    if(valor == "V"):
+        print("Boa tarde!")
+    else:
+            if(valor == "N"):
+                print("Boa noite!")
+            else:
+                    print("Inválido!") 
+____________________________________________________________________
+3. As Organizações Tabajara resolveram dar um aumento de salário 
+aos seus colaboradores e lhe contraram para desenvolver o programa 
+que calculará os reajustes.
+a. Faça um programa que recebe o salário de um colaborador e o 
+reajuste segundo o seguinte critério, baseado no salário atual:
+b. salários até R$ 280,00 (incluindo) : aumento de 20%
+c. salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
+d. salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
+e. salários de R$ 1500,00 em diante : aumento de 5% Após o aumento 
+ser realizado, informe na tela:
+f. o salário antes do reajuste;
+g. o percentual de aumento aplicado;
+h. o valor do aumento;
+i. o novo salário, após o aumento.
+--------------------------------------------------------------------
+Salario = float(input("Informe seu salário: "))
+
+if(Salario > 0 and Salario <= 280):
+    Percentual = 20
+else:
+    if(Salario > 280 and Salario <= 700):
+        Percentual = 15
+    else:
+        if(Salario > 700 and Salario <= 1500):
+            Percentual = 10
+        else:
+            if(Salario > 1500):
+                Percentual = 5
+            else:
+                Percentual = 0
+
+NovoSalario = Salario + (Salario*Percentual/100)
+Aumento = NovoSalario - Salario
+
+print("Salario Antigo: R$", Salario)
+print("Percentual de Aumento : ", Percentual, "%")
+print("Aumento de: R$", Aumento)
+print("Novo Salário: R$", NovoSalario)
+____________________________________________________________________
+4. Faça um Programa que peça um valor e mostre na tela se o 
+valor é positivo ou negativo.
+--------------------------------------------------------------
+valor = int(input("Digite um numero: "))
+
+if(valor>=0):
+    print("O valor é positivo")
+else:
+        print("O valor é negativo")
+____________________________________________________________________
+
+

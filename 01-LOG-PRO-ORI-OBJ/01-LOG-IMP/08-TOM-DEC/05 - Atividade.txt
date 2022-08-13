@@ -1,0 +1,171 @@
+
+Elabore um algoritmo que possa descobrir, através de perguntas e respostas, qual meio de transporte o usuário está pensando.
+O usuário deverá escolher uma das seguintes opções:
+
+- Trator
+- Moto
+- Bicicleta
+- Trem
+- Carro
+- Caminhão
+- Ônibus
+- Paraquedas
+- Balão
+- Avião
+- Helicóptero
+- Submarino
+- Barco
+- Navio
+- Lancha
+
+Para chegar ao resultado, só devem ser usadas perguntas que retornem "Sim" ou "Não".
+
+Exemplo:
+É terrestre? Sim.
+Cabe apenas uma pessoa? Sim.
+É pesado? Não.
+Tem pedal? Sim.
+Então, o transporte escolhido foi a bicicleta.
+
+Para chegar ao resultado de cada uma das opções, use o modelo ilustrado na imagem em anexo. 
+
+----------------------------------------------------------
+
+var booleano verdadeiro
+
+	escreva("o transporte é terrestre?")
+	leia(verdadeiro)
+	se (verdadeiro) então
+		
+		escreva("cabe apenas uma pessoa?")
+		leia(verdadeiro)
+		se (verdadeiro) então
+			
+			escreva("é pesado?")
+			leia(verdadeiro)
+			se (verdadeiro) então				
+				
+				escreva("TRATOR")
+			fimse		
+			senão
+				escreva("tem pedal?")
+				leia(verdadeiro)	
+				se (terrestre)  então								
+					escreva("BICICLETA")
+				fimse
+		fimse		
+		senão
+			escreva("usa capacete?")
+			leia(verdadeiro)	
+			se (verdadeiro) então					
+					escreva("MOTO")
+			fimse		
+			senão
+				escreva("tem passageiro?")
+				leia(verdadeiro)
+				se (verdadeiro) então
+
+					escreva("usa trilho?")
+					leia(verdadeiro)
+						se (verdadeiro) então
+							escreva("TREM")
+						fimse
+					senão
+					escreva("anda na pista?")
+					leia(verdadeiro)				
+					se (verdadeiro) então
+					
+						se (verdadeiro) então				
+						escreva("usa carroceria?")
+						leia(verdadeiro)
+							se (verdadeiro) então				
+								escreva("CAMINHÃO")
+							fimse
+						fimse
+					fimse
+					senao 
+					escreva("pode ter cobrador")
+					leia(verdadeiro)
+						se (verdadeiro) então							
+						escreva("ÔNIBUS")
+						fimse
+				fimse
+				senão
+				escreva("veiculo leve")
+				leia(verdadeiro)	
+				se (verdadeiro)  então							
+					escreva("CARRO")
+				fimse
+	fimse
+   	senão
+   	escreva("o transporte é aereo)
+	leia(verdadeiro)
+		se (verdadeiro) então							
+			escreva("precisa pular)
+			leia(verdadeiro)
+			se (verdadeiro) então							
+				escreva("ASA DELTA")
+			fimse
+			senão
+			escreva("viaja dentro?")
+			leia(verdadeiro)
+			se (verdadeiro) então							
+				escreva("é devagar)
+				leia(verdadeiro)
+				se (verdadeiro) então							
+					escreva("BALÃO")
+				fimse
+			fimse
+				senão
+				escreva("tem piloto?")
+				leia(verdadeiro)
+				se (verdadeiro) então
+					escreva("possui asas fixas?")
+					leia(verdadeiro)
+					se (verdadeiro) então							
+						escreva("AVIÃO")
+					fimse	
+				fimse
+					senão
+					escreva("faz voo vertical?")
+					leia(verdadeiro)
+					se (verdadeiro) então	
+						escreva("HELICOPTERO")	
+					fimse
+		fimse
+
+	
+    senão
+    escreva("é coberto de agua?")
+	leia(verdadeiro)
+		se (verdadeiro){	
+			escreva("SUBMARINO")		
+		fimse
+	senão se
+	escreva("navega na agua?")
+	leia(verdadeiro)
+	se (verdadeiro) então	
+		escreva("possui vela?")")
+		leia(verdadeiro)
+		se (verdadeiro) então		
+			escreva("BARCO")
+		fimse
+	fimse	
+		senão
+		escreva("tem motor?")
+		leia(verdadeiro)
+		se (verdadeiro) então	
+			escreva("é alto?")
+			leia(verdadeiro)
+			se (verdadeiro) então
+				escreva("NAVIO")
+			fimse
+		fimse
+			senão
+			escreva("pode ser descoberto?")
+			leia(verdadeiro)
+			se (verdadeiro) então	
+				escreva("LANCHA")
+			fimse
+	
+   fimse

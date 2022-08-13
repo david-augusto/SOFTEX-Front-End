@@ -1,0 +1,65 @@
+Aluno: David Augusto Maciel Matias  E-mail: davidmaciel178@gmail.com
+
+1. Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem
+caso o valor seja inválido e continue pedindo até que o usuário informe um valor
+válido.
+--------------------------------------------------------------------------------------
+i = 20
+
+while i < 0 or i >10:
+    i = int(input("Digite uma nota válida: "))
+_______________________________________________________________________________________
+2. Faça um programa que leia um nome de usuário e a sua senha e não aceite a
+senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a
+pedir as informações.
+--------------------------------------------------------------------------------------
+User = " "
+Password = " "
+
+while User == Password:
+    User = (input("Digite o nome de usuário: "))
+    Password = (input("Digite o a senha: "))
+_______________________________________________________________________________________
+3. Faça um programa que leia 5 números e informe a soma e a média dos números
+--------------------------------------------------------------------------------------
+Soma = 0
+for x in range(5):
+    Numero = int(input("Digite um numero: "))
+    Soma = Soma+Numero
+    
+print("A soma dos numeros é: ", Soma)
+print("A Media dos numeros é: ", Soma/5)
+_______________________________________________________________________________________
+4. Faça um programa que imprima na tela apenas os números ímpares entre 1 e
+50.
+--------------------------------------------------------------------------------------
+for x in range(1, 50, 2):
+    print(x)
+_______________________________________________________________________________________
+LISTA
+5. Faça uma lista com o nome notas, peça as notas ao usuário e só sair quando
+ele pressionar o -1, depois disso mostre na tela as notas que ele informou. (USAR
+O WHILE).
+--------------------------------------------------------------------------------------
+NÃO DEU TEMPO FAZER
+_______________________________________________________________________________________
+6. Crie uma lista com os seguintes números: [6.0, 8.5, 9.0, 4.2] e crie uma variável
+com o seguinte nome ValorProcurado = 8.5, percorra a lista e mostre em quando
+índice o valor procurado se encontra.
+--------------------------------------------------------------------------------------
+Numeros = [6.0, 8.5, 9.0, 4.2]
+ValorProcurado = 8.5
+for x in range(1, 4):
+    if ValorProcurado == Numeros[x]:
+        print("Valor Procurado está nno indice: ", x)
+_______________________________________________________________________________________
+7. Considere para os itens abaixo como entrada uma lista de valores reais contendo
+notas de 0.0 a 10.0. Faça uma função que:
+• Devolve a média.
+• Devolve a quantidade de notas abaixo de 6.0.
+• Devolve a quantidade de notas acima e igual a 6.0.
+• Devolve a quantidade de notas acima e igual a média.
+• Devolve a maior nota. ❖ Devolve a menor nota.
+--------------------------------------------------------------------------------------
+NÃO DEU TEMPO FAZER
+_______________________________________________________________________________________

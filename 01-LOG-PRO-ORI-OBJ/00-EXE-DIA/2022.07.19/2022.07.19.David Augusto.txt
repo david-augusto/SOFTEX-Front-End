@@ -1,0 +1,156 @@
+Aluno: David Augusto Maciel Matias  E-mail: davidmaciel78@gmail.com
+
+_________________________________________________________________________________
+1. Desenvolva um programa que leia um número inteiro e mostre se ele é PAR ou ÍMPAR.
+---------------------------------------------------------------------------------
+Algoritmo "ParImpar"
+
+Var
+numero: inteiro
+
+
+Inicio
+
+escreval("Digite um numero: ")
+leia(numero)
+
+se (numero mod 2 = 0) entao
+   escreval("Esse número é par! ")
+senao
+escreval("Esse número é impar! ")
+fimse
+
+
+Fimalgoritmo
+_________________________________________________________________________________
+2. Numa promoção exclusiva para o Dia da Mulher, uma loja quer dar descontos para
+todos, mas especialmente para mulheres. Faça um programa que leia nome, sexo e o
+valor das compras do cliente e calcule o preço com desconto. Sabendo que: - Homens
+ganham 5% de desconto - Mulheres ganham 13% de desconto.
+---------------------------------------------------------------------------------
+Algoritmo "Desconto"
+
+Var
+nome: caracter
+sexo: caracter
+valor: real
+desconto: real
+
+
+Inicio
+
+escreval("Digite o nome: ")
+leia(nome)
+
+escreval("Digite o Sexo M ou F: ")
+leia(sexo)
+
+escreval("Digite o valor da compra: R$")
+leia(valor)
+
+se(sexo = "F") entao
+desconto <- 0.13
+senao
+desconto <- 0.05
+fimse
+
+escreval("Preço aplicado ",desconto*100,"% de desconto: R$", valor - (valor*desconto))
+
+Fimalgoritmo
+_________________________________________________________________________________
+3. Faça um programa que leia o ano de nascimento de uma pessoa, calcule a idade dela e 
+depois mostre se ela pode ou não votar.
+---------------------------------------------------------------------------------
+Algoritmo "PodeVotar"
+
+Var
+
+ano: inteiro
+
+
+
+Inicio
+
+escreva("Digite o ano do seu nascimento: ")
+leia(ano)
+
+       se (2022 - ano >= 16) entao
+       escreval(2022 - ano, " anos, maior que 16 anos, pode votar")
+       senao
+       escreval(2022 - ano, " anos, menor que 16 anos, não pode votar")
+       fimse
+Fimalgoritmo
+_________________________________________________________________________________
+4. Escreva um algoritmo que leia dois números inteiros e compare-os, mostrando na tela
+uma das mensagens abaixo:
+- O primeiro valor é o maior
+- O segundo valor é o maior
+- Não existe valor maior, os dois são iguais.
+---------------------------------------------------------------------------------
+Algoritmo "MaiorMenor"
+
+Var
+
+PrimeiroNumero: inteiro
+SegundoNumero: inteiro
+
+
+
+Inicio
+
+escreva("Digite o PRIMEIRO um número: ")
+leia(PrimeiroNumero)
+escreva("Digite o SEGUNDO um número: ")
+leia(SegundoNumero)
+
+       se (PrimeiroNumero > SegundoNumero) entao
+       escreval("O PRIMEIRO Valor é maior")
+       senao
+       se (PrimeiroNumero < SegundoNumero) entao
+       escreval("O SEGUNDO Valor é maior")
+       senao
+       escreval("Não existe valor maior, os dois são iguais")
+       fimse
+       fimse
+Fimalgoritmo
+_________________________________________________________________________________
+5. Desenvolva um programa que leia o nome de um funcionário, seu salário, quantos
+anos ele trabalha na empresa e mostre seu novo salário, reajustado de acordo com a
+tabela a seguir:
+- Até 3 anos de empresa: aumento de 3%
+- Entre 3 e 10 anos: aumento de 12.5%
+- 10 anos ou mais: aumento de 20%
+---------------------------------------------------------------------------------
+Algoritmo "AumentoSalario"
+
+Var
+
+nome: caracter
+salario: real
+temp: real
+reajuste: real
+
+Inicio
+
+escreva("Digite seu nome: ")
+leia(nome)
+escreva("Digite seu salário: ")
+leia(salario)
+escreva("Digite quantos anos tem de empresa: ")
+leia(temp)
+
+       se (temp >= 0) e (temp <= 3) entao
+       reajuste <- 0.03
+       senao
+       se (temp > 3) e (temp < 10 ) entao
+       reajuste <- 0.125
+       senao
+       se (temp >= 10 ) entao
+       reajuste <- 0.20
+       senao
+       reajuste <- 0.0
+       fimse
+       fimse
+       fimse
+       
+escreva("Reajuste de ",reajuste*100, "% e o novo salário é: ",salario + (salario*reajuste))

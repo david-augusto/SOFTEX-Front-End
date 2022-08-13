@@ -1,0 +1,40 @@
+console.log("Questão 01");
+
+var a = 5;
+var b = 10;
+console.log("Soma: ", a+b);
+console.log("Subtração: ", a-b);
+console.log("Multiplicação: ", a*b);
+console.log("Divisão: ", a/b);
+console.log("--------");
+//----------------------------------------------------------
+console.log("Questão 02");
+var a = "David";
+var b = "Augusto";
+console.log("Nome: ", a);
+console.log("Sobrenome: ", b);
+console.log("--------");
+//----------------------------------------------------------
+console.log("Questão 03");
+var valor = 50;
+var dolar  = 5.26
+console.log("$", valor, "equivalem a R$", valor*dolar, "com o dolar valendo: R$", dolar);
+console.log("--------");
+//----------------------------------------------------------
+console.log("Questão 04");
+var x = 200;
+var y = 30;
+function porcentagem(x,y){
+    return (x*y)/100;
+}
+console.log(y, "% de ", x, " é: ", porcentagem(x,y));
+console.log("--------");
+//----------------------------------------------------------
+console.log("Questão 05");
+
+
+
+
+
+
+

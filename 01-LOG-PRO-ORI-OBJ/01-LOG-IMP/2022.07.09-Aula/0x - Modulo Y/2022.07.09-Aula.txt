@@ -1,0 +1,218 @@
+- Troca de mensagens
+
+A comunicação é algo natural e para ela acontecer, é necessário uma troca de mensagens entre um emissor e um receptor.
+A coerência dessas mensagens está relacionada à lógica, pois ela observa a ordem do pensamento, ajudando a 
+compreender melhor as informações de um diálogo. Sem a lógica, as trocas de informações não fariam  sentido e não haveria comunicação.
+
+- Raciocínio lógico:
+
+A capacidade de organizar premissas válidas para 
+chegar a uma conclusão é tida como raciocínio lógico. Nós desenvolvemos essa habilidade, sempre que precisamos resolver um problema, 
+seguindo uma sequência de passos, como um algoritmo.
+
+- O raciocínio lógico é dividido em três tipos: dedução, indução e abdução.
+
+Na dedução, a conclusão é determinada utilizando a regra e a premissa.
+Por exemplo: um triângulo é um polígono de três lados. Logo, todo e qualquer polígono de três lados será um triângulo.
+
+Diferente da dedução, na indução, a regra está submetida aos dados, ou seja, é definida uma regra geral a partir das informações.
+Por exemplo: em um teste de medicamento, a maioria dos pacientes que receberam o tratamento apresentou uma melhora considerável. 
+Logo, o medicamento teve sua eficácia comprovada.
+
+A abdução utiliza a conclusão e a regra para determinar a premissa.
+Por exemplo: se há fumaça, há fogo. Eu vi fumaça, logo, aqui tem fogo.
+
+É comum a lógica ser aplicada em diversas situações do cotidiano, por exemplo: 
+“O carro está aquecendo. Logo, precisamos de água.”
+“João é mais velho do que Ana. Ana é mais velha do que Lucas. Portanto, João é mais velho que Lucas.”
+
+--------------------------------------------------------------------------------------------------------------------------------------
+- Conhecendo a lógica computacional
+
+Toda tecnologia é desenvolvida para satisfazer as necessidades do ser humano e contribuir para a eficiência das informações.
+O computador é uma das tecnologias mais usadas atualmente. Ele reage aos dados fornecidos pelo usuário, assim, a lógica computacional, 
+também conhecida como lógica de programação, foi primordial para seu avanço.
+
+- Lógica computacional
+
+Com a lógica computacional, é possível implementar comandos para o desenvolvimento de algoritmos e softwares.
+Para isso, é necessário que esse raciocínio seja organizado, coerente e relacionado com o conceito do pensamento computacional.
+
+- Pensamento computacional
+
+Blikstein (2008) afirma que o pensamento computacional é manusear o computador como um instrumento do poder cognitivo e operacional humano para, 
+assim, aumentar a produtividade, inventividade e criatividade do ser humano.
+Então, essa forma de pensar é uma competência que está baseada na resolução de problemas de forma criativa e fundamentada em:
+
+decomposição;
+padrões;
+abstração; e
+pensamento algorítmico.
+
+Decomposição e padrões
+
+A decomposição é a divisão do problema em porções menores para facilitar a sua resolução. Já os padrões são as percepções que apontam o problema.
+
+- Abstração e pensamento algorítmico
+
+A abstração consiste em pensar no problema de maneira genérica, ignorando detalhes para a sua resolução.
+Por fim, o pensamento algorítmico está na sequência de passos para a resolução do problema.
+
+- Pensamento computacional
+
+Lógica Imperativa
+
+O que é algoritmo?; A importância de construir algoritmo; Como representamos uma algoritmo?
+Alguns benefícios do desenvolvimento do pensamento computacional são:
+a resolução de problemas;
+o estímulo à criatividade e autonomia; e o incentivo ao conhecimento interdisciplinar.
+
+- O que é algoritmo?
+O algoritmo é um conjunto de instruções, cujas ações devem atingir uma finalidade. Ele estará correto quando o objetivo final é o esperado.
+Até na nossa rotina diária nós criamos algoritmos. Pois, antes de sairmos de casa para ir a um determinado lugar, precisamos saber quais 
+lugares iremos, qual o melhor caminho até cada local e separar os materiais que serão levados.
+
+- Como seria sem algoritmo?
+Sem um algoritmo, há mais facilidade de ocorrer erros ou indecisões.
+Por exemplo, em um comércio, problemas como cálculos errados na hora da venda ou na manutenção e conferência do estoque, podem causar prejuízos.
+
+- Construção de um algoritmo
+É possível dividir um algoritmo em três etapas:
+
+a organização dos dados que serão utilizados durante o processo;
+a execução desses dados de forma direcionada; e
+a avaliação do resultado, se ele foi o esperado ou não.
+
+- Algoritmo na prática
+Para visualizar esse processo, considere uma loja. Para realizar uma venda, é necessário:
+
+os dados - o valor dos produtos;
+a execução - somar os valores de todos os produtos;
+a avaliação - verificar se o resultado é o correto.
+
+- O objetivo do algoritmo
+O algoritmo não é o resultado final, mas o caminho que leva até ele.
+
+Portanto, vários algoritmos podem ser realizados para uma mesma solução, 
+desde que seja o resultado esperado.
+
+Lógica Imperativa
+
+Estrutura de repetição com teste no início; Estrutura de repetição com teste 
+no final; Estrutura de repetição com variável de controle
+
+- As estruturas
+
+As estruturas são importantes no algoritmo, pois, quando é necessário, elas 
+alteram o fluxo de controle para o código realizar funções do cotidiano.
+
+Como essas funções são realizadas várias vezes durante o dia, elas se 
+tornam repetitivas. Por exemplo, um caixa de supermercado que vai somar as 
+compras de diferentes usuários.
+
+- Estruturas de repetição
+
+Para não deixar o algoritmo longo e cansativo, são usadas as estruturas 
+que repetem as instruções sem precisar duplicá-las.
+Elas também são úteis quando não se sabe quantas vezes a instrução será repetida.
+
+- Tipos de estrutura de repetição
+
+As estruturas de repetição são divididas em três categorias e se 
+diferenciam por um teste, que é a condição para executar a repetição.
+
+Assim, as estruturas de repetição são:
+
+estrutura com teste no início;
+
+estrutura com teste no final; e
+
+estrutura com variável de controle, aquela que tem o teste 
+previamente determinado, através de uma variável de controle
+
+- Etapas da estrutura de repetição
+
+Toda estrutura de repetição deve ter uma inicialização que 
+informa a partir de qual valor começa e serve como contador 
+para terminar a repetição.
+
+Além disso, ela deve contar com a condição que indica 
+quando deve ter a repetição e se ela ocorrerá. Por fim, o 
+incremento é o valor a ser somado ou diminuído da inicialização, 
+dependendo da situação.
+
+Estrutura com teste no início
+
+Nesse tipo, a inicialização é feita antes da estrutura. Depois, 
+ela serve de contador para ser comparada com a condição, que 
+ficará no início da estrutura. Nesta condição, usa-se uma 
+expressão lógica para saber se a repetição é necessária.
+
+ 
+
+Sem a expressão lógica, a estrutura não será executada, havendo 
+repetição, assim, serão executadas as instruções que estão no 
+corpo da estrutura, inclusive o incremento para poder chegar na condição.
+
+- Estrutura com teste no início
+Para a estrutura com teste no início, é usada a seguinte sintaxe:
+
+contador <- inicialização
+
+enquanto (contador < condição) faca
+
+     instrução
+
+     contador <- contador + incremento
+
+fimenquanto
+
+- Estrutura com teste no final
+
+Já essa estrutura tem sua condição avaliada apenas no final dela, 
+por isso, ela é executada pelo menos uma vez. 
+
+ 
+
+Assim, a primeira avaliação será o contador somado ao incremento, 
+pois o valor da inicialização foi executado na primeira vez. 
+A localização da inicialização e do incremento permanecem da mesma 
+forma que a estrutura com teste no início.
+ 
+Estrutura com teste no final
+Com isso, tem-se a seguinte sintaxe na estrutura com teste no final:
+
+contador <- inicialização
+
+repita
+
+     instrução
+
+     contador <- contador + incremento
+
+ate (contador > condição)
+
+- Estrutura com variável de controle
+
+Nessa estrutura, ela mesma será o contador. Nela, a inicialização, 
+a condição e o incremento estão todos no início da estrutura. 
+É possível perceber que não há uma expressão lógica, pois apenas 
+o valor limite, que irá repetir as instruções, é definido.
+
+- Estrutura com variável de controle
+
+A sintaxe para a estrutura com variável de controle é:
+
+para contador de inicialização ate condição passo incremento faca
+
+     instrução
+
+fimpara
+
+- Estrutura com variável de controle
+
+Todas as estruturas podem conter outras, ou seja, é possível ter 
+uma estrutura de repetição dentro de outra ou uma condicional 
+dentro de uma de repetição, entre outras combinações.
+
+

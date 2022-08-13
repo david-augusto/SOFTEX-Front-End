@@ -1,0 +1,194 @@
+- Lógica Imperativa
+Compreender o raciocínio lógico para resolução de problemas usando apenas V ou F
+Expressões lógicas
+As expressões lógicas são usadas no nosso cotidiano e suas respostas são. proposições verdadeiras ou falsas.
+Um exemplo disso é quando um aluno pergunta ao professor se ele foi aprovado na disciplina.
+
+- Operadores relacionais
+Os operadores relacionais são utilizados para comparar duas situações e obter um resultado verdadeiro ou 
+falso como resposta.
+
+São eles:
+
+> (maior que)
+< (menor que)
+>= (maior ou igual)
+<= (menor ou igual)
+= (igual)
+<> (diferente)
+
+- Operadores lógicos
+Já os operadores lógicos são utilizados para comparar duas proposições que podem ser verdadeiras ou falsas.
+Neles, a entrada lógica deve ser obrigatoriamente V ou F para fazer a comparação. Os mais utilizados são:
+conjunção E;
+disjunção OU;
+negação NÃO.
+
+- Tabela-verdade
+Para realizar essas comparações, a tabela-verdade é utilizada. Todas as combinações possíveis das proposições 
+são adicionadas nela, usando os operadores lógicos.
+Cada combinação gera um resultado “Verdadeiro” ou “Falso”, que são ordenados na vertical.
+
+- Operador de conjunção
+Na tabela-verdade representada pelo operador de conjunção E, o resultado só será verdadeiro se as duas afirmações 
+forem verdadeiras. A resposta será falsa caso qualquer uma das duas for falsa. Portanto:
+V E V = V
+V E F = F
+F E V = F
+F E F = F
+
+- Operador de disjunção
+Por outro lado, a tabela-verdade do operador de disjunção OU é verdadeira se pelo menos uma das afirmações for 
+verdadeira. Se ambas forem falsas, o resultado será falso. Portanto:
+V OU V = V
+V OU F = V
+F OU V = V
+F OU F = F
+
+- Operador de negação
+O operador de negação NÃO é unário, ou seja, ele compara apenas uma afirmação e nega a sua resposta. 
+Dessa forma, a tabela-verdade apresenta apenas duas comparações: se a resposta for verdadeira, ele 
+resulta em falso; se a resposta for falsa, ele resulta em verdadeiro. Portanto:
+NÃO V = F
+NÃO F = V
+
+- Lógica Imperativa
+
+Estrutura de seleção simples; Estrutura de seleção composta; Estrutura de seleção encadeada
+- Estruturas de controle
+As estruturas de controle são responsáveis por organizar o algoritmo e realizar alguns fluxos durante o programa.
+No nosso dia a dia, elas aparecem em um pagamento on-line, na verificação de um produto no site de uma loja, nos 
+cadastros feitos para um vestibular, entre outros.
+- Estruturas sequenciais
+Já as estruturas sequenciais são representadas por qualquer algoritmo simples que segue uma sequência de cima 
+para baixo e da esquerda para a direita, de forma semelhante a como escrevemos em um caderno.
+- Estruturas condicionais
+As  estruturas condicionais, também conhecidas como estruturas de seleção ou de decisão, remetem a escolhas. 
+Elas são utilizadas quando é necessário uma resposta do usuário para decidir qual linha de comando deve ser executada.
+As tomadas de decisão das estruturas são realizadas através de expressões lógicas, exceto para múltipla escolha. 
+Elas geram um resultado verdadeiro ou falso e, a partir daí, influenciam todo o fluxo da estrutura
+- Tipos de estruturas condicionais
+Existem quatro tipos de estruturas condicionais:
+simples;
+composta;
+encadeada; e 
+múltipla escolha.
+- Estrutura condicional simples
+Na estrutura condicional simples, apenas uma alternativa é fornecida. Caso a expressão lógica seja verdadeira, 
+uma ou mais instruções são executadas, mas, caso seja negativa, a estrutura se encerra.
+Exemplo:
+
+Se (condição) então
+
+   instruções
+
+fimse
+- Estrutura condicional composta
+Na estrutura condicional composta, duas alternativas são fornecidas. Caso a primeira alternativa seja falsa, 
+então, a segunda será executada. Porém, se a primeira alternativa for verdadeira, a segunda será descartada e, 
+nesta situação, obrigatoriamente uma das alternativas será correta.
+Exemplo:
+
+Se (condição) então
+
+   instruções
+
+senão
+
+   instruções
+
+fimse
+
+- Estrutura condicional encadeada
+Na estrutura condicional encadeada, é possível observar um conjunto de estruturas compostas, que apresenta 
+três ou mais alternativas.
+Se a primeira  alternativa for falsa, então será comparada  com as outras até que se encontre a resposta correta. 
+Porém, quando se descobre a verdadeira, o algoritmo se encerra.
+
+Exemplo:
+
+Se (condição) então
+
+   instrução
+
+senão
+
+   Se (condição) então
+
+      instrução
+
+   senão
+
+      instrução
+
+   fimse
+
+fimse
+- Estrutura condicional múltipla escolha
+A estrutura condicional múltipla escolha fornece alternativas e o seu resultado é baseado na resposta do usuário, 
+sem precisar de uma expressão lógica.
+Assim, a variável, que possui a resposta do usuário, irá comparar de forma exata com uma das opções fornecidas 
+pela estrutura
+Exemplo:
+
+Escolha variável
+
+   caso 1
+
+      instrução
+
+   caso 2
+
+      instrução
+
+   caso 3
+
+      instrução
+
+   outrocaso
+
+      instrução
+
+fimescolha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

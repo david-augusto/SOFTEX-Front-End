@@ -1,0 +1,65 @@
+
+Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
+
+- Nome
+- Endereço
+- Cidade
+- CPF
+- RG
+- Idade
+- Nome do pai
+- Nome da mãe
+- Peso
+- Renda bruta
+
+Apresente as informações solicitadas no final do cadastro.
+
+Atividade:
+
+inicio Cadastro
+
+var caractere Nome
+var caractere Endereco
+var caractere Cidade
+var caractere CPF
+var caractere RG
+var inteiro Idade
+var  caractere  NomePai
+var caractere NomeMae
+var real Peso
+var real RendaBruta
+
+escreval("digite seu nome: ")
+leia Nome ()
+escreval("digite seu endereço: ")
+leia Endereco ()
+escreval("digite sua cidade: ")
+leia Cidade ()
+escreval("digite seu CPF: ")
+leia CPF ()
+escreval("digite seu RG: ")
+leia RG ()
+escreval("digite sua Idade: ")
+leia Idade ()
+escreval("digite o nome do seu pai: ")
+leia NomePai ()
+escreval("digite o nome da sua mãe: ")
+leia NomeMae ()
+escreval("digite seu Peso: ")
+leia Peso ()
+escreval("digite sua RendaBruta: ")
+leia RendaBruta ()
+
+escreval("---- Cadastro ----")
+escreval("Nome: ", Nome)
+escreval("Endereço: ", Endereco)
+escreval("Cidade: ", Cidade)
+escreval("CPF: ", CPF)
+escreval("RG: ", RG)
+escreval("Idade: ", Idade)
+escreval("Nome do pai: ", NomePai)
+escreval("Nome da mãe: ", NomeMae)
+escreval("Peso: ", Peso)
+escreval(" Renda bruta: ", RendaBruta)
+
+fimalgoritmo
