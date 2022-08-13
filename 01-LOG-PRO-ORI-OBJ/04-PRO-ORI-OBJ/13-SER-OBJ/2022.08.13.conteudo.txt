@@ -1,0 +1,39 @@
+Serialização
+
+Objetos sãoarmazenados na RAM
+
+Serialização armazena no disco
+transformado em fluxo de bytes
+
+
+de volta
+
+desserialização 
+
+Serve para encaminhar informações
+
+para implementar deve-se colocar
+
+Java.io.serializable
+
+herança são afetadas
+
+Classe Fileoutputstream para receber o endereço fisico do arquivo que irá armazenar o objeto
+
+
+Objeto Objectoutputstream
+
+indica onde será armazenado
+
+Método Writeobject realizar a serializacao e depois o close
+
+para realizar a desserializacao
+
+Fileinputstream
+
+depois instancia Objectinputputstream com referencia dos dados
+
+readereobject para ler o arquivos
+
+
+Java,C,C++, C#,PHP,Phithon, RUBY tem suporte
