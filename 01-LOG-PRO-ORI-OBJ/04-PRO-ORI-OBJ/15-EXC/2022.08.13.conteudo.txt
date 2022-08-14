@@ -1,0 +1,78 @@
+Controle e tratamento de exceções.
+
+O que são as exceções?  
+
+As exceções são comportamentos inesperados dentro de um sistema qualquer. Em todo programa existe um fluxo padrão de execução e quando ele é alterado, uma exceção deve ser gerada para ser tratada.
+
+ 
+
+As exceções podem acontecer por: erros semânticos no programa, acesso a algum dispositivo inválido ou indisponível no momento, utilização de caracteres no lugar de números (inteiros ou reais) etc.
+
+Erros e exceções
+
+Mesmo sendo chamada muitas vezes de “erro”, a exceção não é isso, pois erros são mais críticos e geralmente ocorrem em algo que não pode ser recuperado.
+
+ 
+
+Como exemplo temos a falha de memória, em que a aplicação é parada e não avança até que o problema seja totalmente corrigido.
+
+As exceções são situações simples e previsíveis. Assim, é possível configurar ações que atuem no momento em que ocorrer uma determinada exceção. Por exemplo, inserir uma mensagem para o usuário visualizar, tentar executar a mesma tarefa depois de um determinado tempo etc.
+
+Análise de exceções
+
+Diversas linguagens de programação, como C + +, Java, PHP, Python, Delphi e Ruby, possuem suporte nativo para o tratamento de exceções.
+
+ 
+
+A Java possui algumas particularidades na análise de exceções. Nessa linguagem, quando acontece qualquer tipo de erro no programa, será necessário refazer todo o caminho da execução do código para compreender onde está o problema e como solucioná-lo. Para isso, é importante entender a pilha de execução de métodos.
+
+Exceções em Java
+
+Pode-se analisar a seguir alguns exemplos de exceções na prática em Java.
+
+ 
+
+public static void main (String[] args) {
+
+System.out.println(4 / 0);
+
+System.out.println(“Fim”);
+
+}
+
+ 
+
+Nesse exemplo, ocorreu uma tentativa de dividir um número inteiro por 0. Mesmo que não tenha erros na sintaxe do código, observando por um lado lógico e matemático, não é possível realizar esse procedimento e, por isso, ocorrerá uma exceção e o código não será bem sucedido.
+
+Tratamento de exceção
+
+Para tratar e capturar as exceções na Java, é necessário utilizar alguns blocos de tratamento try/catch. No try, será inserido o código que está suscetível a exceções e, no bloco catch, será inserido o tratamento dessa exceção caso ela ocorra.
+
+public static void main (String[] args) {
+
+try {
+
+     System.out.println(4 / 0);
+
+} catch (Exception excecao) {
+
+     System.out.println(Ocorreu o erro: “ + excecao.getMassage());
+
+}
+
+     System.out.println(“Fim”);
+
+}
+
+Tratamento de exceção
+
+No código anterior, realizou-se o tratamento da exceção utilizando o try/catch. A subclasse “Exception”  foi utilizada onde essa exceção será capturada para ser tratada. Logo após a mensagem de exceção, o método de captura de erro “getMessage” foi utilizado, retornando uma mensagem com a lista de problemas armazenados na exceção.
+
+Conclusão
+
+Existem diversas formas de tratar exceções, podendo identificar os erros de forma menos ou mais específica, na tentativa de filtrar melhor os tipos de exceções que podem ocorrer dentro de um código.
+
+ 
+
+Ao capturar uma exceção, há a possibilidade de mostrar uma mensagem, de mostrar outro erro e de ignorar o erro (embora não seja uma boa prática). Todas essas formas estão inclusas dentro do pacote java.lang, que facilita a utilização de exceções.
+
