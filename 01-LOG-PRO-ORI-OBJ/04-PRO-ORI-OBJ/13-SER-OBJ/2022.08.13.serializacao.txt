@@ -1,0 +1,26 @@
+import java.io.*;
+
+public class MyClass {
+    public static void main(String args[]) throws IOException, ClassNotFoundException{
+    ProductOnline productOnline = new ProductOnline(name:"Camiseta", price: 20d);
+    System.out.prinln(productOnline);
+    
+    ObjectOutputStream objectOuput = new ObjectOutputStream(new FileOutputStreamm(name:"product.byte"));
+    objectOuput.writeObject(productOnline);
+    objectOuput.close();
+    }
+}
+
+
+public class ProductOnline implements Serializable{
+    private String name;
+    private Double price;
+    
+    ProductOnline() {};
+    
+    ProductOnline(String name, Double price) {
+       this.name = name;
+       this.price = price;
+    };
+    
+}
