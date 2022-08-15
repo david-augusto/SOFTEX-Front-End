@@ -1,0 +1,62 @@
+Desingn patters
+
+já foram testados
+
+aplicando da formacorreta dar certo
+
+Erick
+Richard
+Ralph
+Jonh
+
+Gang of four
+
+23 padrões divididos em 4
+
+- creation patter
+
+Abstrair
+
+Abstrair o processo de instaciação do objeto
+
+padronizar a criação de projeto para sistemas independentes
+
+Os padrões são:
+Absstract factory
+Builder
+Prototype
+Facy Method
+Singleton
+
+- Struct patterns
+
+relação dos onjetos e como eles interagem entre si
+Os padrões são:
+atapter
+Bridge, 
+Composite, 
+Decorator, 
+Facade, 
+Flyweight, 
+Proxy.
+
+- Behavioural patterns
+
+Comunicação dos objetos, definindo responsábilidades e como funciona
+
+Interator
+Mediator
+Memento
+Observer
+State
+Strategy
+Visitor
+Command
+Interpreter
+Template method
+Chair of responsibility
+
+
+Foco de reutilizar soluções e aplicar nas  resoluções
+
+como implemnetar > ver o conceito > saber indentificar códigos alheios
