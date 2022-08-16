@@ -1,0 +1,117 @@
+Visibilidade de atributos e métodos
+
+Visibilidade de atributos e métodos
+
+A visibilidade de atributos e métodos é baseada no conceito do Diagrama de Classes UML (Linguagem de Modelagem Unificada).
+
+ 
+
+Esse diagrama é um dos mais usados da UML e tem o objetivo de facilitar o mapeamento da estrutura de um determinado sistema. 
+
+ 
+
+A visibilidade define qual nível de interação os atributos e métodos de classes específicas poderão ter com outras classes. Esses níveis variam em grau de restrição.
+
+Modificadores de visibilidade
+
+Os modificadores de visibilidade são aplicados em atributos e métodos. Eles são representados por palavras-chave ou símbolos. 
+
+ 
+
+Na estruturação de um código, independente de qual modificador será usado, é necessário inserir a visibilidade para cada método e atributo. 
+
+ 
+
+A seguir, um exemplo será usado como base para aplicar alguns acessos aos atributos e métodos. Analise o funcionamento de cada.
+
+Exemplo base
+
+Classe Carro
+
+  publico modelo: Caracter
+
+  protegido ano: Inteiro
+
+  protegido km: Real
+
+  privado cor: Caracter
+
+  publico Metodo acelerar()
+
+    FimMetodo
+
+  privado Metodo freiar()
+
+    FimMetodo
+
+  protegido Metodo estacionar()
+
+    FimMetodo
+
+FimClasse
+
+c1 = novo Carro
+
+c1.modelo = “Fiat Uno”
+
+c1.ano = 2018    //erro
+
+c1.km = 130.7    //erro  
+
+c1.cor = “Verde”    //erro
+
+c1.acelerar
+
+c1.freiar        //erro
+
+c1.estacionar    //erro
+
+Modificador público
+
+public (público) (+)
+É o modificador que tem menos restrição. Ele possibilita que os atributos e métodos sejam visualizados e manipulados a partir de qualquer classe.
+
+ 
+
+Observando o exemplo base, podemos analisar que todos os atributos e métodos foram manipulados corretamente no objeto “c1”. Essa é a função do modificador público, que pode ser utilizado em qualquer parte do código.
+
+Modificador privado
+
+private (privado) (-)
+
+É o modificador de visibilidade que tem a função de restringir por completo. Ele impossibilita a visualização e manipulação dos atributos e métodos por qualquer outra classe que não seja a sua de origem.
+
+ 
+
+Observando o exemplo base, percebe-se que ocorreram erros com as manipulações de atributos e métodos privados para o objeto “c1”. Isso aconteceu porque a restrição do privado impede que essa ação seja realizada fora da sua classe.
+
+Modificador protegido
+
+protected (protegido) (#)
+
+Esse modificador possibilita que os atributos e métodos sejam visualizados e manipulados a partir da sua classe de origem e todas as suas subclasses. Ele será melhor compreendido quando definirmos o conceito de herança.
+
+ 
+
+No exemplo base, também ocorreram erros com os componentes protegidos do objeto “c1”. A chamada realizada logo após a criação da classe não é uma subclasse, então, o modificador protegido não tem acesso a ela. Por isso, o erro ocorre em todos os métodos e atributos protegidos.
+
+Modificadores de acesso
+
+Os modificadores de acesso são palavras-chave que definem a acessibilidade de atributos, métodos e classes.
+
+ 
+
+A partir deles, o programador pode definir como os elementos devem ser acessados.
+
+ 
+
+Porém, diferente das outras linguagens, na Python, tudo é público. Assim, não existem as palavras public, protected e private nela.
+
+Sendo assim, a comunidade Python se baseia em estabelecer uma série de convenções que indicam como o acesso a esses elementos deve ser realizado, ao invés de criar barreiras concretas de modificadores de acesso.
+
+Apesar da ausência de palavras reservadas próprias para encapsulamento, a Python permite utilizar esses conceitos através do uso do underline (_) na frente das variáveis e funções.
+
+ 
+
+Observe a imagem de exemplo (código 1), onde modificadores de acesso utilizam underline para cada tipo de modificador.
+
