@@ -6,3 +6,17 @@ public class MyClass {
       System.out.println("DAVID".length());
     }
 }
+
+public class MyClass {
+    public static void main(String args[]) {
+
+      System.out.println("david".toUpperCase());
+    }
+}
+
+public class MyClass {
+    public static void main(String args[]) {
+
+      System.out.println("DAVID".toLowerCase());
+    }
+}
