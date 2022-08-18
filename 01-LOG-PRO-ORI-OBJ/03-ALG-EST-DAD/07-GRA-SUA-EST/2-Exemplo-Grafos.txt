@@ -1,0 +1,11 @@
+Algoritmos do mecanismo de pesquisa, conhecido também por profissionais da área de SEO como PageRank.
+
+A forma como o Google trabalha o motor de busca permite a gente navegar na internet sem problemas. Ele utiliza os grafos para ajudar a organizar todos os sites no seu banco de dados e fazer as relações entre eles da forma mais otimizada possível. Quando uma pessoa digita palavra-chave no Google, é feita uma consulta no BD e assim o mecanismo procura sites que correspondam à palavra correspondente. 
+
+O mecanismo de busca utiliza a teoria dos grafos criando primeiro um webgraph, um gráfico onde os vértices são os sites e as arestas direcionadas seguem hiperlinks dentro desses sites. O resultado é um gráfico direcionado que mostra todas as relações entre os sites. Além disso, pode-se adicionar pesos aos vértices para dar prioridade a sites mais importantes ou influentes, que no mundo de SEO é chamado de autoridade de domínio.
+
+Público-alvo para propaganda no Facebook
+
+O Facebook como a maior rede social atualmente, precisa utilizar a forma como trabalha a propaganda dentro da plataforma da melhor forma possível, já que é essa a sua maior forma de ganhar dinheiro. Para conectar a propaganda para a pessoa ou grupo de pessoas de forma certa, ele utiliza a teoria dos grafos. Os grafos são utilizados da seguinte forma. É criado um grafo de rede social atribuindo um vértice a cada pessoa. Assim ele conecta vértices com arestas se as pessoas tiverem um relacionamento, como por exemplo um amigo no Facebook ou uma comunidade que você participa. A partir desse resultado são decompostos em sub gráficos menores e assim utilizam algoritmos para classificar estes grupos em comunidades, e por conseguinte, mostrar as propagandas direcionadas.
+
+
