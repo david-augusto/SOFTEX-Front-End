@@ -1,8 +1,0 @@
-Estruture três códigos, os quais devem conter uma função de manipulação de string que obtenha resultado.
-
-public class MyClass {
-    public static void main(String args[]) {
-
-      System.out.println("david".toUpperCase());
-    }
-}
