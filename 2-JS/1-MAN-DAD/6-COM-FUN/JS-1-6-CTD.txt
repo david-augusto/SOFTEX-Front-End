@@ -1,0 +1,11 @@
+Variáveis não tipadas em JavaScript
+
+declaração
+
+var nome = valor
+
+padrão - sempre começando com lerta minuscula
+
+Exemplo:
+variavelNova = 5
+variavelNova = "Casa"
