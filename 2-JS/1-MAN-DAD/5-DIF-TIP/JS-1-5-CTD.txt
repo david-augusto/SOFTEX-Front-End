@@ -1,0 +1,8 @@
+Tipo de dados primitivos
+
+Boolean: Verdadeiro e Falso
+Underfined: Automaticamente se não tiver valor
+Null: Valor nulo - que aponta para um objeto  e endereço inválido.
+Number: Número inteiros e decimais
+String: Texto que tem conjuntos de letras
+Symbols: função usado para guardar chaves, e criação de objetos anônimos
