@@ -1,0 +1,15 @@
+Concatenação de String e Convenção automática de tipos e operador ternario
+
+Operadores:
+
+Delete - Apaga objetos ou elemementos deste mesmo objeto
+
+OPERADOR 
+
+Type of - retorna o tipo de dado de uma variável
+
+ternário - variavel = condicao? valor1 : valor2;
+
+o + em string concatena
+
+O tipo não precisa ser declarado
