@@ -1,0 +1,14 @@
+Cite três exemplos de dados utilizados no seu cotidiano (exemplo: termômetro) e pesquise três outros exemplos em que dados na internet são usados (exemplo: criação de um usuário em rede social digital).
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Exemplos do Cotidiano:
+
+1 - Micro-ondas: Utiliza os dados de tempo para esquentar a comida na duração escolhida.
+2 - Máquina de cartão: Utiliza os dados do cartão oara efetuar o pagamento.
+3 - Telefone Fixo: Utiliza os dados de número para fazer as ligações.
+
+Exemplos de dados na internet:
+
+1 - Sites de compras pela internet (Amazin, Submarino, Americanas) que utiliza os dados de cadastro para efetuar as compras.
+2 - sites de streams (Netflix, HBO, Prime Vídeo, Disney +) que utiliza os dados dos usuários para realização de login nas plataformas.
+3 - Internet Banking (Caixa, Bradesco, Santander) que utiliza os dados dos cliente para operações bancárias.

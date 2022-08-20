@@ -1,0 +1,13 @@
+definiçãoe tipo de dados
+
+Dados é um valor que damos a algo
+
+JavaScript tem tipagem dinâmica
+
+Ele diz o tipo
+
+7 tipo de dados primitivos
+
+Boolean, Null, Underfined, Number, Big INT, String, Sumbol e Object
+
+
