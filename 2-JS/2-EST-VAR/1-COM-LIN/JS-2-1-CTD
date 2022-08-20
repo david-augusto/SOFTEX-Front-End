@@ -1,0 +1,38 @@
+ECMAScript
+
+Nessa aula, vamos entender o surgimento da ECMAScript, sua relação com a JavaScript e a diferença entre elas. Para isso, precisamos relembrar a criação da JavaScript.
+
+Resumo da história da JavaScript
+
+Quando a internet foi liberada para todos nos anos 1990, a Netscape surgiu com seu navegador próprio. Com o objetivo de permitir a interação do usuário na web, a Netscape resolveu criar uma linguagem que estaria embutida no navegador. Assim, surgiu a linguagem Mocha, depois chamada de LiveScript.
+
+Finalmente, temos acesso à internet e as linguagens foram criadas para os sites.
+
+Resumo da história da JavaScript
+
+Nesse tempo, existia uma linguagem que estava ficando muito famosa, a Java. Para aproveitar a fama dessa linguagem, eles mudaram novamente o nome para JavaScript, como uma jogada de marketing.
+
+Uma linguagem muito utilizada na programação de sistemas operacionais.
+
+Da JavaScript a ECMA
+
+Se cada navegador tivesse sua própria linguagem, seria um caos, principalmente para os programadores. Pois, eles teriam que aprender várias linguagens para conseguir colocar um site no ar em todos os navegadores populares.
+
+Importância da ECMA
+
+Então, a fim de manter um padrão, a Netscape enviou a JavaScript à ECMA Internacional, que é uma associação de padronização de sistemas de informação. 
+
+ 
+
+Como o nome JavaScript pertencia à Sun, foi preciso criar um novo nome, com isso surgiu a ECMAScript. Porém, ela continua sendo chamada popularmente de JavaScript.
+
+Diferença entre ECMAScript e JavaScript
+
+Com essa padronização, todos os criadores de navegadores devem seguir regras que indicam como a ECMAScript (ou JavaScript) deve funcionar. Assim, o seu código pode funcionar igual em qualquer navegador.
+
+ 
+
+Mas qual seria a  diferença entre essas linguagens?  A ECMAScript é a especificação e a JavaScript é uma implementação por partes dos navegadores.
+
+A ECMAScript é mais completa pois tem uma estrutura padronizada.
+
