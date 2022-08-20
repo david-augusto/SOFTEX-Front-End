@@ -1,0 +1,83 @@
+Vídeo
+
+Tipos de dados
+
+Os dados são manipulados por operadores aritmeticos
+
+Operadores: Expressões que executam ações específicas
+
++ - * /
+
+var numero = -50
+
+Potência **
+
+10 ** 2 = 100
+
+Mod
+Sobra de um divisão
+
+Adicionar ou subtrair
+
+Incremento
+
+resultado = --10
+
+-------------------------------------------------
+
+Slide
+
+JavaScript1
+Operadores de Igualdade
+
+Operadores
+
+Nesta aula, serão abordados os operadores lógicos, de igualdade e relacionais.
+
+Operadores lógicos
+
+Normalmente, os operadores lógicos são utilizados em estruturas de condição, porque conseguem fazer comparações. 
+
+ 
+
+Existem três operadores lógicos: “e”, “ou” e “não”. 
+
+ 
+
+O “e” indica que as condições da estrutura devem ser verdadeiras. Por exemplo, João tem que escovar os dentes E tomar banho para poder jogar. Percebe-se que as duas condições devem ser verdadeiras para ser verdade.
+
+Com o “ou”, apenas uma das condições deve ser verdadeira para que o resultado seja verídico. Por exemplo, para ir a uma festa, Maria precisa pegar um táxi OU um ônibus. Maria só precisa de uma condição verdadeira para ela ir à festa.
+
+Por último, há o “Não”, que é a negação de uma das condições. Por exemplo: João NÃO deve escovar os dentes e tomar banho para jogar. Nessa situação, João não deve escovar os dentes para poder jogar. 
+
+ 
+
+Uma dica é sempre utilizar a tabela verdade para fazer as condições de maneira correta.
+
+Operadores relacionais e de igualdade
+
+Os operadores relacionais também são usados em estruturas de condição, mas, diferente dos de lógica, eles fazem comparações de relações.
+
+ 
+
+A tabela mostra quais são os símbolos utilizados para esses operadores. Como exemplo, as condições agora podem ser da seguinte forma: 50 é igual a 50?
+
+Verdadeiro.
+
+Operadores relacionais
+
+Esses operadores também comparam strings, além de números.
+
+Operadores de igualdade
+
+Alguns desses operadores fazem parte dos relacionais, porém, com o foco nas operações de igualdade.
+
+ 
+
+Estritamente, o símbolo “===” significa igualdade, ou seja, ele deve ser totalmente igual em caso de objetos, não só em quantidade, mas em tamanho e informações.
+
+ 
+
+Temos, também, o “!==” que significa completamente diferente.
+
+
