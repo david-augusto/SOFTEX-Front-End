@@ -1,0 +1,53 @@
+Código Front-end na máquina
+
+Código Back-end no servidor
+Node.js
+
+Electro.js para desktop
+
+A importância da JavaScript em navegadores
+
+O que são os navegadores
+
+Os navegadores são softwares que servem para acessar páginas da internet escritas em HTML. Eles vivem em uma "batalha" para serem mais rápidos, e é nesse contexto que a JavaScript está inserida.
+
+ 
+
+Essa linguagem tem uma característica bem interessante: ela é interpretada, então todo o código é executado e o resultado surge na hora. O que significa uma etapa a menos quando comparada às linguagens compiladas, nas quais o código é agrupado e depois, executado pelo seu computador.
+
+Funcionamento da JavaScript no navegador
+
+O navegador recebe um código em JavaScript e consegue fazer a execução a partir do seu próprio script. Em outras palavras, navegadores mais modernos conseguem utilizar uma compilação chamada just-in-time que melhora o desempenho, fazendo com que o código seja compilado de forma bem mais rápida.
+
+ 
+
+Lembrando: como a JavaScript é uma linguagem interpretada, essa compilação acontece em tempo de execução.
+
+JavaScript client-side
+
+Outra característica excelente da JavaScript nos navegadores é a possibilidade de programar uma página de web utilizando só o lado do cliente (front-end).
+
+ 
+
+Isso é possível porque a JavaScript também é uma linguagem de front-end. Então, o código é executado a partir da máquina do cliente, não sendo necessário consultar os servidores que são mais complexos. Assim, facilita para que o programador possa trabalhar a partir dos seus navegadores. Ressaltando que esse caso é viável apenas para sites menos complexos.
+
+Compatibilidade
+
+Uma vantagem muito boa para os navegadores é que a JavaScript tem um alto grau de compatibilidade. Essa característica é muito importante, pois certas linguagens ao serem programadas podem ser incompatíveis com o sistema que você está implementando.
+
+ 
+
+Como consequência, seu código não irá funcionar e, provavelmente, você terá que procurar uma linguagem compatível para iniciar novamente.
+
+Na JavaScript, dificilmente isso ocorrerá, pois ela não apresenta problemas de incompatibilidade.
+
+ 
+
+Então, não se perde tempo mesmo lidando com vários projetos, pois não há problemas de compatibilidade, o que faz a diferença, principalmente, no início do projeto onde costuma-se demorar mais com configurações.
+
+Para finalizar, há também a característica de fácil adição do código JavaScript no HTML e CSS. Você só precisa utilizar a tag dele para poder programar em JavaScript.
+
+
+
+Essas características fazem essa linguagem ser muito importante para os navegadores e, principalmente, para o desenvolvedor web
+
