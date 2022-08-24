@@ -21,7 +21,7 @@ console.log("[codigo 1] Aluno", teste(primeiro,segundo,terceiro));
 
 
 console.log("-----------------------");
-// 1º código
+// 2º código
 
 function falta(x, y){
   return 21 - x - y;
