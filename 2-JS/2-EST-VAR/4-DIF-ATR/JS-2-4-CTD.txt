@@ -1,0 +1,64 @@
+Operadores de Atribuição (=, +=, -=, *=, /=, %=, **=) Incrementando e Decrementando valores
+
+Operadores de atribuição
+
+Hoje vamos falar sobre operadores, dessa vez vamos focar em operadores de atribuição, que nessa altura do curso você já utilizou ao menos um sem perceber. Pelo nome você consegue entender como funciona esse operador, ele tem o objetivo de atribuir um valor a alguma coisa (variavel).
+
+Operador “=”
+
+Uma das definições de operadores é que os ”operadores em JavaScript são símbolos especiais que envolvem um ou mais operandos com a finalidade de produzir um determinado resultado”. De acordo com o site Kenzie.
+
+var resultado = 25
+
+Função da JavaScript
+
+Então, há um código JavaScript operando em todo site que permite que o usuário interaja com ele. Páginas estáticas são mais prováveis de não ter essa linguagem em sua construção, por exemplo, um site com apenas um texto estático e nenhum tipo de interação.
+
+Operador “+=”
+
+O operador “+=” adiciona um valor a outro que já foi atribuído e soma uma variável a outra. Se forem strings, ele vai concatenar.
+
+x += y // é o mesmo que x = x+y
+
+Operador “-=”
+
+O operador “-=” serve para subtrair um valor de outro que já foi atribuído. Vale lembrar que esses operadores não funcionam para todos os tipo de dados.
+
+x -= y // é o mesmo que x = x-y
+
+Operador “/=”, “*=” e “%=”
+
+Por fim, os operadores para a divisão (/=), multiplicação (*=) e módulo (%=). Como mostra na imagem, eles seguem a mesma lógica dos anteriores.
+
+x *= y // é o mesmo que x = x+*y
+x /= y // é o mesmo que x = x/y
+x %= y // é o mesmo que x = x%y
+
+O é possível criar
+
+Com esses operadores, já é possível manipular os dados que entram e saem do programa.
+
+Praticando
+
+Problema: João precisa calcular seu Índice de Massa Corporal (IMC) para avaliar o seu peso ideal. Sabendo que a fórmula para calcular o IMC é: peso ÷ altura², crie um programa que calcule e informe, de acordo com a classificação do IMC, se ele está com o peso ideal, na média, se precisa diminuir seu peso ou se João precisa aumentar seu peso.
+
+Solução:
+
+function imc(){
+Var altura = parseFloat(document.getElementById("altura").value);
+Var peso = parseFloat(document.getElementById("peso").value);
+var imc = peso/ (altura*2) ;
+if(imc >= 18 && imc <= 25 )
+if(imc==20)
+alert("Parabens você está com o peso ideal");
+If(imc < 18)
+("Cuidado! você precisa aumentar seu peso")}
+Else
+alert("Parabens, você está dentro da media”);
+Else
+alert("Cuidado! você precisa diminuir seu peso")}
+
+
+
+
+
