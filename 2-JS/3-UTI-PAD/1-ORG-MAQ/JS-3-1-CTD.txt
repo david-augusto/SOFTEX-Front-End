@@ -1,0 +1,82 @@
+JavaScript2
+
+Configurando sua máquina para desenvolvimento back-end 
+
+Back-end com JavaScript
+
+A JavaScript é mais utilizada no front-end, onde é responsável pela parte lógica do seu site. Porém, nessa aula, vamos ver a utilização da JavaScript como linguagem back-end.
+
+ 
+
+Para que isso seja possível, vamos utilizar um framework chamado Node.js que é focado nesta linguagem.
+
+Node.js
+
+Node.js é um framework de código aberto, multiplataforma e que permite a execução de códigos da JavaScript fora de um navegador web. 
+
+ 
+
+Existem outros programas para utilizar a JavaScript no back-end, mas iremos trabalhar apenas com o Node.js.
+
+Node.js
+
+O Node.js possui um gerenciador com vários pacotes e softwares reutilizáveis que se chama Node Package Manager (NPM). Esse gerenciador de pacotes permite instalar bibliotecas de terceiros.
+
+ 
+
+Por exemplo, em um projeto que está sendo desenvolvido, existe o requisito de implementar um método de pagamento PayPal. Para isso, será necessário instalar uma biblioteca de terceiros que facilitará a implementação do mesmo.
+
+Instalação
+
+Para instalar o Node.js na sua máquina, você precisa acessar o site oficial do Node.js onde se encontra a versão LTS já validada - o que evita bugs e incompatibilidades com a sua máquina.
+
+ 
+
+A imagem mostra uma versão específica, mas caso essa não seja a versão mais atual, não tem problema, baixe a versão atualizada normalmente.
+
+Criando o seu projeto
+
+Com o Node.js baixado na sua máquina, crie uma pasta com o nome do seu projeto e a acesse. Dentro dela, você deve abrir o CMD e digitar a seguinte linha de código: 
+
+“npm init”
+
+ 
+
+O comando vai criar o arquivo package.json e, como é possível ver na imagem, ele armazenará as configurações do projeto, como o nome, descrição etc.
+
+package name: Nome do projeto. (Padrão: nome da pasta onde o comando foi executado)
+
+version: Versão do projeto. (Padrão: 1.0.0)
+
+description: Uma descrição para o projeto.
+
+entry point: Arquivo padrão que será utilizado para executar a aplicação. (Padrão: index.js)
+
+test command: Comando para executar os testes da aplicação.
+
+git repository: URL do repositório git onde o código-fonte da aplicação será armazenado.
+
+keyword: Palavras-chave relevantes para ajudar as pessoas a encontrarem o seu projeto.
+
+author: Autor do projeto.
+
+license: Tipo de licença do projeto. (Padrão: ISC)
+
+No fim, ele perguntará se tudo está correto e você deve digitar “yes”. Esse comando automaticamente cria um arquivo.js que se chama index, no qual você irá programar todo o seu código JavaScript.
+
+Executando o código
+
+Para executar o seu código, você deve utilizar o seguinte comando:
+
+“Node NOME-DO-ARQUIVO-JS”
+
+ 
+
+Lembre-se que para executar esse comando, deve-se estar na pasta onde o arquivo está localizado.
+
+ 
+
+Assim, criamos nosso primeiro projeto JS, mas ele ainda não é um projeto web back-end. Para isso acontecer, usaremos a biblioteca express nas próximas aulas.
+
+C:Users/_   >node index.js
+
