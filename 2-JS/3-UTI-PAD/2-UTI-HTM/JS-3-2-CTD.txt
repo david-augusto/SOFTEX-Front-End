@@ -1,0 +1,13 @@
+JacaScript no HTML
+
+Tag HTML
+
+<script></script>
+
+3 formas de colocar 
+
+- dentro da tag script
+- fazendo referencia a outro arquivo
+- no head para ser executado antes
+
+pata chamar a função deve-se colocar o nome da função na ação.
