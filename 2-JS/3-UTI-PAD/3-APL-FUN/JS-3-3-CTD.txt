@@ -1,0 +1,141 @@
+Funções
+
+Declaramos funções
+
+Conjunto de intruções
+Criadas quando um mesmo procedimento se repete
+
+Declarar
+
+Function
+Nome da função
+Lista de argumentos
+Código da função
+
+Function oi(){
+	console.log("Olá mundo");
+}
+
+Lista de argumentos
+Informação de fora
+Números serão passados como argumento
+
+Function soma(num1,num2){
+	var resultado = num1+num2;
+	console.log(resultado);
+}
+
+Função Callback
+
+Executada após o processamento de outra função
+
+é passada como argumento de outra função
+
+Não espera o evento terminar para executar o próximo
+
+Function print(callback){
+	callback();
+}
+
+fuction primeiroBloco(){
+// AGUARDAR 5 SEGUNDOS
+setTimeout(function(){
+console.log('PRIMEIRA FUNÇÃO ATIVADA');},5000);
+}
+
+fuction segundoBloco(){
+console.log('SEGUNDA FUNÇÃO ATIVADA');
+}
+
+primeiroBloco();
+segundoBloco();
+//RESULTADO
+//SEGUNDA FUNÇÃO ATIVADA
+//PRIMEIRA FUNÇÃO ATIVADA
+
+
+Resolvendo
+
+aguardar para ativar
+
+function exibePrimeiraMensagem(mensagem, callback){
+console.log('SEGUNDA FUNÇÃO');
+callback();
+}
+
+function exibeSegundaMensagem(){
+	console.log('SEGUNDA FUNÇÃO');
+}
+exibirPrimeiraMensagem('PRIMEIRA FUNÇÃO', exibirSegundaMensagem);
+
+----------------------------
+
+Arrow Functions
+
+Funções
+
+As funções são importantes na programação do projeto, pois ajudam na organização e na manutenção do código. Nessa aula, vamos falar sobre outra maneira de utilizar as funções com as arrow functions.
+
+As arrow functions foram introduzidas no ES6 e permitem diminuir a sintaxe de uma função. O seu tipo de sintaxe não tem os argumentos usuais, como this, arguments ou super.
+
+Sintaxe
+
+Uma função convencional pode ser criada com a seguinte sintaxe:
+
+ 
+
+function nome da função(parâmetros(opcional)){}
+
+ 
+
+Nas arrow functions, só precisa dos parênteses e o sinal “=>”, que se assemelha a uma flecha.  Ficando com a seguinte sintaxe:
+
+()=>{}
+
+//função tradicional
+
+functiom(){
+
+}
+
+//arrow function
+()=>{
+
+}
+
+Algumas diferenças
+
+Nas arrow functions, não é necessário utilizar return quando temos apenas um único comando.
+
+Uma função que retorna uma frase, por exemplo, com as arrow functions, não precisa utilizar o return, pois a própria linguagem percebe que existe apenas um único comando e vai entender que a frase é o retorno da função.
+
+ 
+
+Na imagem, na última arrow function, a variável nome foi colocada sem parênteses, isso é possível por se tratar de um parâmetro único.4
+
+const frase = function Parabens(nome){
+return 'Parabens ${nome}, tudo de melhor!!';
+}
+
+const frase = (nome)=>'Parabéns ${nome}, tudo de melhor!!'
+
+const frase = nome=>'Parabéns ${nome}, tudo de melhor!!'
+
+Destructuring
+
+Uma outra característica bem interessante é a desestruturação ou destructuring. Essa sintaxe pode ser usada para definir valores padronizados e tê-los como parâmetros de uma função.
+
+ 
+
+Por exemplo, em uma função calculadora, você só precisará colocar a operação, pois os números já foram previamente definidos. Assim, quando chamamos a função calculadora, ela retorna o valor correto.
+
+const calculadora=(operador,[num1, num2]=[15, 5])=> "Resultado final " + eval('${num1} ${operador} ${num2}');
+
+calculadora('-')
+
+//resultado final 10
+
+Vantagem
+
+As arrow functions proporcionam a simplificação do código, ou seja, permitem que os programadores tenham mais liberdade com o gerenciamento de funções.
+
