@@ -1,0 +1,11 @@
+6º Desafio                                                                                  #8diasdecodigo      O desafio de hoje é um pouco diferente. Vocês têm um desafio de pesquisar sobre os assuntos abaixo e escrever um pequeno resumo sobre cada tópico: 
+ 
+➢ Objetos em Javascript ➢ Desestruturação (Arrays) ➢ Desestruturação ( Objetos ) ➢ DOM (Árvore DOM) ( Escolha 2 exemplos da árvore ) 
+ 
+Pesquise sobre cada um dos tópicos e fale o conceito e use um pequeno exemplo de código para mostrar na prática. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Atividade realizada no link abaixo:
+
+https://docs.google.com/document/d/1z0iYb3pn9OmqgBACfnivA41wiLqMGsTP-eX4DKsd2Rc/edit?usp=sharing
