@@ -1,0 +1,48 @@
+Objetos JavaScript
+
+JavaScript e objetos
+
+A JavaScript é uma linguagem orientada a objetos, ou seja, ela trabalha os conceitos de herança e polimorfismo utilizando objetos.
+
+O que é um objeto?
+
+Na JavaScript, um objeto é uma entidade independente com propriedades e tipos.
+
+ 
+
+Por exemplo, um caderno, o qual é um objeto que tem propriedades, como cor, formato, medidas, matérias etc
+
+Na imagem, há um objeto chamado “tv” e suas propriedades de modelo, marca e tamanho. No código,  esse objeto foi criado e vinculado à variável “minhaTv”.
+
+ 
+
+Dessa forma, a variável herdará todas as propriedades do objeto “tv”, sendo possível adicionar informações às propriedades herdadas.
+
+Criando objetos
+
+Na JavaScript, existem duas formas de criar um objeto. A primeira é usando um inicializador de objetos. Para criar o objeto deve-se atribuí-lo a uma variável, ou seja, deixar entre chaves ({}) as suas propriedades, respeitando a sintaxe que se observa na imagem - o nome da propriedade vem primeiro e o valor vem após os dois pontos (:) .
+
+Também, é possível colocar um objeto dentro de outro. No exemplo da “minhaTv”, foi criado um objeto chamado controle que tem outras propriedades. Isso promove uma grande liberdade de criação.
+
+imagens
+
+A segunda forma é usando uma função construtora. Para isso, você tem que criar uma função com o nome do objeto que será trabalhado, colocar as propriedades como parâmetro e lembrar de adicionar esse valores no corpo da função utilizando o “this”, que significa que você quer adicionar valores na propriedade do objeto.
+
+ 
+
+Criada a função, é possível instanciar (utilizar) ela em uma variável usando a palavra reservada “new” e o nome do objeto.
+
+Métodos
+
+Os objetos podem ter métodos que são funções associadas a ele.
+
+ 
+
+Em um objeto “Banco”, por exemplo, é possível criar um método chamado “mostrarSaldo()” que mostrará o saldo do objeto criado.
+
+ 
+
+Para criar um método, você deve elaborar uma propriedade e nela atribuir uma função. Quando quiser utilizá-lo, coloque:
+
+nome do objeto + “.” + o nome do método
+
