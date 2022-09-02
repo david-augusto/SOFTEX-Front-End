@@ -1,0 +1,88 @@
+O que são arrays?
+
+Listando valores
+
+Trabalhando com arrays
+
+O que é um array?
+
+O array é uma estrutura que serve para guardar e organizar dados, ou seja, é um espaço fixo na memória do computador que armazena elementos.
+
+Assim, um array funciona de maneira semelhante a um armário, no qual você armazena itens em locais reservados.
+
+ 
+
+Esses elementos guardados podem ser acessados por uma indicação que chamamos de índice. Trazendo para o nosso exemplo, é como se eu tivesse uma meia e pudesse escolher em qual compartimento colocar.
+
+Como funciona um array em JavaScript?
+
+Vamos usar um exemplo para essa explicação.
+
+ 
+
+Para fazer um bolo, precisamos elaborar uma lista com os ingredientes que vão ser utilizados.
+
+ 
+
+Na imagem, é possível ver essa ordenação. Um array em JavaScript é organizado dessa mesma forma.
+
+Como funciona um array em JavaScript?
+
+
+O primeiro índice é sempre zero. Já na posição dois,  por exemplo, encontra-se a farinha.
+
+ 
+
+Seguindo, percebe-se que cada item é acessado pelo índice, sendo possível trocar posições, adicionar ou remover os elementos de acordo com o que se pretende.
+
+Array no código
+
+Para declarar um array, é possível criar uma variável atribuindo as informações entre colchetes “[ ]”.
+
+ 
+
+No exemplo da imagem, os elementos já estão com suas posições designadas. O cachorro está na posição 0 e o boto na posição 3.
+
+ 
+
+Se colocarmos só os colchetes, o programa já entende que isso é um array.
+
+VAR LISTAdEaNIMAIS = ['CACHORRO', 'GATO'];
+
+Acessando o valor de um elemento
+
+Para fazer esse acesso, deve-se escrever o nome do array e colocar a posição do elemento que deseja usar.
+
+ 
+
+Uma outra forma é utilizar um loop para pegar todos os elementos disponíveis no array.
+
+ 
+
+E uma terceira opção é utilizar os métodos que o array permite, como o “indexOf()”. Assim, o elemento é passado como parâmetro e retorna à posição que ele se encontra no array.
+
+Adicionando e removendo elementos
+
+
+Para adicionar um novo elemento, é preciso utilizar os métodos disponíveis.
+
+ 
+
+Se o elemento for inserido no final do array, utiliza-se o método “push()”. Se for no início, coloca-se o método “unshift()”.
+
+ 
+
+Nos dois casos, é importante passar o elemento que será adicionado.
+
+ 
+
+Já o “pop()” e o “shift()”  são utilizados para remover o último e o primeiro elemento, respectivamente.
+
+O array em JavaScript não se limita a palavras ou números. Cada elemento pode ser um objeto, por exemplo. Isso aumenta as possibilidades de programação.
+
+ 
+
+Além disso, o array pode ser manipulado de várias formas, utilizando outros métodos, como o map e o filter.
+
+
+
