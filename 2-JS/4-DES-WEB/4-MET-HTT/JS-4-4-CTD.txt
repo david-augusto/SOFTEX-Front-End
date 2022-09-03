@@ -1,0 +1,95 @@
+VIDEO
+Métodos HTTS no JavaScript
+
+get - busca uma ou mais informação
+post - cria uma nova informação
+put - atualiza uma informação existente
+delete - remove uma informação
+
+COMO USAR
+
+Express
+
+Roteamento
+
+import express from 'express';
+imprt routes from './routes';
+
+const app = express();
+
+criar rotas
+
+app.get
+app.put
+app.delete
+---------------------------------------
+SLIDE
+
+Utilizando métodos HTTP com javaScript
+
+Protocolo HTTP
+
+Se já existe um código Node.JS com métodos HTTP, seria necessário fazer outro código no  front-end  e em JavaScript para testá-lo?
+
+ 
+
+Não necessariamente. Atualmente, quando um back-end é criado, é possível testá-lo em programas, como o Insomnia e o Postman.
+
+Aplicações de rotas
+
+Nesses programas, só é preciso colocar a URL e um método HTTP para o programa mostrar o retorno. Assim, é possível testar suas rotas e saber que métodos estão falhando.
+
+ 
+
+Na imagem, podemos ver o Insomnia sendo utilizado. A rota (URL) e o método HTTP (nesse caso, o post) foram colocados e, no lado direito, temos o retorno do teste.
+
+Baixando o pacote
+
+Para conectar o seu projeto no programa, é preciso deixar o back-end ativo com o Express. Para isso, deve-se utilizar a biblioteca nodemon, que ativará o back-end automaticamente.
+
+ 
+
+A primeira coisa que deve ser feita é abrir o projeto no VSCode e abrir o terminal para instalar o Express.
+
+ 
+
+Na imagem, o Yarn, outro gerenciador de pacotes, é utilizado, mas o npm do Node.JS pode ser usado normalmente.
+
+Primeiros passos
+
+Você deve criar uma pasta chamada src. Nela, vai ficar todo o código fonte.
+
+ 
+
+Depois, crie o primeiro arquivo chamado index.js, abra-o e digite um dos códigos mostrados na imagem. Com eles, você importa a biblioteca Express para a variável de mesmo nome.
+
+Escolhendo a porta do servidor
+
+Para acessar o seu projeto pelo navegador, a sua aplicação precisa de uma porta. Escolha qualquer uma acima do número 80 (existem algumas reservadas).
+
+ 
+
+Para fazer isso, você deve colocar express dentro de uma variável e utilizar a função listen. Nela, você passa o número da porta escolhida como parâmetro.
+
+Fazendo o seu primeiro ‘Hello World’
+
+A porta é onde a aplicação será rodada. Com ela, vamos fazer nosso projeto retornar ‘Hello World’ para o cliente.
+
+ 
+
+Como visto no vídeo, o Express tem várias funções para criar rotas. Portanto, é preciso criar uma para o  ‘Hello World'.
+
+Depois, se faz a ligação do servidor. Para isso, abra o terminal do VSCode e coloque o comando "node src/index.js". 
+
+ 
+
+Lembrando que, no exemplo, estará “src/index.js” porque o projeto da imagem está neste diretório.
+
+ 
+
+Com isso feito, vá para o seu browser e coloque a porta escolhida, no caso do exemplo será a "localhost:3333".
+
+Observações finais
+
+Toda vez que alguma modificação no seu código for realizada, você deve ir no terminal e executar o comando “ctrl + c” para fechar o server. Depois, utilize o "node src/index.js" novamente para voltar a ligação. Sem isso, a página não recebe as atualizações feitas. Para automatizar essa ação, se utiliza o nodemon.
+
