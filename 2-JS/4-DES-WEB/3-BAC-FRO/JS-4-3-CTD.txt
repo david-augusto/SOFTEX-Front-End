@@ -1,0 +1,44 @@
+JSON ou Object Notation
+
+Notação de objeto Javascript que pode ser representado de forma comuma outras linguagens
+
+Formato simples de troca de informações entre sistemas
+
+{
+	"id" :1,
+	"nome":"Alexandre Gama",
+	"endereço":"R. QUalquer"
+}
+
+Vantagens:
+
+Suporta Objetos, Velocidade Maior, Tamanho Reduzido
+
+Usa em API de outra empresa
+
+Back-end para Front-end
+
+{"id":5,"Modelo":"UNO","Placa":"ABC1234"}
+
+- Não pode ter funções
+- Não pode ter comentários
+- Propriedades e textos precisam sempre de aspas duplas
+
+Como usa
+
+Biblioteca JSON
+
+cria uma variável que vai utilizar a biblioteca JSON
+- usa função Stringify - Converte em JSON
+
+JavaScript considera JSON como String
+
+TRADUZIR
+
+Função Parse
+
+const obj = JSON.parse(valorJson)
+
+Retorna Objeto.
+
+const jsonData= JSON.stringify(objs)
