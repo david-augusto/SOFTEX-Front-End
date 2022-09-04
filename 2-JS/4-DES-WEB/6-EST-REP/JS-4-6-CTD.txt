@@ -1,0 +1,49 @@
+Repetição
+
+for usada em muitas liguagens
+
+so while - 
+
+for of
+
+cria um loop       
+parâmetros passados para a função
+
+array - posição do array
+
+for (const variavel_que_tera_o_valor of array_a_ser_percorrido
+
+Sempre pecorrerá o array por completo
+
+const array1 = [1,50,10];
+
+for(const e of array1){
+console.log(e);
+}
+
+//resultado: "1" "50" "10"
+
+for in
+
+Pecorrer sobre objetos
+Acessa as propriedades
+
+For of
+
+Acessa os valores de uma estrutura de dados
+
+
+let livro = {
+	nome: 'narnia',
+	cod: 4580,
+	categoria: 'ação e aventura'
+};
+
+for (const propriedade in livro){
+	console.log('${propriedade}: ${livro[propriedade]}');
+}
+
+
+//resultado => nome: narnia
+//resultado => idade: 4580
+//resultado => profissão: ação e aventura
