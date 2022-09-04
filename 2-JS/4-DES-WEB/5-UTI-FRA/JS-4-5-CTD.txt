@@ -1,0 +1,42 @@
+Framework para JavaScript
+
+Nessa aula, vamos falar sobre os frameworks para a JavaScript. Esse assunto é bem útil no mercado de trabalho, por isso, leia com atenção.
+
+O que é um framework?
+
+Você já pensou se existe uma forma mais fácil de desenvolver códigos?
+
+ 
+
+Um framework pode ajudar com isso! Ele é uma ferramenta cujo objetivo é focar em desenvolver um projeto e não em detalhes de configurações.
+
+O que é um framework?
+
+
+O framework evita que tenhamos que fazer tarefas repetitivas, pois ele automatiza parte do trabalho.
+
+ 
+
+Por exemplo, imagine que temos que criar um formulário e precisamos da validação para e-mail. O framework já tem a validação pronta para facilitar o processo, mas isso não impede que o programador faça sua própria validação caso ele queira.
+
+Frameworks para JavaScript
+
+Agora, vamos ver alguns dos frameworks mais utilizados na JavaScript.
+
+ 
+
+A react é conhecida por ser uma biblioteca para criar interfaces eficientes. Assim, ela é uma ferramenta para o front-end e tem como característica a facilidade na hora de ter um código limpo e reutilizável.
+
+A react foi criada pelo Facebook.
+
+AngularJS
+
+O AngularJS, criado pelo Google, é um  framework open source muito utilizado para criar as single page applications (SPA). Essa é uma tecnologia muito comum de se encontrar nas empresas.
+
+O AngularJS é muito focado na SPA.
+
+Foque na linguagem
+
+De fato, existem muitos frameworks e bibliotecas, mas o mais importante é você conhecer as linguagens, pois, quando as conhece, é possível se adaptar a diferentes frameworks.
+
+NODE JS, REACT JS, ANGULAR, VUE JS
