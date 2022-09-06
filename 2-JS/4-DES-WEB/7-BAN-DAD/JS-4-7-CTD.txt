@@ -1,0 +1,21 @@
+Javascript com banco de dados
+
+MySQL
+
+Precisaremos do Node.JS para fazer conexãp vamos utilizar o ORM. 
+
+SEQUELIZE
+
+Você já precisa ter um banco de dados MYSQL já implementado e com uma tabela
+
+O Sequelize gerencia quando vai abrir e fechar as conexões conforme for preciso
+
+Conection pool
+
+Cria o "model"
+
+Modulo que vai conter as informações do nosso mapeamento objeto-relacional
+
+será um código Javascript que representará a tabela do banco de dados
+
+se não tiver a tabela o sequelize cria
