@@ -1,0 +1,30 @@
+O que é HTML (história e definição)
+
+Hypertext Markup Language (HTML), em português Linguagem de Marcação de Hipertexto, é uma linguagem de marcação.
+
+Muitos acreditam que a HTML é uma linguagem de programação, mas ela não é porque não possui propriedades como: operadores lógicos, funções, variáveis etc.
+
+ 
+
+É através da HTML que o navegador interpreta os elementos de uma página e entende o local de cada.
+
+História
+
+A HTML surgiu a partir da necessidade de criar, editar e compartilhar hipertextos pela internet.
+
+ 
+
+No fim da década de 1980 e início da década de 1990, o físico Tim Berners Lee (1955-) queria compartilhar conteúdos acadêmicos a partir de um repositório em rede. Para isso, era necessário a criação de uma linguagem que comunicasse com o servidor e o navegador.
+
+Lee obteve sucesso na primeira comunicação entre cliente HTTP e servidor. Assim, foi possível criar a HTML, a qual pode ser utilizada por todos devido à internet pública.
+
+Versões
+
+Versão 2.0: surgiu em 1995 com o objetivo de formalizar suas características. É a primeira versão após o HTML original ser lançado;
+Versão 3.2: em 1997, houve correção de problemas de compatibilidade da versão anterior, como também a adição de tabelas, applets e texto flutuante ao redor da imagem;
+
+
+Versão 4.01: surgiu em 1999, quando foi possível oferecer compatibilidade com outras versões e suporte para opções multimídias, folha de estilos e melhores práticas de programação;
+
+Versão 5: surgiu quinze anos depois da anterior. Nessa versão, foi possível dar suporte de áudio e vídeo em alto nível. Além disso, utilizava-se um banco de dados web, diferente das outras versões que utilizavam o cache do navegador surgiram novos tipos de controles de formulários como data e horas, e-mail, pesquisa e entre outros.
+

@@ -1,0 +1,91 @@
+Quais as principais tags da HTML
+
+Introdução as tags
+
+Para a construção de um site, é necessário ter uma estrutura de base HTML. Portanto, é muito importante conhecer as tags que compõem a base para formação dos elementos que fazem parte do DOM. 
+
+As tags são estruturas de linguagem de marcação. Elas contêm instruções que servem para informar a estrutura do site ao navegador e construir elementos da HTML. Quando são utilizadas corretamente, elas contribuem bastante para o SEO de um site. 
+
+SEO significa Search Engine Optimization (otimização para mecanismos de busca). É um conjunto de estratégias e técnicas de otimização para sites, blogs e páginas na web com o objetivo de melhorar o posicionamento orgânico em buscadores como o Google ao gerar tráfego e autoridade digital.
+
+
+Cada tag é formada pelo sinal menor que (<), nome do elemento e sinal maior que (>), nessa respectiva ordem.
+
+ <html>
+
+ 
+
+Existem tags que precisam de fechamento e outras não. Na maioria dos casos, o fechamento é necessário. Para isso, se coloca uma barra ( / ) antes do nome do elemento para indicar o fechamento.
+
+ </html>
+
+Para as tags que não possuem fechamento, é preciso colocar a barra ( / ) antes do sinal de maior que.
+
+ 
+
+<input/>
+
+ 
+
+Além disso, elas podem receber atributos com valor e modificar sua estrutura ou funcionalidade.
+
+
+Atributos
+
+A maioria das tags possuem atributos próprios, mas há aqueles que podem ser utilizados em várias tags.
+
+
+class: atribui uma classe CSS para uma tag;
+id: atribui um id CSS para uma tag;
+href: atribui a URL de um recurso ligado;
+src: atribui URL para um conteúdo, por exemplo, uma imagem;
+type: atribui o tipo do elemento;
+value: atribui o valor padrão de um elemento.
+
+
+Principais tipos de tags
+
+É possível categorizar as tags em dois tipos: o block-level (nível de bloco) e o inline (em linha). O primeiro ocupa todo o espaço do seu elemento pai e o segundo ocupa apenas o espaço do seu conteúdo, como no exemplo ilustrado.
+ ---------------
+VIDEO
+PRINCIPAIS TAGS html
+
+- Doctype HTML - Responsável pela versão e raiz da estrutura
+
+- Metadados - Guardar informações. scripts, estilos
+
+head, link, meta, style, title
+
+- Separação de conteudo
+
+address, article, aside, footer, header, main, nav
+section, h1, h2, h3, h4. h5, h6
+
+- Tags de texto
+
+blockquote, p, hr, div, ol, ul, li, pre
+
+- Semântica textual inline  estrutura de linha
+
+a, b, br, q, strong
+
+- Tag multimidia
+
+img, iframe, picture, source
+
+ - Tags de tabelas - usadas antigamente e hoje é mais em e-mails
+
+table, tbody, td, tr, th, col, caption, tfoot, thead, col, colgroup
+
+- Tags de formulários
+
+form, input, label, button, fieldset, legend, option
+textarea, select, datalist, optiongroup, progerss, meter, output
+
+- Tags de script - JS dinâmicos
+canvas, noscript, script
+
+
+
+
+
