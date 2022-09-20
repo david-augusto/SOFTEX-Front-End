@@ -1,0 +1,64 @@
+Metadados
+link - folha de estilo
+title - titulo da paginas
+head - onde ficarão os metadados
+meta - define informações dos metadados
+style - códigos de estilos
+
+section, article, aside, header, nav, main, footer, h1 ao h6
+Fundamentais para separação de conteudo em um site
+
+nav e header -  ficam no topo
+link e cabeçalho
+
+main - conteudo principal
+
+section - cria separação generica da pagina e adiciona titulo ao seu conteudo
+
+article - conteudos independentes como artigo, comentário e widget
+
+
+
+aside - barra lateral, informações perfil e tipo
+
+h1 a h6 - subtitulos
+
+footer - rodapé da pagina
+
+
+conteudo testuais
+
+p - paragrafos
+ul lista desordenadas
+ol - ordenadas
+li - itens de lista
+div -  contêiner generico
+blockquote - citação de bloco de texto
+
+semânticas textuais
+A- link  href linka
+b - negrito
+br - quebra link
+span - conteiner generico parecido div para linha
+
+small fonte menor
+
+strong negrito
+
+img - imagem
+audio - audio
+video - video
+
+
+
+formulários
+
+button - botão
+fieldset - agrupar elementos
+form - o formulário + href
+
+input - caixa de texto {radio, text, password}
+
+label - legenda
+select -  ter um menu de opções
+textarea - caixa extensiva
