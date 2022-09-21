@@ -1,0 +1,126 @@
+Criando o corpo de uma página
+
+Introdução
+
+A partir dessa aula, será possível criar elementos para compor uma página. Dependendo de como ela será, é viável utilizar todos os elementos.
+
+Além da estrutura base da HTML, existem templates para a criação dos conteúdos das páginas. Cada conteúdo pode ser estruturado ou separado de uma forma diferente.
+
+ 
+
+Imagine um blog pessoal, por exemplo, com título, textos e uma sidebar com mais informações e links para navegar no blog. Sendo assim, como é possível estruturar cada pedaço deste site?
+
+Criação do título
+
+Na criação do título, são necessárias a tag header e a h1 para o texto.
+
+ 
+
+Exemplo:
+
+ 
+
+<header>
+
+  <h1>Meu Blog</h1>
+
+</header>
+
+Criação dos textos
+
+Após a criação do título, os textos que vão compor o blog são feitos em seguida.
+
+ 
+
+Há várias formas de criar essa estrutura, a primeira é que, na ausência de outras tags de separação de conteúdo, pode-se usar a div. Mas se elas estão presentes, é possível usar a tag section que irá representar um bloco de texto
+
+Criação dos textos
+
+Exemplo:
+
+ 
+
+<section>
+
+  <img src=”./paisagem.jpg” />
+
+  <h3>Sejam bem-vindo(as)</h3>
+
+  <p>Esse é o meu primeiro blog, portanto gostaria de documentar meus pensamentos e alguns poemas com vocês, espero que gostem.</p>
+
+</section>
+
+Criação da sidebar
+
+A criação da sidebar será feita em paralelo com o conteúdo principal.
+
+ 
+
+Mais uma vez, em caso de não existir outras tags de separação de conteúdo podemos usar a tag div. Mas, nesse caso, a tag aside será utilizada.
+
+Exemplo:
+
+ 
+
+<aside>
+
+  <ul>
+
+  <li>Poemas</li>
+
+  <li>Um pouco sobre mim </li>
+
+  <li>Minhas aventuras</li>
+
+  </ul>
+
+</aside>
+
+Criação do rodapé
+
+Também pode existir um rodapé nesse blog. Geralmente, ele é usado para adicionar informações de contato, links externos e para voltar ao topo da página.
+
+ 
+
+A tag footer, que significa rodapé em inglês, será utilizada:
+
+ 
+
+<footer>
+
+  <span>Contato</span>
+
+  <ul>
+
+  <li><a href=”facebook.com/meublog”>Facebook</a></li>
+
+  <li><a href=”instagram.com/meublog”>Instagram</a></li>
+
+  <li><a href=”twitter.com/meublog”>Twitter></a></li>
+
+  </ul>
+
+</footer>
+
+-----------------
+Video:
+
+Texto pode separar com div e section
+
+formulario
+
+separador de conteudo
+
+Sidebar - lateral
+
+Estrutura para e-mails - html + tabelas
+
+slot - dinâmico
+
+tamplet e content - framework
+
+Tags obsoletas
+
+content, image,  center, space, dir, frame, applet, blink
+
+
