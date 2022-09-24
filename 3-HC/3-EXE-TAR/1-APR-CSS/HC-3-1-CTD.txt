@@ -1,0 +1,59 @@
+O que é CSS + história
+
+O que é CSS?
+
+A Cascading Style Sheets (CSS), no português Folhas de Estilo em Cascata, é uma linguagem de estilização utilizada em conjunto com a HTML para aplicações web.
+
+História
+
+Com a evolução da HTML, foi possível manipular a aparência de seus elementos, deixando a linguagem cada vez mais complexa e difícil de mantê-la.
+
+ 
+
+Além disso, cada navegador interpretava essas questões de forma diferente, o que dificultava ainda mais a visualização dos sites.
+
+Para resolver esses problemas, Hakon Wium que na época trabalhava com o Tim Berners, resolveu criar uma forma mais fácil de estilizar os sites e melhorar sua visualização.
+
+ 
+
+Em 1994, na mesma época em que eles trabalhavam em um navegador chamado Argo, surge a CSS.
+
+No ano seguinte, eles apresentaram a World Wide Web Consortium (W3C) e o projeto foi aprovado com a criação de uma equipe de trabalho.
+
+ 
+
+Em 1996, a primeira versão da CSS foi introduzida. Dois anos depois foi lançada a segunda e, logo após, a terceira, que é a mais atual. Essa está em constante desenvolvimento, ou seja, ainda há adição de novas características.
+
+Como usar a CSS?
+
+A CSS permite aplicar estilos seletivos. Portanto, vamos aprender como aplicá-los nos elementos da HTML.
+
+Após a criação de toda a estrutura HTML da página, cria-se um arquivo chamado styles.css, onde são colocadas todas as configurações de estilo;
+Na tag head de nossa página, vamos fazer a importação do arquivo de estilos:
+
+<link rel=”stylesheet” href=”./styles.css”>
+ 
+Agora que o arquivo de estilos foi importado, é possível iniciar a estilização.
+
+Por exemplo, para aumentar a fonte e dar uma cor para um elemento <p>:
+
+ 
+
+p {
+
+    font-family: 16px;
+
+    color: red;
+
+}
+
+Um ponto importante é que, em alguns momentos, será possível a aplicação de estilos através de uma hierarquia.
+
+ 
+
+Por exemplo, em uma section, há uma div, na qual há uma p para estilizar. Ao fazer: section div p {} coloca-se os estilos desejados dentro das chaves.
+
+ 
+
+Para aplicar um mesmo estilo para mais de um elemento ou classe: p, span, a {}.
+
