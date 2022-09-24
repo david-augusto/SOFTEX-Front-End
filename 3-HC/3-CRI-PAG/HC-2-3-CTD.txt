@@ -1,0 +1,13 @@
+Pagina por completo
+
+criar arquivo html chamado index.html
+
+rodapé <foofter>
+
+Tag script para js
+tag style para css
+
+cabeçalho 
+corpo
+rodapé
+
