@@ -1,0 +1,47 @@
+Propriedades básicas na css
+
+espaçamento
+top, right, botton, left, 
+.name{
+	margin: 10ox 5px 10px 5px; (externo)
+	padding: 50 px;
+}
+
+.container{
+	padding: 10ox 5px 10px 5px; (interno)
+	margin-top 10px;
+}
+
+font-seze - tamanho da fonte (font-family)
+
+color: cor
+
+background: url
+
+hiperlink sem ser sublinhado
+text-decoration
+
+alinha texto
+
+text-aling: center
+
+display - tipo de rederização
+
+display; bloco;, absolute, relative, flex, none
+
+reesponsivo:
+
+fle box
+
+display: flex
+
+propriedades
+
+justfy-content: alinhar elementos horizontalmente
+align=items: verticalmente
+flex-direction: qual direção deve seguir
+flex-wrap: se os elementos devem queebrar ou não e para onde devem
+
+
+
+
