@@ -1,0 +1,46 @@
+EXERCÍCIOS JAVASCRIPT – PREPARAÇÃO REACT
+1. A partir do seguinte vetor e utilizando os métodos de array (map, reduce,
+filter e find):
+________________________________________________________________________________________
+1.1.Utilizando o MAP
+Crie uma variável que contenha todas as idades dos usuários: [23, 15, 30]
+-----------------------------------------------------------------------------------------
+const usuarios = [
+  {nome: 'diego', idade: 23, empresa: 'Rocketseat'},
+  {nome: 'Gabriel', idade: 15, empresa: 'Rocketseat'},
+  {nome: 'Lucas', idade: 30, empresa: 'Facebook'},
+]
+
+const idades = usuarios.map(function(usuario){
+  return usuario.idade;
+});
+console.log(idades);
+________________________________________________________________________________________
+1.2.Utilizando o FILTER
+Crie uma variável que tenha apenas os usuários que trabalham na Rocketseat e
+com mais de 18 anos anos: [{nome: ‘Diego’, idade:23, empresa: ‘Rocketseat’}]
+const usuarios = [
+  {nome: 'diego', idade: 23, empresa: 'Rocketseat'},
+  {nome: 'Gabriel', idade: 15, empresa: 'Rocketseat'},
+  {nome: 'Lucas', idade: 30, empresa: 'Facebook'},
+]
+
+const rocketseat18 = usuarios.filter(function(usuario){
+if(usuario.idade >= 18 && usuario.empresa == 'Rocketseat'){
+  return usuario.nome;
+}
+});
+console.log(rocketseat18);
+1.3. Utilizando o FIND
+________________________________________________________________________________________
+Crie uma variável que procura por um usuário que trabalhe na empresa Google:
+undefined
+________________________________________________________________________________________
+1.4.Multiplique a idade de todos usuários por dois e depois realize um filtro nos
+usuários que possuem no máximo 50 anos:
+________________________________________________________________________________________
+2. Converta as funções nos seguintes trechos de código em Arrow Functions:
+________________________________________________________________________________________
+2.1.
+________________________________________________________________________________________
+2.2.
