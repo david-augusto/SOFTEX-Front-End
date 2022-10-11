@@ -1,0 +1,21 @@
+Single Page Aplication
+
+Dev web - Mudanças
+
+90 - tinha fotos e estaticos
+
+2000 - flash, vídeos
+
+Web 2.0 ou moderna
+Javascript
+
+Ajax, Websocker
+
+APIs - Gmail e Facebook
+
+SPA - Aplicações feitas em Javascript
+
+Framework
+
+Angula, Vue.ja e React
+
