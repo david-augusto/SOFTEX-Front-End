@@ -1,0 +1,19 @@
+Introdução ao React
+
+Single page application
+
+Código escalável
+
+React - XHP que veio com PHP
+
+Precisa ter o Node.JS com o npm
+
+cria uma pasta e abre o termina
+
+escreve o comando Npm create react app "minha pasta"
+
+navega com o terminal até a pasta e digita o comandao npm start
+
+o navegador abre
+
+locallhost:3000
