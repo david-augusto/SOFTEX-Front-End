@@ -1,0 +1,62 @@
+React
+
+Análise de projeto.
+
+Estruturas de pastas.
+
+Função de arquivos.
+
+Construindo um ambiente
+
+Antes de começar a trabalhar com react, é importante garantir um ambiente propício para o funcionamento do projeto
+
+ 
+
+Para isso, é preciso instalar o npm, que é um gerenciador de pacotes, e o Node.JS, que é um ambiente para executar a JavaScript fora do navegador.
+
+Criando novos projetos react
+
+Após as instalações, para criar um projeto simples, deve-se abrir um terminal ou um prompt de comando no Windows, navegar até à área de trabalho e digitar o comando:
+
+ 
+
+npx create-react-app [my-app]
+
+ 
+
+Onde [my-app] é o nome que você deseja para o seu projeto.
+
+Projeto básico
+
+Com o projeto básico criado, você pode perceber que diversas pastas e arquivos foram criados automaticamente. No entanto, não precisamos conhecer todos para compreender um projeto react, pois a maioria garante a configuração e o funcionamento.
+
+Pastas react
+
+Na sua área de trabalho, haverá uma pasta com o nome definido no comando. Nela, terá algumas pastas e as mais importantes são a public e a src.
+
+ 
+
+A public contém os arquivos como as imagens, os vídeos e logotipos da sua aplicação. Já os códigos que você escreverá estarão na pasta src, que é uma abreviação da palavra source.
+
+Arquivor básicos do react
+
+
+Na pasta src, há diversos arquivos e os componentes react podem ser divididos em dois principais:
+
+ 
+
+um arquivo JSX, que contém a HTML e a JavaScript em um único arquivo;
+um arquivo CSS, que contém a estilização dos componentes.
+ 
+
+Além disso, um arquivo test pode ser adicionado para a realização de testes.
+
+Como rodar a aplicação
+
+Com um prompt de comando na pasta do projeto react criado, você deverá rodar o comando npm start. Este indicará ao react que você quer inicializar o projeto.
+
+ 
+
+Após iniciá-lo, você deverá ir até o navegador e digitar na barra de navegação “https://localhost:3000”.
+
+

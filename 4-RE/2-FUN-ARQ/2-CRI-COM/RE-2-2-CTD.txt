@@ -1,0 +1,21 @@
+Introdução ao Single Pages Application
+
+Arquivos JSX
+
+pode ser utilizado na classe ou função
+
+
+componente react é uma função ou classe e volta como html
+
+propriedades especiais:
+
+tornam mais dinâmicas
+
+vantagens:
+
+pode reutiliza-los
+
+variavel interna
+
+PROPS - pode passar dados ao componentes
+
