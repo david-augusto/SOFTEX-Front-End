@@ -1,0 +1,86 @@
+O que são hooks?
+
+Os hooks possibilitam o uso do recurso state sem ter que declarar uma classe, ou seja, eles servem para utilizar o state dentro de uma função criadora de componentes.
+
+
+
+Por que os hooks foram criados?
+
+A criação dos hooks permitiu a reutilização da lógica entre os componentes. Assim, eles também servem para gerenciar o ciclo de vida de um componente, por exemplo, rodando um código quando o componente é criado ou deletado da tela.
+
+Como utilizar
+
+Você deve importar o useState no começo do seu código dessa forma:
+
+ 
+
+ import React, { useState } from 'react';
+
+ 
+
+Em seguida, defina um objeto através do useState:
+
+ 
+
+ const [count, setCount] = useState(0);
+
+Hook: useState
+
+
+O hook mais famoso é o useState, pois, através dele, é possível criar estados no componente utilizando uma função. Além disso, com ele, pode-se gerenciar o estado local do componente.
+
+useState é o hook mais famoso.
+
+Hook: useEffect
+
+O useEffect serve para controlar efeitos colaterais de uma requisição, ou de uma chamada HTTP.
+
+ 
+
+Em resumo, é quando o usuário executa alguma ação dentro da aplicação, que faz uma chamada para o servidor, assim, causando uma mudança de estado na aplicação.
+
+
+useEffect é usado em requisições HTTP.
+
+Extras
+
+Outros hooks podem ser criados de forma genérica ou padronizada, sendo reaproveitados entre os componentes.
+
+------------------------
+
+Hook é usado para gerenciar requisições https
+
+versão 16 React
+
+
+- Recursos para facilitar o react no dinamismo da pagina
+
+- mais performatico deixando mais rápido a aplicação
+
+- Não pudia criar componente com funções e sim classes, com a criação de hooks pode.
+
+- Faz a atualização de sua rederização
+
+
+código:
+
+import {usestate} from 'react';
+
+usestate é o hook mais usado
+- Usado para gerenciar o estado local de um componente utilizando uma função
+
+- Define lógicas a serem executadas;
+Quando o componente for criado ou deletado;
+
+
+Para utilizar o Usestate:
+
+
+- Declarar uma propriedade local e também uma função controladora
+
+comando:
+
+const [count, setcount] = usestate(0);
+
+Serve para criar uma propriedade contadora e uma funçãp para gerenciar seu estado.
+
