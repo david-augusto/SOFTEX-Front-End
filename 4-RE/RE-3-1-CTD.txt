@@ -1,0 +1,67 @@
+iNTRODUÇÃO A GERENCIAMENTO DE ESTADOS
+
+Modificar dados de componentes do React
+
+Gera eventos e fornece dados
+
+Props e States
+
+Captura dados dentro do próprio componente 
+
+Mecanisto interno
+
+Vitual Dom
+
+Replica a página
+
+------------------------------------
+
+React
+
+Gerenciamento de estado.
+
+O que é gerenciamento de estados?
+
+
+Gerenciamento de estados é a capacidade de modificar os dados de um componente react dentro de uma página à medida que o usuário realiza ações ou interage com certos elementos.
+
+
+O que são props no react?
+
+Props são atributos que podem ser passados na criação de um componente react para poder utilizar dados que serão transmitidos ao componente através da chamada dele no HTML.
+
+Aplicações react.
+
+
+Como utilizar os props no react?
+
+Primeiro, deve-se colocar o atributo props na função criadora do componente:
+
+ 
+
+function NomeDoComponente(props)
+
+ 
+
+Em seguida, o nome do atributo que será passado no componente deverá ser chamado. Ele poderá ser referenciado por "props.name".
+
+Como passar dados para o componente
+
+No HTML, ao mencionar a tag de criação do componente, pode-se passar os dados. Imagine um componente chamado MeuComponente, que vai utilizar um atributo nome,  deve-se fazer:
+
+ 
+
+ <MeuComponente nome=”MeuNome”/>
+
+Vantagens da utilização de props
+
+A principal vantagem do uso de props é poder utilizar e manipular dados ao longo da aplicação. Isso torna ela mais dinâmica e modificando a página à medida em que o usuário interage com ela.
+
+O que são states?
+
+Enquanto os props são variáveis, os states se referem aos valores dinâmicos, ou seja, aqueles que podem ser modificados ao longo da interação com o componente.
+
+
+
+
+
