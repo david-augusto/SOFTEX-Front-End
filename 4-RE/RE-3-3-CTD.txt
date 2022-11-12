@@ -1,0 +1,108 @@
+React
+
+Routes.
+
+O que é react-router-dom?
+
+A react-router-dom é uma biblioteca, ou seja, é um conjunto de códigos que permite a utilização da funcionalidade de roteamento dentro da aplicação.
+
+Como baixar a biblioteca no projeto?
+
+Primeiro, é necessário instalar a biblioteca na aplicação. Na pasta da aplicação, em um terminal, digite:
+
+ 
+
+ npm i --save react-router-dom
+
+Para utilizar a react-router-dom, deve-se importá-la dentro do arquivo da aplicação, utilizando o código:
+
+ 
+
+import {BrowserRouter, Route} from 'react-router-dom';
+
+Componentes importantes
+
+
+O componente <Route> é o principal componente dos hooks e serve para definir uma rota.  O atributo path indica a URL, por isso, ele deve ser inserido no navegador para encaminhar o usuário até a página.
+
+ 
+
+Também existe o atributo component, que serve para definir o componente a ser renderizado naquela URL.
+
+ 
+
+<Route path=”/home” component={HomeComponente} />
+
+Links dinâmicos
+
+
+O componente link é utilizado para criar links dinâmicos. Isso facilita o uso do rect-router-dom, pois ele já vem dentro da biblioteca. Para usá-lo:
+
+
+Extras
+
+Por fim, o atributo exact é usado para que o roteamento só seja realizado quando a URL seja exatamente a que está escrita no path. Exemplo:
+
+ 
+
+<Route exact path=”/teste” component={ComponenteTeste} />
+
+
+--------------------------------------
+
+Implementando serviço web usando Node.ja e Express
+
+Cria uma pasta chamada PROJETO_WEB
+
+dentro da pasta 
+- npm init -y
+
+cria nosso ambiente de desenvolvimento
+foi criada a pasta node_modules e alguns arquivos JSON
+
+- npm install express --save
+
+salva essa biblioteca no arquivo JSON
+
+depois cria o arquivos index.js
+
+Codigo IMG1
+
+
+Instala duas bibliotecas para manipular dados Node.JS
+
+BODY-PARSE e CORS
+comando:
+
+
+npm install -- save cors body-parse
+
+
+Após isso
+
+CODIGO IMG2
+
+implementa os gets
+
+Método post 
+
+IMG4
+
+Abre o terminal na pasta do projeto
+
+roda o comando node index.js
+
+acessa o caminho
+
+https://localhost:8080/books
+
+para cadastrar um novo livro:
+
+IMG5
+
+
+
+
+
+
+
