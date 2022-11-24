@@ -1,0 +1,158 @@
+O que são Web service - solução técnologica integradas 
+
+APlicativo de celular que se comunica em um serviço de bancoi
+
+W3C - padrão
+
+Conjunto de padrões qie asseguram a interoperatividade entre serviços
+Especialmente quando esses serviços devem se comunicar utilizando os protocolos da web
+
+Esses padrões podem ser aplicados a qualquer tipo de plataforma de integração
+
+Suportam tanto aplicações ponto-a-ponto quando aplicações distribuidas
+
+Webservice são documentados pelo WSDL
+
+]
+WSDL - Web Service Descrition Language
+WSDL - Linguagem de descrição de serviços Web
+Um documento em formato XML que descreve um web service
+
+
+WSDL - É definido como as aplicações clientes devem se comunicar com o web service
+
+QUais serão os endereços expostos para consumo
+
+End points
+
+QUais são as operações disponíveis
+
+Qual será a requisição a ser enviada
+
+Qual será a resposta recebida pelo cliente
+
+Podemos compará-la a assinatura de um método em linguagem de programação
+
+Porém bem mais robusta
+
+Criados pelo mercado para descrever os Web Service
+
+Eliminar ao máximo a necessidade de comunicação entre os desenvolvedores em uma integração de dados
+
+omo o documento WSDL
+
+Acessar todas as informações para realizar uma integração
+
+O documento normalmente é encontrado quando acrescentamos
+
+O sinal de interrogação mais a sigla WSDL ao final da url onde o Web Service está hospedado
+
+SOAP - Um padrão de representação bastanbte leve para requisições
+
+Contendo dados que devem se mover entre o provedor e o cliente de um Web Service
+
+Se baseia em um arquivo xml para descrever o conteudo da mensagem
+
+Oferece maneiras de realizar o transporte dessa mensagem através dos protocolos
+
+HTTP, GET POST
+
+De acordo com a W3C
+
+SOAP - protocolo leve para troca de informações em um ambiente decentralizado e distribuído
+
+Padrão xml dividido em 3 partes:
+
+Primeiro: Envelope que define uma estrutura para descrever o que está em uma mensagem e como processá-la
+
+Segundo: Conjunto de regras de codificação para expressar instância de tipos de dados definidos pelo aplicativo
+
+Terceiro: COnvenção para representar chamadas e respostas de procedimentos remotos
+
+
+---------------------------------------------------
+Introdução a
+
+Web Services
+
+Definição de Web Services;
+
+Padrão WSDL
+
+Introdução
+
+O padrão WSDL é uma descrição feita em formato XML de um web service, que utilizará SOAP e RCP como base.
+
+O que é SOAP?
+
+
+
+O Simple Object Access Protocol (SOAP) é um protocolo para trocar informações estruturadas em uma plataforma descentralizada e distribuída.
+
+ 
+
+Sua mensagem é baseada em XML e, para transmitir mensagens, ele utiliza o protocolo HTTP.
+
+
+
+Formação do SOAP
+
+
+
+Geralmente, uma mensagem feita por SOAP para um web service é formada por três elementos:
+
+SOAP Envelope;
+
+SOAP Header; e
+
+SOAP Body.
+
+ 
+
+Envelope: é o elemento raiz da mensagem, que define um documento XML como uma mensagem SOAP.
+
+Formação do SOAP
+
+
+Header: é um elemento opcional no XML, que deve ser utilizado quando se quer enviar informações, por exemplo, informações de segurança.
+
+ 
+
+Body: é um elemento obrigatório que contém os dados de negócio que o servidor está esperando.
+
+Exemplo 1
+
+Observe que, no exemplo, há uma mensagem SOAP.
+
+ 
+
+Percebe-se que a tag soap:Envelope descreve o SOAP e tem um link para o padrão de mensagem utilizado.
+
+ 
+
+Já o header e o body estão vazios, ou seja, o serviço não está enviando nenhuma informação extra.
+
+IMG1
+
+Exemplo 1
+
+Um outro elemento que pode aparecer na mensagem é o SOAP fault. Ele é utilizado quando ocorrem falhas, retornando uma mensagem de formato padrão para o consumidor.
+
+
+Por exemplo, exibir na tela a mensagem de erro, o que facilita o tratamento das falhas no lado do cliente.
+
+
+
+Exemplo 2
+
+Já nesse exemplo, dentro da tag body, existe a fault, na qual informa que o código de erro é no serviço Client e a falha acontece quando o servidor vai consultar clientes.
+
+IMG2
+
+Exemplo 3
+
+
+Na imagem de exemplo, a comunicação utiliza um web service SOAP, faz uma consulta pelo CPF de um cliente (percebe-se a tag m:consultaClienteRequest) e o servidor responde com nome, idade, profissão entre outras coisas.
+
+IMG3
+

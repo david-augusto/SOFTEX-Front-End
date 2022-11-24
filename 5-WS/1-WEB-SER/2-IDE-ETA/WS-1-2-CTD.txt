@@ -1,0 +1,74 @@
+Introdução a Web Services
+
+Conceito de serviços na Web e como são disponibilizados
+
+O que são web services?
+
+Web services são programas que fornecem funcionalidades para outros programas. Eles estão em servidores na web para que possam ser localizados e chamados por meio de uma rede, geralmente pela internet.
+
+O que são web services?
+
+Por exemplo, quando um serviço de back-end é publicado em um servidor web, isso é feito para que o serviço possa ser acessado por outros sistemas. Por isso, ele se torna um web service.
+
+ 
+
+Para facilitar o acesso a esses serviços, são utilizados padrões que definem o mecanismo de interação. Assim, os padrões definem o formato da informação que será enviada e recebida, o provedor de serviços publica o web service em um servidor e os aplicativos clientes consomem os programas publicados.
+
+
+Serviços na web
+
+
+Com quantos serviços na web você se conecta durante o dia? Por exemplo, quando uma pesquisa no Google é feita ou quando uma mensagem no WhatsApp é enviada.
+
+ 
+
+A conexão com a web é feita através de muitos dispositivos, como: smartphone, computador, televisões, relógios etc. Essa comunicação só é possível pois os serviços da web possuem padrões de comunicação, que são definidos por meio dos web services.
+
+Exemplo
+
+Para acessar um serviço, o aplicativo cliente usa a URL do serviço para chamá-lo e, se necessário, envia parâmetros. Em troca, recebe as informações retornadas, que geralmente estão em uma estrutura no formato eXtensible Markup Language (XML) ou JavaScript Object Notation (JSON).
+
+ 
+
+Ambos são usados para representar informações. No início do uso dos web services o XML foi mais utilizado, atualmente é o JSON.
+
+Seguem exemplos de XML e JSON representando informações de uma pessoa:
+
+ 
+
+XML:
+
+<PESSOA>
+
+  <NOME>Ana</NOME>
+
+  <IDADE>27</IDADE>
+
+</PESSOA>
+
+ 
+
+JSON:
+
+{
+
+“Nome”: “Ana”,
+
+“Idade”: 27
+
+}
+
+Resumo
+
+
+
+Em resumo, os web services são componentes que permitem aplicações enviar e receber dados. Cada aplicação pode ter a sua própria linguagem (Java ou Python, por exemplo) que é traduzida para uma universal, no formato intermediário como XML e JSON. A aplicação solicita uma dessas operações.
+
+ 
+
+O web service é responsável por efetuar o processamento e enviar os dados para a aplicação que requisitou a operação.
+
+
+
+
+
