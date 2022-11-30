@@ -1,0 +1,98 @@
+Introdução a
+
+Web Services
+
+Conceitos e motivação
+
+da criação do modelo REST
+
+Desde a criação da internet, são usados diferentes aplicativos e páginas da web para obter dados a partir dos servidores.
+
+ 
+
+Assim, vamos compreender como um cliente se comunica com o servidor para extrair informações através da API REST.
+
+O que é REST
+
+O termo REST é um acrônimo para Representational State Transfer, que significa Transferência de Estado Representacional. Ele define um conjunto de regras para os web services.
+
+ 
+
+Em uma comunicação cliente-servidor, por exemplo, a REST sugere criar um objeto, um JSON, dos dados solicitados pelo cliente e enviar seus valores como resposta.
+
+Por exemplo, se o usuário estiver solicitando um filme no cinema do shopping, é possível criar um objeto no lado do servidor e enviar o seu estado com nome do filme e local. Por isso, a REST é conhecida como Transferência de Estado Representacional.
+
+Princípios da REST
+
+Roy Fielding (1965) é o criador da REST e fez seis regras que a compõe:
+
+stateless (sem estado);
+
+cliente-servidor;
+
+interface uniforme;
+
+armazenamento em cache;
+
+sistema em camadas; e
+
+código sob demanda.
+
+Stateless (sem estado)
+
+O servidor deve ter todas as solicitações feitas pelo cliente para as compreender.
+
+Um URL é utilizado para identificar o recurso e o corpo, mantendo o estado do recurso solicitante.
+
+ 
+
+Quando o servidor processar a solicitação, uma resposta será enviada ao cliente por meio de corpo, status ou cabeçalhos.
+
+Cliente-servidor
+
+Permite uma interface regular e separa os clientes dos servidores. Isso aumenta a portabilidade em várias plataformas.
+
+Interface uniforme
+
+Para obter a regularidade em toda a aplicação, existem quatro restrições de interface:
+
+identificação do recurso;
+
+manipulação de recursos usando representações;
+
+mensagens auto-descritivas; e
+
+hipermídia como motor do estado da aplicação.
+
+Armazenamento em cache
+
+Melhora o desempenho.  Isso pode ser feito através de uma rotulação da resposta do servidor de forma implícita ou explícita.
+
+
+Sistema em camadas
+
+Faz com que a aplicação seja mais estável, limitando o comportamento dos componentes em diversas camadas.
+ 
+
+Código sob demanda
+
+Permite que um código do cliente seja baixado e usado dentro do aplicativo. É uma restrição opcional e menos usada.
+
+Métodos
+
+Compreendendo esses princípios, é possível utilizar os métodos da API REST.
+
+ 
+
+As aplicações web realizam diversas operações, como o CRUD (Create, Read, Update e Delete), que pode criar, ler, atualizar ou deletar um recurso.
+
+Essas operações podem ser realizadas pelo método HTTP:
+
+para create usamos o HTTP POST
+
+para read usamos o HTTP GET
+
+para update usamos o HTTP PUT
+
+para delete usamos o HTTP DELETE
+

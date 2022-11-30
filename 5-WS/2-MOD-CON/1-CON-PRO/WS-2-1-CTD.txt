@@ -1,0 +1,31 @@
+Protocolo HTTP
+
+RPC - Oricedimentos remotos
+
+WSDL informa ao cliente
+
+Types - Tipo de dados suportados (int, String)
+Message - <WSDL:PART NAME="GETCIDADERETURN" TYPE="XSD:STRING"/>
+Porttype - aGRUPAMENTOS LÓGICOS DAS SOLICITAÇÕES
+Binding - Apresenta os protocolos de comunicaçãodos webservices
+Operation - Região que permite especificação das assinaturas dos métodos disponibilizados
+Definition - Elemento padrão
+
+
+HTTP: protocolo de transferencia através de url
+
+Métodos
+
+get - x
+head - 
+post - x
+put - x
+delete - x
+trace - 
+option - 
+connect -
+
+post envia as informações
+delete - apaga
+put - atualiza
+get - obtem 

@@ -1,0 +1,86 @@
+Mini projeto SOAP com JAVA
+
+Namespace - WSDL do serviço
+
+Nome local é a classe SIB acrescida da palavra service
+
+----------------------------------
+
+Introdução a
+
+Web Services
+
+SOAP utilizando JAVA
+
+Introdução
+
+Ao utilizar a Java, os serviços web são definidos por meio das classes. Eles podem oferecer várias operações, as quais são representadas por um método de classe. 
+
+ 
+
+Uma prática muito importante de seguir é sempre dividir a interface de um serviço, chamada de Service Endpoint Interface  (SEI), da sua implementação, o Service Implementation Bean (SIB).
+
+
+
+Exemplo de aplicação
+
+O web service, que será criado aqui, é simples e terá os modos SEI e SIB separados.
+
+Como exemplo, um banco gerador de boletos possui quatro operações:
+
+“pegarBoleto”
+
+“criarBoleto”
+
+“verificarPagamento”
+
+“cancelarBoleto”
+
+O objetivo deste serviço é retornar informações para as operações chamadas pelos clientes sobre os boletos feitos por uma empresa.
+
+
+Exemplo de aplicação
+
+Na imagem, o SEI é utilizado para esse serviço. O arquivo é salvo com o nome BancoServer.java dentro de uma pasta (pacote) "app".
+
+img5
+
+Entendendo o código
+
+O código dessa interface, a annotation @WebMethod, indica que um determinado método corresponde a uma operação do serviço. Assim, ele pode ser chamado externamente por um cliente.
+
+ 
+
+Enquanto o @SOAPBinding indica que o serviço é do tipo SOAP, a annotation @Webservice informa à Java que esse arquivo representa a definição SEI desse web service.
+
+Agora, será criada uma implementação dessa interface, a camada SEI. É por ela que as “regras de negócio” serão implementadas e colocadas nos métodos definidos.
+
+ 
+
+Para fazer a camada SIB, deve-se criar a classe BancoServerImpl.java na mesma pasta.
+
+Essa classe, como qualquer outra, possui a implementação dos métodos da interface. Porém, neste código, teremos a propriedade endpointInterface dentro da anotação @WebService. Essa annotation faz com que essa classe, que é a SIB, se ligue com a SEI especificada anteriormente.
+
+ 
+
+No código, o que é colocado nos métodos é apenas para testar a execução do servidor. Em um ambiente profissional, teríamos um código mais complexo.
+
+ 
+
+Ao finalizar, os arquivos serão compilados e o código deve ser observado para  procurar possíveis erros.
+
+img6
+
+Implementação e execução
+
+Depois, uma classe main pode ser criada para rodar esse pequeno projeto. Neste código da main, a classe Endpoint serve é importada para publicar o serviço em um servidor.
+
+ 
+
+O endereço HTTP do servidor e uma instância do SIB do serviço são passados como parâmetro. Neste caso, cria-se um objeto de BancoServerImpl.
+
+ 
+
+O serviço é setado para ser acessado pela porta 3030. Depois de compilar e rodar a classe main, para testar, caso esteja realizando o procedimento da sua máquina, basta acessar o link http://127.0.0.1:3030/app?wsdl.
+
+img7
