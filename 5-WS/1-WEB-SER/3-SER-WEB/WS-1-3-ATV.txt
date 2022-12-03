@@ -1,0 +1,57 @@
+
+Uma empresa precisa se comunicar com outras para enviar 
+informações pessoais sobre seus clientes, como nome, 
+endereço e número de telefone. É importante garantir a 
+segurança desses dados e se preocupar com quem eles são 
+compartilhados. 
+
+Para isso, crie a estrutura de um web service, que 
+demonstra exemplos de comunicação SOAP (requisição e 
+resposta em xmls) e explique como ele funciona.  
+
+__________________________________________________________
+
+No exemplo a seguir, a comunicação utiliza um web service 
+SOAP, faz uma consulta pelo CPF de um cliente (percebe-se a 
+tag m:consultaclienteRequest) e o servidor responde com 
+Nome NOme, Endereço, e Telefone do cliente.
+
+-----------------------------------------------------------
+
+REQUEST - REQUISIÇÃO:
+POST /consultaCliente HTTP/1.1
+Host : www.empresateste.com/
+Content - Type: application/soap+xml; charset=utf-8
+COntent-Length: nnn
+
+<?xml version="1.0"?>
+<soap:Envelope
+xmls:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body xmlns:m="http://www.empresateste.com/consultaCliente">
+	<m:consultaClienteRequest>
+		<m:cpf>33749372834</m:cpf>
+	</m:consultaClienteRequest>
+</soap:Body>
+</soap:Envelope>
+
+RESPONSE - RESPOSTA
+HTTP/1.1 200 OK
+Content - Type: application/soap+xml; charset=utf-8
+COntent-Length: nnn
+
+<?xml version="1.0"?>
+<soap:Envelope
+xmls:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body xmlns:m="http://www.empresateste.com/consultaCliente">
+
+<m:consultaClienteResponse>
+		<m:nome>Jorge Silva</m:nome>
+		<m:endereco>Rua 05, Areia Branca</m:endereco>
+		<m:telefone>56457890</m:telefone>
+		</m:consultaClienteResponse>
+
+
+</soap:Body>
+</soap:Envelope>
+
+-------------------------------------------------------------
