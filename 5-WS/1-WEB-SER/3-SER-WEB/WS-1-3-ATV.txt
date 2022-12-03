@@ -14,7 +14,7 @@ __________________________________________________________
 No exemplo a seguir, a comunicação utiliza um web service 
 SOAP, faz uma consulta pelo CPF de um cliente (percebe-se a 
 tag m:consultaclienteRequest) e o servidor responde com 
-Nome NOme, Endereço, e Telefone do cliente.
+Nome, Endereço, e Telefone do cliente.
 
 -----------------------------------------------------------
 
