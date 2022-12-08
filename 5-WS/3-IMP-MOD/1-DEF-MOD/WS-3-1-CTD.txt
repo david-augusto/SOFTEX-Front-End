@@ -1,0 +1,15 @@
+Como definir modelo rest
+
+Pensar e modelar em como o cliente vai se comunicar com o servidor e como o servidor vai responder
+
+Se o cliente for pegar informação qual rot ele vai usar, qual chamada http ele deve fazer
+
+que informações o cliente vai enviar, qual resposta do servidor
+
+Ferramentas
+
+Swagger UI e Stoplight
+
+Plataforma de código aberto
+
+
