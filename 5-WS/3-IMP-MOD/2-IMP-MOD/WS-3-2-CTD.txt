@@ -1,0 +1,91 @@
+Implementando um modelo rest com java spring boot
+
+Tem que ter JAVA 8
+
+
+Comando mvn spring-boot:run
+
+
+Instala as dependencias e roda o projeto
+
+---------------------------------
+
+Introdução a
+
+Web Services
+
+Implementar um modelo REST
+
+REST com CRUD
+
+Neste hipertexto, vamos conhecer algumas implementações das APIs REST e aprender como fazê-las em JavaScript, usando a biblioteca Express. 
+
+ 
+
+Essas implementações fazem parte da API e, no nosso caso, elas serão o back-end do web service.
+
+REST com CRUD
+
+As operações CRUD são muito conhecidas e frequentemente utilizadas. Essa sigla significa Create, Read, Update e Delete, o que corresponde aos quatro tipos básicos de funcionalidade que os modelos fornecem quando estamos construindo as APIs. Assim, elas devem ter a capacidade de criar, ler, atualizar e excluir recursos.
+
+Express
+
+As imagens apresentam o Express, que é uma biblioteca responsável por fazer as rotas de um serviço.
+
+ 
+
+Como podemos ver, é preciso primeiro colocar o Express dentro de uma variável para poder utilizar todas as suas funções. 
+
+ 
+
+Assim, com essa biblioteca, podemos utilizar todos os métodos HTTP. Por exemplo, também é possível retornar um erro 404 caso o valor solicitado não seja encontrado.
+
+img8
+
+Create
+
+O método create é maior que o read, por exemplo, pois ele cria e retorna um objeto. No exemplo da imagem, ele é usado para criar um novo projeto.
+
+ 
+
+Esse método recebe um projeto, que vem em formato JSON, no corpo da requisição. Por isso, utiliza-se a função POST. 
+
+ 
+
+Se o projeto não for criado no try, ele deve retornar o erro HTTP 404 not found. Caso seja criado, ele retorna com o status HTTP 201 created e com o próprio projeto.
+
+IMG9
+
+Read
+
+O método read possui uma função chamada get, que identifica uma requisição do tipo GET. O “/{id}” mostra que ela vai receber como parâmetro uma id.
+
+ 
+
+Nesse caso, a requisição deve ser feita da seguinte maneira: /projects/:id. Por exemplo:  minhaApi.com/projects/10
+
+ 
+
+O método read apenas utiliza a rota com o método get. Porém, é dentro da função que nós devemos programar o que é preciso ser feito. Nesse caso, ele deve encontrar o projeto e retornar.
+
+img10
+
+Update
+
+O método update é simples de implementar. No exemplo da imagem, são recebidas a id do aluno pelo path e as informações dele pelo body. Assim, usando o PUT, nós conseguimos atualizar os valores.
+
+ 
+
+Se o projeto não existir, é retornado o erro 404 not found, mas, se existir, ele será atualizado e retornará o código 200 OK.
+
+img11
+
+Delete
+
+O método delete do CRUD é bem simples. Nele, a id do projeto é recebida pelo próprio path, ou seja, a rota para esse método na API fica em /projects/:id.
+
+ 
+
+Dessa forma, a id é coletada e deletada. Em seguida, retorna-se o código 204 no content, que significa que o conteúdo não existe mais. Assim, o método é finalizado.
+
+img12
