@@ -1,0 +1,15 @@
+Demonstre como fazer as quatro operações de CRUD e suas rotas para obter o recurso de um livro que está no estoque de uma livraria. Um livro possui informações como nome, autor e ISBN.
+------------------
+
+Lisr artifacts for a repository
+
+POST //repos/{autor}/{ISBN}/actions/artifacts
+GET /repos/{autor}/{ISBN}/actions/artifacts
+PUT /repos/{autor}/{ISBN}/actions/artifacts
+DELETE /repos/{autor}/{ISBN}/actions/artifacts
+
+Parâmetros
+
+nome | autor | ISBN
+
+livro 1 |autor 1 | 2332323
