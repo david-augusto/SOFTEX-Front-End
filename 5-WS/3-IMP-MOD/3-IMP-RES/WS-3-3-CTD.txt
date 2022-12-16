@@ -1,0 +1,66 @@
+Introdução a
+
+Web Services
+
+Implementar um modelo RESTful usando JAVA Spring Boot (ou outro)
+
+Introdução
+
+REST significa Representational State Transfer, em português Transferência Representacional de Estado, e é um padrão usado para criar e disponibilizar serviços na web.
+
+ 
+
+Ela funciona como um guia de boas práticas, pois define requisitos de desenvolvimento das APIs.
+
+REST e RESTful
+
+Em outras palavras, a REST é uma base para a construção de APIs que conecta os usuários com as aplicações em um web service e, geralmente, utiliza padrões, como o JSON e o XML.
+
+ 
+
+A RESTful surge com base na API REST. A REST é um padrão de arquitetura para criar serviços e disponibilizá-los na web, ou seja, é a parte conceitual. Já um serviço RESTful é aquele que implementa esse padrão.
+
+RESTful
+
+Vale destacar que não há diferenças entre REST e RESTful para as APIs. REST é o conjunto das restrições, as regras, e RESTful é a API que as cumpre.
+
+ 
+
+Isso significa que em uma API RESTful continua a fazer o que foi feito com uma API REST, como enviar e receber informações por meio de JSON.
+
+ 
+
+Uma API RESTful usa uma requisição para criar uma série de pequenos módulos. Estes são chamados de rotas e abordam uma parte da transação.
+
+RESTful
+
+Essa modularidade oferece aos desenvolvedores muita flexibilidade, mas é complexo projetar sua API REST do zero quando o projeto é grande.
+
+
+Implementação
+
+Para uma API se tornar RESTful, ela precisa implementar algumas operações:
+
+usar o protocolo HTTP;
+
+as comunicações devem acontecer de maneira independente e padronizada, precisando disponibilizar todas as informações necessárias;
+
+utilizar cache;
+
+Implementação
+
+
+deve ter as documentações da parte do cliente e do servidor;
+deve facilitar e priorizar a escalabilidade, confiabilidade e segurança; 
+deve ser extensível.
+ 
+
+Portanto, para ser considerada uma RESTful, a API deve cumprir todas essas operações.
+
+Modelos disponibilizados
+
+Atualmente, várias empresas fornecem modelos para os desenvolvedores usarem. Os que são fornecidos pela Amazon S3, pelo Cloud Data Management Interface (CDMI) e pela OpenStack Swift são os mais populares. 
+
+ 
+
+Eles ajudam os desenvolvedores a criarem suas APIs fazendo algumas abstrações como, por exemplo, manipulação de cache automática.
