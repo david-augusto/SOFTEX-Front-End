@@ -1,0 +1,160 @@
+WS Client
+
+Métodos de requisição (Get, Post, Put e Delete).
+
+O que são os métodos de requisição?
+
+Ao trafegar pela internet, o navegador envia requisições e recebe respostas dos servidores.
+
+ 
+
+Nas requisições, são explanados os métodos HTTP, que também podem ser chamados de verbos HTTP.
+
+ 
+
+E as respostas podem ser em um formato específico, como XML e JSON, ou ser uma ação, como remover e adicionar informações do banco de dados. Isso vai depender do que for solicitado.
+
+O que são os métodos de requisição?
+
+Os métodos HTTP explicam qual é a intenção da requisição realizada, podendo ser uma solicitação de informação para o servidor, um envio ou modificação de dados e, até mesmo, uma remoção de dados do servidor.  
+
+ 
+
+Atualmente, existem diversos métodos, mas mencionaremos os quatro principais que estão presentes na maioria das ações realizadas com os web services.
+
+Método GET
+
+O GET é o método principal e o mais conhecido. Com ele, é possível consultar informações para o servidor através de um URL e parâmetros. 
+
+ 
+
+É importante assinalar que as informações não serão enviadas para esse método, ou seja, os dados requisitados pelo cliente serão encaminhados pelo servidor como resposta e não haverá modificações de registro.
+
+Exemplo do método GET
+
+No exemplo a seguir, pode ser verificado que, através de um URL e parâmetros, os dados do recurso “alunos” foram solicitados para saber as informações de um aluno, cujo número da matrícula é “5”.
+
+ 
+
+GET: http://exemplo/alunos/5
+
+Resposta:
+
+{
+
+     “matricula”:5,
+
+     “nome”:”Hugo Souza”,
+
+     “aprovado”:true
+
+}
+
+ 
+
+A resposta do servidor foi encaminhada de acordo com o que foi solicitado.
+
+Método POST
+
+Esse método também é muito utilizado. Com ele, é possível enviar dados para as aplicações.
+
+ 
+
+Geralmente, o método POST é utilizado para cadastrar novos dados nos web services. Por isso, essas informações devem ser enviadas de acordo com o contrato estabelecido.
+
+Exemplo método POST
+
+Agora, com esse exemplo, vamos poder verificar que foi solicitada a inserção de um dado através do método POST.
+
+ 
+
+POST: http://exemplo/alunos
+
+ 
+
+Requisição:
+
+{
+
+     “nome”:”Saulo José”,
+
+     “aprovado”:false
+
+}
+
+Resposta:
+
+{
+
+     “matricula”:84,
+
+     “nome”:”Saulo José”,
+
+     “aprovado”:false
+
+}
+
+ 
+
+A informação foi inserida de acordo com o contrato e enviada para o servidor, que realizou a criação conforme solicitada e adicionou uma id “matricula”.
+
+
+Método PUT
+
+Esse método é muito semelhante ao método PATCH, porém, o método PATCH edita apenas um dado por utilização e o método PUT edita todos os dados já existentes no servidor.
+
+Método PUT
+
+Nesse método, mesmo que só seja modificado um dado, será necessário notificar a existência de todos para que eles sejam enviados para a aplicação.
+
+ 
+
+PUT: http://exemplo/alunos/5
+
+ 
+
+Requisição:
+
+{
+
+     “nome”:”Hugo Souza”,
+
+     “aprovado”:false
+
+}
+
+Exemplo método PUT
+
+Resposta:
+
+{
+
+     “matricula”:5,
+
+     “nome”:”Hugo Souza”,
+
+     “aprovado”:false
+
+}
+
+ 
+
+Podemos analisar que a informação de “aprovado” foi modificada conforme solicitado e o “nome” permaneceu da mesma forma. Portanto, mesmo não o modificando, foi necessário informá-lo na requisição.
+
+Método DELETE
+
+Esse método tem a função de deletar dados dentro das aplicações. Com ele, não é necessário passar informações na requisição, basta inserir o dado que deseja deletar no parâmetro do URL.
+
+ 
+
+DELETE: http://exemplo/alunos/5
+
+ 
+
+Requisição: (vazia)
+
+Resposta: {sucesso: true}
+
+
+Como foi solicitado a remoção da id “5”, é retornada uma informação de sucesso, o que valida que o método DELETE foi aplicado corretamente.
+

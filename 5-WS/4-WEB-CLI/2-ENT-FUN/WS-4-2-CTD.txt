@@ -1,0 +1,194 @@
+Diferença entre API e Web service
+
+API - Interface de programação de Aplicação
+
+COmpilado de código de terceiros que consome um serviço específico
+
+Ex: Typeform - encaminha email 
+
+Webservice
+
+Serviço de recepção de NF
+
+A empresa envia uma solicitação para webservice
+
+em seguida o weservice devolve.
+
+- COnsulta de CPF
+
+Encaminha ao servidor de consulta na base de dados e devolve a informação
+
+W3c diz que para ser webservice tem que utilizar modelo SOAP e usa uma WSDL através de um padrão XML
+
+Atualmente isso não é mais regra devido ao grande rescimento do modelo REST
+
+Simplifica representação de dadso através de um JSON, XML ou RSS
+
+
+API não depende de uma rede para comunicação e Webservice precisa
+
+Toda webservice é API mas nem toda API é Webservice
+
+Concluir webservice é uma API em uma arquitetura http
+
+------------------------------------------------
+
+WS Client
+
+Tipos ou modelos de cliente-servidor; Formatação de um JSON; Banco de Dados
+
+Arquitetura cliente-servidor
+
+A arquitetura cliente-servidor é muito utilizada em tecnologias e pelo web service.
+
+ 
+
+Esse modelo, que é baseado em requisições e respostas, possui o cliente, a rede e o servidor como agentes.
+
+
+O cliente é a aplicação que, através do protocolo HTTP, requisita algo para o servidor (web service) que encaminhará uma resposta com o padrão XML ou JSON.
+
+Características do cliente-servidor
+
+O servidor funciona como um host ou hospedeiro, por isso, devem ser máquinas mais robustas cuja característica geral seja executar uma ou várias requisições.
+
+ 
+
+Dessa forma, as requisições compartilham seus dados para enviar uma resposta e são encaminhadas pelo cliente.
+
+ 
+
+O cliente não compartilha seus recursos, pois ele só solicita dados ou funções  para o servidor. Por isso, o cliente não precisa ter máquinas robustas.
+
+O servidor é uma máquina mais robusta e o cliente é um ponto de acesso.
+
+Padrão JSON
+
+Atualmente, a JSON é o padrão mais utilizado, superando até mesmo o XML, que também é muito utilizado em web services.
+
+ 
+
+O arquivo em JSON utiliza o padrão (atributo : valor), que será sempre iniciado com chaves ({}) e separado por vírgulas.
+
+ 
+
+O atributo sempre será uma string entre aspas e o valor poderá ser uma string, int, double, boolean ou null.
+
+ 
+
+O conjunto das informações pode ser chamado de objeto.
+
+Exemplo JSON
+
+Vejamos um exemplo de JSON:
+
+ 
+
+{
+
+     “nome”:”Bruno”,
+
+     “sobrenome”:”Silva”,
+
+     “idade”:18,
+
+     “altura”:1.80,
+
+     “empregado”:false,
+
+     “pais”:[“Jeferson”,”Cláudia”],
+
+     “filhos”:null
+
+}
+
+{
+
+     “marca”:”Chevrolet”,
+
+     “modelo”:”Onix Turbo LT”,
+
+     “ano”:2022,
+
+     “motor”:1.0,
+
+     “automatico”:true,
+
+     “comando_voz”:null
+
+}
+
+Banco de dados em web services
+
+O banco de dados é extremamente importante na arquitetura de web services, pois quanto maior, mais funcionalidades e resultados estarão contidos nele.
+
+ 
+
+Um web service utiliza a Web Service Description Language (WSDL), ou linguagem de descrição de serviço da web, que funciona como um contrato de serviço. Ela é um arquivo XML que descreve o serviço e quais métodos e operações estão disponíveis.
+
+img1
+
+Banco de dados em web services
+
+Todo web service deve conter uma WSDL e, ao ser consumido, precisa mostrar o método e solicitar o parâmetro, o qual segue o padrão imposto no web service.
+
+ 
+
+Dessa forma, podemos consultar os dados no banco de dados e apresentá-los.  Esse padrão pode ser ID, nome, CEP, CPF etc. Tudo dependerá de qual é o foco do web service.
+
+Consumo do web service
+
+Um web service pode ser consumido através de um simples servidor de banco de dados.
+
+ 
+
+Por exemplo, o consumo do web service da Google, que, através de um endereço, fornece os dados de latitude e longitude. Esses dados são enviados através de uma JSON, que poderá ser tratada dentro de um sistema utilizando procedures para que essa comunicação seja feita automaticamente.
+
+Web service em servidor de banco de dados
+
+Inicialmente, para a comunicação funcionar, é necessário declarar as variáveis que serão preenchidas com as informações.
+
+ 
+
+@Endereco VARCHAR (MAX),
+
+@URL AS VARCHAR (MAX),
+
+@JSON AS VARCHAR (8000)
+
+@Status AS VARCHAR (MAX),
+
+Web service em servidor de banco de dados
+
+Logo após, devemos declarar as variáveis para mapear a JSON através dos seus nós e, consequentemente, cada informação recebida. Depois, é preciso direcionar esses dados para as suas devidas funções.
+
+ 
+
+@JSONResult AS VARCHAR (MAX),
+
+@JSONResultGeometr AS VARCHAR (MAX),
+
+@JSONResultLocaliz AS VARCHAR (MAX,
+
+@Latitude FLOAT,
+
+@Longitude FLOAT;
+
+Web service em servidor de banco de dados
+
+Para realizar a comunicação, precisamos incluir a informação do endereço que pode ser retirada de uma base de dados do cliente ou simplesmente inserida manualmente.
+
+ 
+
+SET @Endereco = ‘Av Caxangá, 2200 – Cordeiro, Recife – PE’;
+
+SET  @URL = ‘(deverá ser inserida a URL do Web Service)’ + @Endereco
+
+Web service em servidor de banco de dados
+
+Através dessa URL, executamos a busca do endereço dentro do web service. Como resultado, teremos os dados de latitude e longitude conforme solicitado.
+
+ 
+
+Esse consumo pode ser feito de forma mais rebuscada com a utilização de procedures e com o tratamento do arquivo JSON. Assim, para que sejam consumidas todas as informações que o web service tem para entregar.
+

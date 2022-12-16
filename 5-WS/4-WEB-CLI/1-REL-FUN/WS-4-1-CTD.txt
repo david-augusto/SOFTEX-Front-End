@@ -1,0 +1,72 @@
+WS Client
+
+Introdução a Web Services;
+O que é XML?
+
+O que é web service?
+
+O web service é uma tecnologia que possui um conjunto de funcionalidades definidas. Assim, ele permite que a comunicação entre aplicações seja independente da linguagem de programação e do sistema operacional.
+
+ 
+
+Essa tecnologia fornece uma funcionalidade útil para outros programas e está localizada em um servidor web, que pode ser acessado pela internet.
+
+O que é web service?
+
+O serviço se torna um web service quando ele é compartilhado, por meio do back-and de uma aplicação, no servidor web.
+
+ 
+
+Para simplificar o acesso a esses serviços, são utilizados padrões que definem o mecanismo de interação com eles e o formato da informação recebida.
+
+O que é web service?
+
+Dessa forma, o provedor de serviços publica o web service no servidor, que contém uma base de dados com todas as informações necessárias.
+
+ 
+
+O aplicativo Client consome o web service publicado, que irá buscar a informação solicitada na base de dados e a retornará para o Client.
+
+ 
+
+Assim, o Client usa o URL para consumir e solicitar os parâmetros necessários do web wervice. Em seguida, recebe os dados solicitados, na maioria das vezes, em XML ou JSON.
+
+O que é XML?
+
+A eXtensible Markup Language (XML), ou linguagem de marcação extensível, é um padrão usado para armazenar e transferir dados entre sistemas.
+
+ 
+
+Ela é semelhante à HTML, pois ambas são linguagens de marcação. apesar da XML não conter tags predefinidas em seu padrão. Assim, o usuário define quais serão as tags utilizadas de acordo com a sua necessidade.
+
+
+Uma das razões da XML ser muito utilizada em web services é porque ela é manuseada como um simples arquivo de texto (txt.), que pode ser lido ou transportado para qualquer plataforma com facilidade.
+
+ 
+
+Na prática, esse padrão é utilizado de uma forma hierárquica e estruturada para que os blocos sejam bem definidos.
+
+
+Exemplo XML
+
+<alunas>
+     <aluna>
+          <nome>Joaquim da Silva</nome>
+          <pais>
+              <pai> João da Silva </pai>
+              <mae> Maria da Silva </mae>
+          </pais>
+     </aluna>
+     <aluna>
+          <nome>Ana Maria Moreira</nome>
+          <pais>
+               <mae> Lucia Moreira </mae>
+          </pais>
+     </aluna>
+</alunas>
+
+Motivos para usar os web services
+
+Integração entre serviços distintos: podemos comunicar novas aplicações com outras já existentes e integrar sistemas desenvolvidos em plataformas diferentes;
+Padronização da informação recebida de cada solicitação de serviços: a mensagem sempre retorna com um padrão de informação, facilitando no tratamento.
+
