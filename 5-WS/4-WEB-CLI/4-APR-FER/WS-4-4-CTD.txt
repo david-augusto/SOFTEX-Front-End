@@ -1,0 +1,160 @@
+Ferramentas para testes de web service
+
+O processo de teste é fundamental na implementação de tecnologias
+
+Necessário que existam etapas bem definidas
+
+Para que fique com menos erros possíveis
+
+vc irá entregar o webservice a aplicação podendo realizar testes específicos para entender o funcionamento de cada método
+
+
+
+para efeutar de fato usa ferramentas para testes
+
+Insomnia, SoapUI, Postman, Swagger
+
+Insomnia pode ser baixadp em https://insomnia.rest/download
+
+pode realizar requisições em Rest, Soap, GraphQL e GRPC
+
+Para realizar requisições utilizaremos uma aplicação de FIPE, irá nos retornar informações de veículos
+
+https://parallelum.com.br/fipe/api/v1/carros/marcas
+
+https://parallelum.com.br/fipe/api/v1/carros/marcas/6/modelos
+
+https://parallelum.com.br/fipe/api/v1/carros/marcas/6/modelos/67/anos
+
+https://parallelum.com.br/fipe/api/v1/carros/marcas/6/modelos/67/anos/2003-1
+
+resposta:
+
+{
+	"Valor": "R$ 23.895,00",
+	"Marca": "Audi",
+	"Modelo": "A3 1.8 Turbo 5p Mec.",
+	"AnoModelo": 2003,
+	"Combustivel": "Gasolina",
+	"CodigoFipe": "008044-6",
+	"MesReferencia": "dezembro de 2022 ",
+	"TipoVeiculo": 1,
+	"SiglaCombustivel": "G"
+}
+
+
+Com a ferramneta é possível realizar requisições de post, put, delete, patch, options
+
+----------------------------------------------------
+
+WS Client
+
+Tipos de Autenticação
+
+O que é a autenticação em web services?
+
+Os web services podem ser totalmente públicos ou conter algum nível de segurança.
+ 
+
+No caso dos totalmente públicos, o cliente tem permissão para realizar consultas, adição, ajustes ou remoção  dos dados.
+Em algumas aplicações, não é recomendado que o cliente tenha esse nível de acesso. Então, nesses casos, serão utilizadas as autenticações.
+
+O que é a autenticação em web services?
+
+Os mecanismos de autenticação podem ser executados em aplicações desktop, web ou mobile.
+ 
+
+Existem vários tipos de autenticação, cada um com uma particularidade diferente, podendo passar uma segurança mais aprofundada para o serviço.
+
+ 
+
+Assim, nem sempre o nível de segurança mais alto será o necessário para uma aplicação simples e sem muitas informações privadas.
+As autenticações podem utilizar usuário/senha, chaves privadas, token etc.
+
+HTTP Basic Authentication
+
+O Basic Authentication é uma metodologia de autenticação simples para implementar algum nível de segurança dentro de um sistema. Ele utiliza o método de usuário/senha através de um HTTP REQUEST para se comunicar com o web service.
+ 
+
+Não é recomendada a sua implementação dentro de um ambiente de produção, mas, com ela, é possível criar uma base de segurança e utilizá-la em tarefas simples do dia a dia.
+
+OAuth 2
+
+O OAuth 2 é uma estrutura de autorização que possui um padrão para a autenticação em sistemas, utilizando HTTP.
+ 
+
+É um padrão muito usado em grandes sistemas, como: Twitter, YouTube, Google e GitHub.
+Diferente do Basic Authentication, essa é uma maneira extremamente segura de proteger os dados em um web service.
+ 
+
+O cliente deve acessar a aplicação através de um token de acesso, que será emitido de acordo com um fluxo padrão do protocolo.
+
+Fluxo OAuth 2
+
+O Fluxo do OAuht 2 é baseado em seis passos.
+
+ 
+
+1. Solicitação de autorização
+
+No servidor do usuário, a aplicação solicita a autorização ao acesso de informações.
+
+ 
+
+2. Concessão de autorização
+
+Caso o usuário aceite a solicitação, a aplicação tem autorização para acessar as informações.
+
+ 
+
+3. Concessão de autorização
+
+Através de sua autenticação, a aplicação realiza a solicitação de um token de acesso à web API.
+
+img1
+
+4. Token de acesso
+
+Ao aceitar a autenticação da aplicação, a web API gera um token de acesso para a aplicação.
+
+ 
+
+5. Token de acesso
+
+A aplicação apresenta o token ao servidor quando alguma informação for solicitada.
+
+ 
+
+6. Recurso protegido
+
+Caso o token esteja correto, a aplicação é liberada para realizar a requisição.
+
+Autenticando com o Insomnia
+
+Agora, vamos utilizar o Insomnia para realizar uma requisição na web API (randommer) que gera números aleatórios de cartões de crédito, números sociais dentre outros com a autenticação OAuth 2.
+Primeiro, usamos um token de acesso para visualizar as informações exclusivas da aplicação.
+ 
+
+Ao realizar o login no site da web API, um token será fornecido e ele deve ser implementado no header do Insomnia.
+
+Assim, ao cumprir todos os requisitos do contrato para realizar a requisição de get() na aplicação, se tem alguns resultados. A informação solicitada será retornada quando a validação for bem-sucedida (imagem 2), porém, caso seja malsucedida, o erro 401 será encaminhado.
+
+ 
+
+Observe os exemplos nas imagens a seguir de requisições malsucedida e bem-sucedida.
+
+img2
+
+img3
+
+https://randommer.io/api/Name
+
+Mal sucedida
+
+06464ace49334asj179g2o34317ca93
+
+Bem sucedida:
+
+X-Api-Key
+
+06464a4ce49e4a02be697ca93c10718f
