@@ -1,0 +1,21 @@
+1. Advice Slip
+É uma API que te retorna um conselho. Genial. Apenas.
+
+https://api.adviceslip.com/#endpoint-random
+
+-------------------------------------------------------------
+
+2. Kenye REST
+Tudo mundo sabe que o rapper Kanye West é o maior filósofo contemporâneo do século XXII (um século a mais pois eles está a frente do tempo).
+
+https://kanye.rest/
+
+-------------------------------------------------------------
+
+3. Deck of Cards API
+
+Essa API é disruptiva! Quem fez ela conseguiu abstrair um baralho e jogar em uma API para você. Top demais!
+
+Tem vários e vários métodos muito locos para você consumir e criar um truco online, já dei até a ideia.
+
+https://deckofcardsapi.com/
