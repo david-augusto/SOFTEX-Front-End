@@ -1,0 +1,69 @@
+"alunos:": [
+{
+"id: 1,
+"nome": "Bruno Silva",
+"serie": "3º ano",
+"nota": 9.3,
+"aprovado": true
+}
+
+{
+"id: 4,
+"nome": "Pedro Sousa",
+"serie": "3º ano",
+"nota": 7.7,
+"aprovado": true
+}
+{
+"id: 5,
+"nome": "Junior Melo",
+"serie": "2º ano",
+"nota": 9.3,
+"aprovado": true
+}
+{
+"id: 6,
+"nome": "|Vieira Silva",
+"serie": "2º ano",
+"nota": 3.1,
+"aprovado": false
+}
+
+{
+"id: 7,
+"nome": "Aria Sousa",
+"serie": "3º ano",
+"nota": 7.4,
+"aprovado": true
+}
+{
+"id: 8,
+"nome": "Lima Vieira",
+"serie": "2º ano",
+"nota": 8.3,
+"aprovado": true
+}
+
+{
+"id: 8,
+"nome": "Antonio Maia",
+"serie": "1º ano",
+"nota": 9.7,
+"aprovado": true
+}
+{
+"id: 9,
+"nome": "Tales Mattos",
+"serie": "2º ano",
+"nota": 6.3,
+"aprovado": true
+}
+{
+"id: 10,
+"nome": "Claudio Santos",
+"serie": "1º ano",
+"nota": 4.1,
+"aprovado": false
+}
+
+]

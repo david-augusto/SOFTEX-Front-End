@@ -1,0 +1,194 @@
+Criando uma aplicação JSON Server dentro do VSCODE
+
+Usando INSOMIA
+
+
+Instalando
+
+Cria pasta e renomear como json.server
+
+comando no vscode
+
+npm init
+npm install -g json-server
+
+
+cria um arquivo db.json
+
+inserir escola
+
+
+"alunos:": [
+{
+"id: 1,
+"nome": "Bruno Silva",
+"serie": "3º ano",
+"nota": 9.3,
+"aprovado": true
+}
+]
+
+
+terminal vscode
+
+json-server -watch db.json
+
+utiliza URL no insonia
+ get da url
+
+
+e envia isso via post
+
+{
+"id: 8,
+"nome": "Antonio Maia",
+"serie": "1º ano",
+"nota": 9.7,
+"aprovado": true
+}
+{
+"id: 9,
+"nome": "Tales Mattos",
+"serie": "2º ano",
+"nota": 6.3,
+"aprovado": true
+}
+{
+"id: 10,
+"nome": "Claudio Santos",
+"serie": "1º ano",
+"nota": 4.1,
+"aprovado": false
+}
+
+
+Atualizar com put
+
+PUT /aluno/9 200 281.558 ms -97
+
+Remover com delete no Insonia
+
+link 
+
+
+
+Criação de relacionamento
+
+criando outro endpoint
+
+"professor:": [
+{
+"id: 1,
+"nome": "Marta Andrade",
+"materia": "História",
+{"id": 2,
+"nome": "Lucia Souto",
+"materia": "Fisica"},
+]
+
+---------------------------------------------
+
+WS Client
+
+Tipos de Integração (SOAP e REST); Integração via Web Services
+
+Tipos de integração
+
+A REST e o SOAP são duas arquiteturas distintas para a transmissão de dados na web.
+
+ 
+
+Cada padrão contém a sua particularidade e deve ser implementado a uma aplicação específica. Por isso, é muito importante que, no planejamento da construção de um web service, ele seja analisado antes de definir a arquitetura que será utilizada.
+
+Arquitetura SOAP
+
+O Simple Object Access Protocol (SOAP) é um protocolo de comunicação que segue um padrão de interação com a aplicação.
+
+ 
+
+Essa comunicação é realizada através de um documento XML e, somente, com requisições e respostas.
+
+ 
+
+Dessa forma, suas requisições devem ser realizadas através do método POST.
+
+Arquitetura SOAP
+
+Por ser um protocolo, o SOAP não depende da linguagem de programação, da plataforma e do protocolo de comunicação que será utilizado. Assim, não é só através do protocolo HTTP que ele pode se comunicar.
+
+Exemplo de aplicação SOAP
+
+Um exemplo de um web service SOAP público é o Data Access. Ele converte algarismos numéricos positivos em números por extenso em inglês.
+
+ 
+https://www.dataaccess.com/webservicesserver/NumberConversion.wso
+
+A comunicação dessa aplicação é realizada através de um arquivo XML que apresenta a requisição e a resposta.
+
+ 
+
+Por ser uma aplicação SOAP, a requisição é realizada apenas via POST, como forma de pergunta e resposta.
+
+ 
+
+“POST /webservicesserver/NumberConversion.wso HTTP/1.1”
+
+Resposta do web service
+
+A resposta é dada através da variável NumberToWordsResult que pode ser visualizada na XML.
+
+ 
+
+No caso de uma requisição do número 9538, se tem:
+
+ 
+
+<string>nine thousand five hundred and thirty eight </string>
+
+ 
+
+Assim, a aplicação utiliza o protocolo HTTP para a comunicação.
+
+Arquitetura REST
+
+A Representational State Transfer (REST) é um modelo arquitetural que utiliza regras mais flexíveis, como a arquitetura cliente-servidor. Quando as regras são cumpridas, a REST se transforma em uma RESTful.
+
+ 
+
+A sua comunicação não é restrita, pois tem suporte XML, JSON, TXT, CSV etc.
+
+A REST permite utilizar todos os métodos de requisição HTTP, como o GET, POST, PUT, DELETE e PATCH.
+
+ 
+
+Sua utilização é mais simples por causa da sua flexibilidade e do seu direcionamento nas requisições e respostas.
+
+
+Exemplo de aplicação REST
+Um exemplo de aplicação REST pública é a OMDb, que fornece um banco de dados de filmes e séries.
+
+ 
+
+A requisição deve ser acompanhada de uma chave de autenticação, que é adquirida através do cadastro no site da OMDb API.
+
+ https://www.omdbapi.com/
+
+A comunicação dessa aplicação pode ser realizada através de um arquivo XML ou de uma JSON que apresente a resposta.
+
+ 
+
+Assim, a requisição é realizada através de parâmetros que deverão ser inseridos corretamente para a exibição dos dados.
+
+
+
+Através de uma requisição retirada do site da OMDb API, é possível coletar os dados de um filme com o título “Captain Marvel”, do ano de “2019”, com enredo “Completo” e com a resposta de uma JSON.
+
+ 
+
+Como resposta, é encaminhado um arquivo JSON com o resultado da pesquisa realizada.
+
+ 
+
+Porém, a realização da requisição por outros métodos HTTP, como POST, PUT e DELETE, só seria possível para usuários patronos.
+
+
