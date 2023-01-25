@@ -1,0 +1,148 @@
+Pensamento de Design
+
+Fase 1 - Empatia
+
+Fases do Design Thinking
+
+Nas materiais anteriores, conhecemos o Design Thinking com suas características e fases, que são:
+
+empatia;
+
+definição;
+
+ideação;
+
+prototipação; 
+
+validação.
+--------
+Empatia
+
+A empatia ou imersão, que é a primeira fase, tem como objetivo principal entender qual é o problema que necessita ser solucionado pela equipe.
+
+ 
+
+Para isso, é essencial conhecer bem o problema, sua origem e os seus envolvidos.
+
+ 
+
+O primeiro passo dessa fase é realizar pesquisas com perguntas, que permitam conhecer e identificar comportamentos, pensamentos e atitudes das pessoas.
+
+A etapa de empatia permite uma maior conexão entre o cliente e a empresa.
+
+A empatia e suas etapas
+
+Em um primeiro momento, podemos dividir a empatia em duas etapas para atingir a sua realização: preliminar e de profundidade.
+
+ 
+
+Para cada uma delas, há um conjunto de técnicas que podem auxiliar na coleta de dados.
+
+A empatia e suas etapas
+
+
+
+Ao final da empatia, devemos ter informações suficientes para conseguirmos construir personas e mapas conceituais.
+
+ 
+
+Essas ferramentas vão permitir a utilização das informações de forma mais ágil e eficiente sempre que for necessário resolver algum novo problema que envolva o contexto explorado inicialmente.
+
+As personas são criadas a partir de  respostas do público.
+
+Empatia: etapa preliminar
+
+O primeiro passo na criação e desenvolvimento de qualquer projeto é a busca por informações para dominar um determinado tema, conhecer usuários e potenciais clientes.
+
+ 
+
+Para ter essas informações e propor ações assertivas, executar a etapa preliminar é imprescindível.
+
+ 
+
+Ela vai permitir que perfis relevantes sejam identificados, que o contexto seja bem explorado e que as ações e proposições do projeto sejam significativas para o público.
+
+A partir da criação de personas, podemos projetar aplicações de um produto ou serviço.
+
+A preliminar inicia com a identificação de um problema existente. A partir disso, a próxima ação é a exploração.
+
+ 
+
+Por meio de uma pesquisa exploratória, que busca entender as necessidades dos clientes, se estabelece nichos ou critérios de importância.
+
+Conseguir identificar um nicho é imprescindível.
+
+Por último, se realiza a pesquisa desk. Para ela, é necessário entender o que vem sendo falado sobre o tema que está sendo trabalhado.
+
+ 
+
+Assim, você faz buscas em sites, blogs, revistas, redes sociais e outras fontes confiáveis, para entender o contexto e as informações disponíveis sobre o problema levantado.
+
+Empatia: etapa de profundidade
+
+Com as informações obtidas e analisadas na fase preliminar, é possível elaborar um plano de pesquisa para coletar informações mais profundas.
+
+ 
+
+É na etapa de profundidade que as problemáticas são realmente evidenciadas. Assim, fornecendo suporte e direcionamento para possíveis soluções.
+
+Empatia: etapa de profundidade
+
+Para a próxima coleta de dados, podem ser utilizados registros (fotos ou vídeos), entrevistas, observações de campo, cadernos de sensibilização etc.
+
+ 
+
+O ideal é que quatro perguntas possam ser feitas para o público sobre o problema levantado:
+
+o que falam sobre ele?
+
+o que pensam sobre ele?
+
+como agem em relação a ele?      
+
+como se sentem em relação a ele?
+
+As entrevistas devem simular um diálogo comum.
+
+Nas entrevistas, é importante que os entrevistados não se sintam pressionados e que fiquem confortáveis para responder com sinceridade.
+
+ 
+
+Por outro lado, na observação de campo, é necessário que o observador seja o mais discreto possível, não participando de conversas nem discussões, pois pode influenciar as respostas caso não siga esses critérios.
+
+Durante as observações, o ideal é que tudo seja registrado.
+
+Já os cadernos de sensibilização permitem coletar informações mais pessoais como aspirações, sonhos, gostos e outras características.
+
+ 
+
+Ter a etapa da empatia bem estruturada fornece o pontapé inicial para alcançar as metas estabelecidas.
+
+----------------------------------
+
+Mapa da empatia
+
+Recurso que resume visualmente, com pontos importantes para personas
+
+perguntas bases
+
+oq ver, ouive, sente, faz, fala, quais suas dores e necessidades
+
+Em seguida escreve as respostas obtidas
+
+oq ver tem que ser de uma ou mais pessoas
+
+o que ouve e quais suas influencias
+
+oq sentem e pensam - sonhos, preocupaççoes
+
+falam e faz, interesses robies
+
+
+final monta a personas
+
+Ao identificar as dores descobre oq incomoda
+
+Dores mostra as necessidades e oq pode ser solucionados
+
+Não basta fazer perguntas e sim perguintas certas, evoite perguntas sim ou não
