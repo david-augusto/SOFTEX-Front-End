@@ -1,0 +1,19 @@
+Uma empresa de delivery de alimentos utiliza a pesquisa Net Promoter Score (NPS) para avaliar o nível de satisfação dos clientes em relação aos seus serviços. Assim, ela pode identificar a opinião do seu público e descobrir se eles recomendariam a sua marca para amigos.
+
+Essas informações são úteis para o desenvolvimento de estratégias e a fidelização de clientes, porém, a maioria dos usuários não responde o questionário, o que afeta o planejamento da empresa.
+
+Como você poderia identificar as causas e consequências desse problema?
+
+----------------------------------------------------------------
+
+Primeiramente criaria uma arvore de problemas, colocando a situação nela como exemplo os galhos seria o planejamento da empresa sendo afetado e a raiz seria a pesquisa não respondida.
+
+Faria a técnica dos cinco porques:
+
+- 1 Porque os usuários não respondem as pesquisas?
+- 2 O que o usuário ganha respondendo a pesquisa?
+- 3 Quais os incestivos que a pesquisa mostra para o usuário?
+- 4 Que tipo de recompesa poderiamos oferecer ao usuário que respondem as pesquisas?
+- 5 - As recompensas poderiam ser cupons de descontos nos próximos pedidos?
+
+A partir das análises é possível planejar projetos para melhoria e solução do problema.

@@ -1,0 +1,121 @@
+Pensamento de Design
+
+
+Fase 2 - Definição
+
+Na segunda fase do Design Thinking, encontramos a definição da problemática.
+
+ 
+
+Após escutar as necessidades dos clientes na fase da empatia, utilizamos as informações coletadas para agrupar as percepções em relação ao problema e desenvolver possíveis soluções alinhadas às expectativas dos clientes.
+
+ 
+
+Assim, se faz a análise, a organização e a sintetização destas informações.
+
+A definição é a segunda fase do processo de Design Thinking.
+
+Os momentos de análise e planejamento auxiliam no desenvolvimento de um produto inovador e assertivo.
+
+ 
+
+Neles, também podemos identificar as principais tendências do mercado, oportunidades e desafios que podem ser enfrentados durante a construção do produto.
+
+Acompanhar as tendências do mercado ajuda na criação de um produto inovador.
+
+Por isso, entender os detalhes que compõem a sua problemática possibilita um melhor direcionamento para a solução do seu problema.
+
+ 
+
+Além disso, vale ressaltar que o Design Thinking não segue uma sequência de instruções, podendo adotar diferentes caminhos dependendo da situação.
+
+O planejamento das ações ocorre a partir da definição do problema.
+
+Trabalho em equipe
+
+É importante que todo o grupo colabore e participe do processo.
+
+ 
+
+O Design Thinking incentiva o trabalho em equipe e estimula o desenvolvimento de um ambiente acolhedor e respeitoso. Assim, todos podem expor suas opiniões sem julgamento.
+
+ 
+
+É recomendável que exista profissionais de diferentes áreas para que se possa ter diversas perspectivas diante do problema e soluções inovadoras.
+
+Como definir um problema?
+
+Mas como podemos definir um problema? Várias ferramentas podem ser utilizadas, como notas autoadesivas (para criar uma organização com base em similaridades e anotar insights), mapas conceituais, árvore de problemas, diamante duplo etc.
+
+ 
+
+Elas possibilitam uma melhor compreensão e aprofundamento do problema para não criar soluções superficiais. O próprio Tim Brown (1962-) comenta em sua palestra Designers - think big sobre essa experiência de desenvolver produtos que em pouco tempo se tornaram inúteis.
+
+As soluções precisam ser sustentáveis ao longo do tempo.
+
+
+Os cinco porquês
+
+Os cinco porquês é uma técnica muito utilizada para auxiliar na identificação da raiz do problema.
+
+ 
+
+Ela foi criada na década de 1930 através do sistema de produção da Toyota. O seu objetivo principal é perguntar o porquê do problema ter acontecido.
+
+ 
+
+A sua simplicidade, praticidade e eficiência tornam essa ferramenta útil para a fase de definição.
+
+Cinco porquês é uma ferramenta simples para resolução de problemas.
+
+Os cinco porquês - como fazer
+
+Vamos analisar o exemplo a seguir para compreender a técnica.
+
+Imagine que uma pessoa precisa transportar seu pet usando o serviço da Uber:
+
+por que as pessoas não conseguem transportar os seus animais de estimação pelo app da Uber?
+por que a maioria dos motoristas cancelam as viagens quando se está levando um pet?
+por que não existe a opção UberPet? 
+
+4. por que é preciso perguntar ao motorista se ele aceita animais no carro ou não?
+
+5. por que não existe uma opção que seleciona apenas os motoristas que aceitam transportar animais?
+
+A ferramenta serve para encontrar a raiz do problema.
+
+Considerações finais
+
+A partir dessa análise, é gerada uma definição mais clara do problema e os responsáveis podem elaborar planos de ação para desenvolver a sua solução.
+
+ 
+
+Por fim, podemos observar que a fase de definição é fundamental para dar continuidade a construção do projeto e contribuir para a melhoria de processos.
+
+ 
+
+Saiba mais sobre a utilização do DT no desenvolvimento de uma jornada do cliente aqui.
+
+Definir o problema para desenvolver soluções inovadoras.
+
+--------------------------------------------------
+
+Arvores de Problemas:
+
+Desenvolver solução viável e sustentável
+
+Fase de definição
+
+Investigação
+
+Relação de causa e consequencia
+
+Como desenvolver
+
+desenho de arvores com raizers trocos e galhos
+
+Identificar consequencias e colocar nas folhas
+
+raizes é a causa e fatores
+
+Ligar causas e consequencias
