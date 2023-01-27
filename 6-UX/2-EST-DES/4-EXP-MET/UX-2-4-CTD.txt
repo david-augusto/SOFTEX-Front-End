@@ -1,0 +1,86 @@
+Pensamento de Design
+
+Fase 04 - Prototipação
+
+O que é prototipar?
+
+Após as fases de empatia, definição e ideação, é necessário testar as criações e coletar os principais insights sobre elas. 
+
+ 
+
+A prototipação é a melhor forma de realizar isso, pois ela permite uma validação inicial do que vem sendo desenvolvido. Ou seja, essa fase acontece antes da criação ser colocada efetivamente em circulação.
+
+ 
+
+Assim, a prototipação dá forma ao que foi idealizado e proporciona uma visão de qual seria o comportamento dos usuários ou clientes diante do produto ou serviço que está sendo desenvolvido.
+
+O protótipo é uma forma simples de representar uma ideia
+
+Estratégias de prototipação
+
+Para a fase de prototipação, podem ser oferecidas versões simples e reduzidas do resultado final esperado. O objetivo é que as ideias saiam da imaginação, ganhando forma física e aplicável.
+
+ 
+
+Pensando nisso, a prototipação pode ser realizada de três formas: com baixa, média ou alta fidelidade. Essas formas estão relacionadas com o nível de similaridade que o protótipo possui com o produto final.
+
+Quanto mais similar ao produto final, mais alta a fidelidade.
+
+Fidelidade do protótipo
+
+Na prototipação de baixa fidelidade, a representação é mais próxima do conceito da ideação. Ela é feita através de esboços e rascunhos.
+
+ 
+
+Enquanto isso, por se basear nos aspectos essenciais do produto ou serviço, a representação de média fidelidade mostra um resultado parcial da ideação.
+
+ 
+
+Na alta fidelidade, temos a representação mais próxima possível do resultado final desejado, ou seja, possui um alto nível de semelhança com o que será o resultado final.
+
+Os protótipos permitem que ajustes sejam feitos antes do lançamento.
+
+Variações do protótipo
+
+Vale ressaltar que quanto maior o nível de fidelidade, maior será o custo da prototipação.
+
+ 
+
+Os protótipos mais fiéis ao resultado final são comumente utilizados para serem apresentados aos clientes externos ou para vender ideias.
+
+ 
+
+Há muitas formas de realizar a prototipação, seja por meio de papel (desenhos e esquemas), de materiais de volume (lego, maquetes etc.) ou de simulações.
+
+A criatividade é essencial para conseguir prototipar.
+
+Contexto do protótipo
+
+Outro tipo de variação é quanto ao contexto, pois os protótipos podem envolver usuários e ambientes diferentes.
+
+Restrito: é realizado em um contexto controlado;
+
+Geral: é realizado com qualquer usuário e ambiente;
+
+Parcial: é realizado com um usuário final ou no ambiente final.
+
+Total: é realizado com um usuário final no ambiente final.
+
+Escolher um contexto é extremamente importante.
+
+Vantagens da prototipação
+
+É a partir dos resultados obtidos na prototipação que o produto oferecido adquire maior assertividade. 
+
+ 
+
+Não são apenas os resultados positivos que contribuem para o bom desempenho dos produtos, resultados negativos obtidos na prototipação podem indicar possíveis melhorias, que garantirão maior eficiência no resultado final.
+
+É mais fácil corrigir erros após aplicação do protótipo.
+
+Utilizar protótipos permite que ajustes sejam facilmente realizados, sem colocar em risco a necessidade de mudar o produto ou serviço após sua entrada no mercado.
+
+ 
+
+Escolher a melhor estratégia de prototipação auxilia a reduzir incertezas e desenvolver produtos efetivos.
+
