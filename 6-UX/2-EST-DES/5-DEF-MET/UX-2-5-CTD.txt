@@ -1,0 +1,33 @@
+Processo de validação
+
+Dinamicas colaborativas
+
+Fase de validação
+
+ver a quem o produto se destina
+
+Se atende as expectativas
+
+Depois vai pra ase de testes
+
+Não é linear
+
+Teste driver
+
+Matriz de feedback
+
+POntos positivos e negativos
+Oportuniudades
+sugestões
+identificar possiveis falahas
+caminhos para melhoria
+
+Na matriz não explica como é o protótipo
+expresse os pensamentos
+
+Divida as etapas
+
+Inspire as pessoas a testarem
+
+no desing think pode reiniciar 
+
