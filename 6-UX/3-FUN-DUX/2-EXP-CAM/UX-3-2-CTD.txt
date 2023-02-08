@@ -1,0 +1,167 @@
+UX/UI
+
+Carreira em UX/UI Design
+
+Possibilidades de atuação em UX e UI
+
+A UX abrange diversas áreas, mas nem todas empresas têm a mesma perspectiva sobre o UX Design. Existe uma variedade de fatores que influenciam essa compreensão.
+
+Possibilidades de atuação em UX e UI
+
+Existem várias áreas de atuação em UX Design. O designer UX tem como principal responsabilidade proporcionar que as pessoas tenham a melhor experiência de uso de uma solução, que pode ser um produto ou mesmo um serviço.
+
+são diversas as áreas de atuação do profissional de UX.
+
+Possibilidades de atuação em UX e UI
+
+Embora se entenda que a experiência do usuário não se limita à tecnologia, podemos nos concentrar nas possibilidades de atuação focando no contexto de produtos e serviços digitais, como aplicativos, softwares e sites.
+
+Possibilidades de atuação em UX e UI
+
+O UX Design compreende uma gama de carreiras. Algumas dessas especializações serão apresentadas a seguir.
+
+UX Research
+
+ 
+
+Sua principal responsabilidade é compreender os comportamentos do usuário, suas necessidades, motivações, perfis etc.
+
+ 
+
+Deve ser uma pessoa completamente focada em aspectos de pesquisa e, por isso, tem domínio em variadas técnicas de coleta e análise de dados qualitativos e quantitativos.
+
+UX Strategy
+
+ 
+
+Tem como principal missão conectar as estratégias de negócios de uma empresa e suas metas com o design da experiência do usuário dentro da organização. 
+
+ 
+
+Além disso, busca manter um contínuo alinhamento entre os objetivos de negócios e as necessidades do usuário.
+
+UX Strategy conecta estratégias de negócios.
+
+UX Voice Design
+
+ 
+
+Seu foco principal são os dispositivos cuja interação dos usuários pode ser mediada pelas vozes deles.
+
+ 
+
+O designer que trabalha com isso pode ser chamado de Designer de Interface Voz-Usuário (Voice User Interface Designer) ou Designer de Interface do Usuário Conversacional (Conversational User Interface Designer).
+
+Esse campo tem se tornado cada vez mais popular e tende a seguir crescendo alinhado com as tendências da Internet das Coisas.
+
+ 
+
+Nele, existe a preocupação com os desafios relacionados a como as pessoas respondem emocionalmente à voz e características de diferentes falas. Isso abrange a psicologia, sociologia, ciência de dados e a linguística.
+
+UX Voice Design segue tendências do mercado, como a IoT.
+
+UX Writing
+
+ 
+
+Conduz a experiência das pessoas por meio dos textos presentes nos produtos e serviços. 
+
+ 
+
+Uma de suas responsabilidades é aprimorar a experiência do usuário a partir da linguagem e tônica adotadas no produto, ou seja, abrange todos os conteúdos textuais produzidos dentro da solução. 
+
+ 
+
+Além disso, quem trabalha nessa área atua com outros membros de UX e de desenvolvimento para garantir uma boa experiência de navegação.
+
+UX e UI Development
+
+ 
+
+Possui um perfil híbrido que combina tanto as habilidades em UX (UI, especificamente), quanto às de desenvolvimento em front-end (como as linguagens HTML, JavaScript, CSS etc).  
+
+ 
+
+Suas habilidades são relevantes porque percorrem todo o processo, assim, são capazes de comunicar-se com os times de desenvolvimento com muita fluidez.
+
+
+Tarefas do profissional em UX e UI
+
+A seguir, alguns exemplos de tarefas desses cargos serão apresentados.
+
+ 
+
+Arquiteto da informação
+
+Produzir sitemaps que apresentam a hierarquia do conteúdo no produto;
+
+Elaborar protótipos e mockups que abrangem o layout e os elementos de navegação;
+
+Determinar os tipos de conteúdo estruturados que representam as reais necessidades do usuário.
+
+O arquiteto da informação avalia e determina o conteúdo apresentado ao usuário.
+
+
+UX researcher
+
+Recrutar pessoas, agendar e realizar entrevistas, grupos focais, Card Sorting, testes de usabilidade etc;
+
+Analisar de forma qualitativa e quantitativa os dados obtidos a partir de fontes;
+
+A partir da síntese dos dados obtidos,  elaborar personas, jornadas do usuário, mapas de empatia, entre outros.
+
+UX strategist
+
+Alinhar objetivos de negócios e necessidades dos usuários, conduzindo decisões estratégicas de design;
+
+Sumarizar e traduzir os dados obtidos de diferentes fontes para identificar oportunidades estratégicas e recomendar produtos e serviços inovadores;
+
+Apresentar percepções de pesquisa para as partes interessadas, abrangendo executivos e de negócios, buscando apoiar a tomada de decisão.
+
+As decisões estratégicas de design são definidas pelo UX strategist.
+
+UX voice designer
+
+Mapear e vincular expressões a uma determinada intenção;
+
+Compreender as respostas emocionais das pessoas às diferentes interações de voz;
+
+Identificar os diferentes percursos conversacionais para adaptar o sistema de voz.
+
+UX writer
+
+Avaliar como a linguagem adotada na interface e nos elementos de design interativo proporcionam uma narrativa lógica na jornada do usuário;
+
+Realizar um processo iterativo de análise e atualizar continuamente os documentos que norteiam a tônica do produto.
+
+O UX writer é responsável por toda linguagem adotada na interface.
+
+UX e UI developer
+
+ 
+
+Elaborar storyboards, fluxos de processos e sitemaps para ilustrar ideias de design;
+
+Criar wireframes e mockups de UI que ilustram como sites e aplicativos devem ser;
+
+ 
+Criar protótipos de alta fidelidade para ilustrar soluções complexas ou mecanismos de design interativo.
+
+Existem diversas oportunidades de carreira em UX e UI Design e esses desdobramentos tendem a se expandir e amadurecer, sobretudo em função da crescente demanda por soluções digitais.
+
+--------------------
+Links:
+
+https://aelaschool.com/carreira/possibilidades-de-trabalho-em-ux-design/
+
+https://www.alura.com.br/artigos/o-que-e-ux-research?gclid=CjwKCAjw7cGUBhA9EiwArBAvoufXmwwFmRxtPcqp4c6AfwwbRXbU_6Lnv5PIeIdjUMr0YR4qam9RJhoCjUIQAvD_BwE
+
+https://brasil.uxdesign.cc/o-que-%C3%A9-ux-strategy-e-quais-as-principais-diferen%C3%A7as-para-ux-design-31450d63ed9b
+
+https://medium.com/somos-tera/voice-interface-e-ux-design-como-anda-essa-rela%C3%A7%C3%A3o-e35d5cef0cae
+
+https://www.alura.com.br/artigos/ux-research-ux-writing-pesquisas-sao-importantes-para-escrita?gclid=CjwKCAjw7cGUBhA9EiwArBAvovuVzcC_ke9V7eCOn5cTB9l01QsssIt3cU44pfBZZ-dtJ-iwbCvz2xoCyIAQAvD_BwE
+
+https://brasil.uxdesign.cc/card-sorting-como-descobrir-o-modelo-mental-de-organiza%C3%A7%C3%A3o-de-conte%C3%BAdo-18e9a50121aa
+
+https://rockcontent.com/br/blog/storyboard/
