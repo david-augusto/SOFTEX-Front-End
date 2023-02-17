@@ -1,0 +1,40 @@
+Métodos e técnicas de pesquisas
+
+Eixo horizontal - qualitativa e quantitativa
+Eixo vertical - Fonte de informação atitudinal ou comportamental
+
+Eixo vertical - como a pessoa se comporta no uso do produto
+
+Pespectiva comportamental - teste de usabilidade em laborátorio, contexo, remoto, Obter dados, Teste A-B, Google Analytcs
+
+Testes de usabilidade - Avaliar produtos, observa, escuta
+
+Teste A-B - Duas versões diferentes de produtos para ver oq é melhor
+
+Google analyticcs - monitora e analisa sites
+
+
+Eixo horizontal - Qualitativa - como e porque de algo, próximo das pessoas
+
+Entrevistas - roteiro ou tópicos
+
+Grupo de discursão tem mediador e outras pessoas
+
+Quantitativa - interesse é quantificar atitudes e comportamentos
+
+Ex: Quantitativa - Questionários(Como, pq), testes A-B e Googçe Analytics
+
+---------------------------------------------------------------------------
+
+
+Métodos e técnicas de pesquisa parte 2
+
+Conferir oq já tem no mercado
+
+Secundária que não é com o usuário.
+
+Pesquisa secundária (Desk Research)
+
+Pesquisas externas e internas
+
+
