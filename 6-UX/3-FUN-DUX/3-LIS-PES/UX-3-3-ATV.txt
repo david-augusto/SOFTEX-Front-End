@@ -8,8 +8,4 @@ Indique o tipo de técnica que você sugere e justifique sua escolha.
 
 ---------------------------------------------------------------
 
-- Primeiramente houve um erro por parte da equipe por não disponibilizar pesquisa, logo com esse novo lançamento, será necessário utilizar algumas técnicas de eixo horizontal, quantitativa como exeplo abaixo:
-
-- Questionários;
-- Testes A-B
-- Googçe Analytics
+- Primeiramente houve um erro por parte da equipe por não disponibilizar pesquisa na primeira versão, logo com esse novo lançamento, é necessário utilizar a técnicas de eixo horizontal, quantitativa chamada Testes A-B, para poder realizar comparar com as duas versões da aplicação.
