@@ -1,0 +1,101 @@
+Ferramentas UX
+
+Organizar informações de clientes em ferramentas
+
+Mapa de empatia, Blueprint de serviços, Mapa de jornada do usuário, Storyboards, Protopersonas, Personas
+
+Mapa de empatia: Visualizar conhecimentos sobre determinados conjuntos de usuários de maneira colaborativa, obter informações
+
+Protopersonas, Personas: permite humanizar dados complexos sobre os usuários, delimitar melhor o conhecimento sobre o público alvo
+
+Personas: Dados direto com o usuário através de pesquisas;
+
+Protopersonas: Feito com informações dos stackholders;
+
+Storyboards: História em quadrinhos que juntas formam uma história maior;
+
+Blueprint de serviços: Diagrama que permite identificar todas as ações em um serviço;
+
+----------------------------------------------------------------
+
+UX/UI
+Protopersonas e Personas
+
+Personas
+
+https://resultadosdigitais.com.br/marketing/persona-o-que-e/#:~:text=Persona%20%C3%A9%20a%20representa%C3%A7%C3%A3o%20fict%C3%ADcia,conte%C3%BAdo%20e%20de%20Marketing%20Digital.
+
+Personas são ferramentas da User Experience (UX) que permitem organizar as informações sobre o usuário. Elas proporcionam mais conexão, empatia e humanização a partir da apresentação de seus comportamentos, necessidades e contextos.
+
+O uso de personas organiza as informações sobre os usuários.
+
+Estas ferramentas não são exaustivas, minuciosas ou estruturadas de forma complexa para explicar os usuários. 
+
+ 
+
+O grande objetivo dessas ferramentas é agrupar informações sobre um conjunto de pessoas e caracterizá-las de maneira empática, trazendo nome, idade, contexto, personificação e personalidade ao usuário.
+
+Existem três formas de elaborar personas e elas estão diretamente associadas com a maneira pela qual os dados são coletados.
+
+Proto-personas;
+
+Personas qualitativas;
+
+Personas estatísticas.
+
+As proto-personas são criadas a partir do conhecimento preexistente da equipe ou dos stakeholders sobre os usuários. 
+
+https://uxdesign.blog.br/proto-persona-o-que-%C3%A9-e-como-criar-a-sua-e4ae0a5c23b8
+ 
+
+Informações podem ser incorporadas, mas não são realizadas novas pesquisas para obtenção de dados.
+
+Equipe debatendo sobre os usuários.
+
+Proto-personas
+
+Não existe problema em utilizar apenas o conhecimento ou suposições do time. Porém, elas são criadas a partir de quatro blocos de informação:
+
+nome, idade e figura;
+
+perfil;
+
+necessidades;
+
+comportamento.
+
+Personas qualitativas
+
+As personas qualitativas, ou apenas personas, são criadas a partir de pesquisas exploratórias qualitativas com pequenas ou médias amostras de usuários.
+
+ 
+
+Esse tipo agrupa os usuários em clusters, considerando comportamentos, objetivos, principais dores e expectativas.
+
+A diferença dessa forma para as proto-personas está no uso de dados advindos de uma nova pesquisa realizada com os usuários. 
+
+ 
+
+No entanto, alguns pontos podem comprometer as personas, por exemplo, as amostras podem ser pequenas e os usuários podem ser sub-representados.
+
+Personas estatísticas
+
+Nas personas estatísticas, se faz a coleta de dados com uma grande quantidade de pessoas que representam o público-alvo da pesquisa. 
+
+ 
+
+A partir disso, análises estatísticas são utilizadas para agrupar as respostas similares
+
+
+Representantes de um público-alvo
+
+No entanto, é interessante observar que este tipo de persona necessita de uma pesquisa qualitativa exploratória para identificar as questões que serão incluídas no questionário e obter respostas relevantes de uma grande quantidade de pessoas.
+
+Personas
+
+Essas variedades de personas são adequadas para diferentes tipos de situações e possuem prós e contras. O principal ponto entre elas é a fonte dos dados e como eles são obtidos. 
+
+ 
+
+Use aquela que faz mais sentido para o tempo e os recursos disponíveis.
+
