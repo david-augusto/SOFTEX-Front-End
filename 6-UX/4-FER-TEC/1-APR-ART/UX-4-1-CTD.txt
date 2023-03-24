@@ -1,0 +1,100 @@
+Artefatos para esquematizar soluções: sketches, wireframes e mockups
+
+Após entender o problema e ver a necessidade e realizar a ideação da solução
+
+construir artefatos
+
+Sketching: explorara o problema de maneira aprimorada, rabisco de interfaces, esboços
+
+Identificar problemas;
+
+Wireframes: representar em baixa fidelidade
+
+Auxiliar o UX designer
+Alinhar a expectativa do cliente
+
+Mockups: Elementos visuais esteticos, paletas de cores
+
+Ferramentas: Stetch, Fugma, Adobe XD
+
+--------------------------------------
+
+Sketches; Wireframes; Mockups
+
+Style Guide/ UI Kit
+
+Esquematize soluções
+
+Uma vez selecionada a ideia que será implementada, você precisa esquematizá-la a partir de um sketch, wireframe ou mockup.
+
+ 
+
+Além disso, para estruturar o seu projeto, você precisa conhecer as guias de estilo e os kits de UI Design.
+
+https://www.terra.com.br/byte/o-que-e-o-sketch,e7afbb045150014de0298adc71734970cwqu8nty.html
+
+https://kenzie.com.br/blog/wireframe/?trk_src=g&trk_cmp=15856497066&trk_grp=142186742081&trk_ad=609055390459&trk_kw=&utm_term=&utm_campaign=INSC-PER-2022-TERMOS-PROGRAMACAO-SEARCH&utm_source=adwords&utm_medium=ppc&hsa_acc=2166776305&hsa_cam=15856497066&hsa_grp=142186742081&hsa_ad=609055390459&hsa_src=g&hsa_tgt=aud-1363800974103:dsa-422413047485&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw8uOWBhDXARIsAOxKJ2EF-4KKQYRNpyVxYw77w64ecWW8AtyHqw6TQ4iGMegVXyBH69tuZ-4aArkYEALw_wcB
+
+https://canaltech.com.br/produtos/o-que-e-um-mockup/
+
+Mockup é a simulação de um produto.
+
+Guias de estilo
+
+Um guia de estilo contempla todas as diretrizes de design de uma instituição ou empresa. Ele pode ser aplicado, em menor escala, em produtos, serviços, marcas etc.
+
+ 
+
+Um dos guias de estilo mais conhecidos é o Material Design, criado pelo Google em 2014.
+
+UI kit
+
+Um kit de interface do usuário abrange vários elementos de design, como componentes e estilos.
+
+ 
+
+Os componentes trazem significado à interação do usuário com a interface, como botões e menus de navegação.
+
+ 
+
+Já os estilos são os atributos visuais. Neles, estão contidos elementos como fontes, paleta de cores e formas.
+
+https://cwi.com.br/blog/kits-de-ui-edite-e-planeje-a-aparencia-da-interface-do-seu-produto/
+
+
+Um UI kit garante a consistência e coesão dos componentes de UI, atuando como referência para design de interfaces mobile ou web.
+
+ 
+
+Em geral, esses kits costumam ser destinados a um nicho específico, como finanças, comércio ou música.
+
+https://aelaschool.com/designdeinteracao/consistencia-e-padronizacao-em-ui/
+
+Vantagens de um UI kit
+
+Algumas das principais vantagens dos kits de interface do usuário são:
+
+acelerar o processo de design
+
+Com tudo pronto e agrupado, o time ganha mais celeridade para apenas utilizar os itens já prontos;
+
+manter a consistência no projeto
+
+Quando combinamos elementos derivados de diferentes bibliotecas, ou mesmo a partir da criação do próprio UI designer, pode ser difícil manter a consistência.
+
+A adoção de UI kits otimiza a criação.
+
+
+
+Desvantagens de um UI kit
+
+Algumas das desvantagens dos kits de interface do usuário são:
+
+quantidade limitada de elementos
+
+Mesmo com tudo muito organizado, é importante dizer que os UI kits têm uma quantidade limitada de elementos;
+
+pode necessitar de adaptação
+
+Se existe a intenção de incorporá-lo a um design já existente, será necessário adaptar o kit para manter a consistência.
+

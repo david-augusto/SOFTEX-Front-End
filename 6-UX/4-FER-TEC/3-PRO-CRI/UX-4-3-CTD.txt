@@ -1,0 +1,23 @@
+Prototipo MVP e  MDP
+
+Prototipação minimo produto desejável
+
+Produto minimo viável
+
+MVP e MDP utilizados para desenvolver e validar uma hipotese ou modelo de negócios
+
+MVP: Foco na criação e lançamento de produto no tempo mais rápido
+
+identificar caracteristicas
+
+
+Versão simplificada do produto final
+
+Valida hipoteses
+
+identificar aceitação do produto
+
+MDP: Experiência minima para causa satisfação do usuário
+
+Protótipo execução de um produto
+

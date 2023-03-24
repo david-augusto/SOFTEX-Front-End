@@ -1,0 +1,126 @@
+Conceitos de usabilidade; Testes de Usabilidade; Métricas de UX; Acessibilidade; Heurísticas
+
+Métodos e técnicas para validar soluções
+
+Para construir soluções conectadas com as necessidades do usuário, é preciso estabelecer maneiras de validar se as propostas estão atendendo o propósito estabelecido.
+
+Existem diversos métodos e técnicas para validar soluções.
+
+Conceitos de usabilidade
+
+Primeiro, precisamos conhecer formalmente o conceito de usabilidade. Você certamente já ouviu ou já usou esta palavra que ganhou popularidade ao longo dos últimos anos, especialmente depois do boom dos aplicativos para dispositivos móveis. 
+
+ 
+
+Um ponto interessante sobre a usabilidade é que é muito mais fácil explicá-la partindo de uma experiência negativa. Ou seja, as experiências ruins com um produto acabam nos levando a identificar quando a sua usabilidade não é boa.
+
+A experiência do usuário pode ser identificada através da usabilidade.
+
+Conceitos de usabilidade
+
+Formalmente, a usabilidade é definida como:
+
+Usabilidade é a eficiência, eficácia e satisfação com a qual os públicos do produto alcançam objetivos em um determinado ambiente. (ISO 9241–11, 1998 apud VOLPATO, 2016)
+
+Assim, ela avalia se foi fácil utilizar uma determinada interface e quais métodos podem ser usados durante o processo de design para proporcionar aos usuários uma boa experiência.
+
+Satisfação do público.
+
+Segundo Jakob Nielsen (1957 -) existem cinco elementos que definem uma boa usabilidade.
+
+Facilidade de aprendizado
+
+O grau de facilidade de uso da interface;
+
+Eficiência de uso
+
+A eficiência da interface permite que as pessoas realizem rapidamente seus objetivos;
+
+https://brasil.uxdesign.cc/ensinamentos-de-jacob-nielsen-sobre-intera%C3%A7%C3%A3o-do-usu%C3%A1rio-com-interfaces-f510ac9b2a73
+
+Facilidade de memorização
+
+Avalia se é fácil memorizar os caminhos para realizar uma tarefa nesta interface;
+
+Erros
+
+Analisa casos em que as pessoas cometem erros ao utilizar a interface e qual é a severidade deles. Se é difícil de resolvê-los ou não;
+
+Satisfação
+
+Observa se a interface é agradável.
+
+Testes de usabilidade
+
+Os testes de usabilidade são técnicas de pesquisa muito usadas para analisar um produto ou serviço.
+
+ 
+
+Eles são realizados com pessoas representativas do público-alvo e em diferentes contextos, em cenários controlados, como laboratórios, ou em campo, onde essas pessoas estão em seu ambiente natural de uso do produto ou serviço.
+
+Exemplo de teste de usabilidade.
+
+https://www.hostgator.com.br/blog/teste-de-usabilidade-o-que-e-para-o-que-serve-e-por-que-e-importante/
+
+Em geral, um grupo de pessoas realiza um conjunto de atividades enquanto um analista observa, podendo haver interação ou não, e toma nota sobre a experiência.
+
+ 
+
+Um ponto importante é que os especialistas estão analisando o que as pessoas efetivamente fazem na interação com o produto ou serviço. 
+
+ 
+
+Por ter um foco mais qualitativo sobre as interações, esses tipos de testes são excelentes. Já para uma análise quantitativa, as métricas podem ser uma opção.
+
+Métricas de UX
+
+O que são e para que servem as métricas em UX? 
+
+ 
+
+O objetivo das métricas é analisar as interações dos usuários com um produto ou serviço. 
+
+ 
+
+O primeiro passo é identificar o que se deseja medir, o motivo e quais as questões a serem respondidas a partir destas medidas e, por fim, o que fazer a partir dos resultados.
+
+As métricas nos permitem analisar as interações do usuário com o produto.
+
+https://catarinasdesign.com.br/metricas-de-ux/
+
+Alguns exemplos de métricas existentes são:
+
+SUS (System Usability Scale);
+
+NPS (Net Promotion Score);
+
+CES (Customer Effort Score);
+
+visitantes únicos;
+
+duração da sessão;
+
+origem do tráfico.
+
+Acessibilidade
+
+A acessibilidade garante que todas as pessoas possam usufruir  produtos, serviços, meios de comunicação e informações com segurança e completa autonomia.
+
+ 
+
+Quando falamos de acessibilidade no contexto digital, buscamos realizar todos os ajustes necessários para que todas as pessoas possam utilizar a tecnologia.
+
+A acessibilidade busca garantir segurança e autonomia dos usuários.
+
+https://brasil.uxdesign.cc/acessibilidade-produtos-digitais-552844f7f414
+
+Existem alguns elementos que podem ser considerados para proporcionar uma experiência de acessibilidade mais eficaz: 
+
+paletas de cores, especialmente para pessoas com problemas visuais; 
+
+transcrição de áudios; 
+
+tamanho e tipo de fonte;
+
+Para orientar a acessibilidade no meio digital, existem guias e diretrizes. O mais conhecido é a Cartilha de Acessibilidade na Web, produzida pela W3C Brasil.
+
