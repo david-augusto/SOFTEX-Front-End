@@ -1,0 +1,20 @@
+Os projetos A, B e C estão em andamento no squad que você ingressou.
+Escolha um desses projetos, indique qual é o artefato mais adequado para ele e justifique.
+A. Um produto completamente novo, sem funcionalidades e elementos de design definidos;
+B. O redesign de um produto complexo, mas com funcionalidades definidas;
+C. Um produto com funcionalidades já estabelecidas, mas que necessita melhorar a visualização de elementos estéticos.
+
+
+-----------------------------------------------
+
+1º A. Um produto completamente novo, sem funcionalidades e elementos de design definidos:
+
+R - Artefato escolhido: Sketching, devido não ter ainda funcionalidades, é necessário fazer vários rabiscos para chegar a uma ideia.
+
+2º B. O redesign de um produto complexo, mas com funcionalidades definidas:
+
+R - Artefato escolhido: Wireframes, pois o produto sendo complexo um protótipo de alta fidelidade demoraria muito tempo, com o de baixa é possível focar melhor em melhorias.
+
+3º C. Um produto com funcionalidades já estabelecidas, mas que necessita melhorar a visualização de elementos estéticos.
+
+R - Artefato escolhido: Mockups, pois tem mais elementos visuais esteticos, paletas de cores, que foca no estético.
