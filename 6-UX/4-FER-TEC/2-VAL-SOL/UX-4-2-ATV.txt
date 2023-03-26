@@ -1,0 +1,35 @@
+Escolha uma ou mais tarefas que um usuário deve realizar para testar um site, aplicativo ou plataforma. A partir disso, analise o comportamento dele com a interface escolhida, considerando um dos elementos citados por Nielsen:
+
+- facilidade de aprendizado;
+- eficiência de uso;
+- facilidade de memorização;
+- erros;
+- satisfação.
+
+----------------------------------------------------
+
+Foi realizado teste de usabilidade com o usuário no aplicativo de delivery Ifood.
+
+Foi consederado todos os elementos citados por Nielsen.
+
+
+- Facilidade de aprendizado
+
+Interface fácil de usar, usuário não demostrou dificuldade no uso da plataforma.
+
+- Eficiência de uso
+
+A eficiencia do APP é boa, usuário conseguiu cumprir o seu objetivo que era pedir um lanche.
+
+
+- Facilidade de memorização
+
+Facilidade de memorização ótima, pois o usuário conseguiu realiar um novo pedido memorizando os passos do anterior.
+
+- Erros
+
+Foi analisado um erro na plataforma que mostra um cupom já utilizado em outro pedido, mas que não é possível utiliza-lo novamente;
+
+- Satisfação
+
+A satusfação com a interface foi excelente de acordo com o usuário.
